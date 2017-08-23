@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.c
+mpi.h
+-
+assert.h
+-
+phiompi.h
+/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.h
+
+/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.h
+stddef.h
+-
+
+/usr/local/bin/include/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/local/bin/include/mpio.h
+mpicxx.h
+/usr/local/bin/include/mpicxx.h
+
+/usr/local/bin/include/mpicxx.h
+stdio.h
+-
+
+/usr/local/bin/include/mpio.h
+mpi.h
+/usr/local/bin/include/mpi.h
+

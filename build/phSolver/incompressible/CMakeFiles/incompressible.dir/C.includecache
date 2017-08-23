@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Eric_Peters/PHASTA_Forked/phSolver/incompressible/write_hessian.c
+stdio.h
+-
+stdlib.h
+-
+FCMangle.h
+-
+
+FCMangle.h
+

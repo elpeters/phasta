@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libphastaIO.a  CMakeFiles/phastaIO.dir/phiotmrc.cc.o CMakeFiles/phastaIO.dir/phastaIO.cc.o CMakeFiles/phastaIO.dir/phiompi.c.o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o
+/usr/bin/ranlib ../lib/libphastaIO.a

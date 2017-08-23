@@ -1,0 +1,3 @@
+SET(PHASTAC_LIBS compressible;common;/usr/local/bin/lib/libmpicxx.dylib;/usr/local/bin/lib/libmpi.dylib;/usr/local/bin/lib/libpmpi.dylib;/usr/local/bin/lib/libmpifort.dylib;/usr/local/bin/lib/libmpi.dylib;/usr/local/bin/lib/libpmpi.dylib;compressible;common;/usr/local/bin/lib/libmpicxx.dylib;/usr/local/bin/lib/libmpi.dylib;/usr/local/bin/lib/libpmpi.dylib;/usr/local/bin/lib/libmpifort.dylib;/usr/local/bin/lib/libmpi.dylib;/usr/local/bin/lib/libpmpi.dylib;phastaIO;shapeFunction )
+SET(PHASTAC_INCLUDE_DIRS /Users/Eric_Peters/PHASTA_Forked/phSolver/common;/usr/local/bin/include;/usr/local/bin/include;/usr/local/bin/include;/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstreamEmpty;/Users/Eric_Peters/PHASTA_Forked/build )
+SET(PHASTAC_FOUND TRUE )

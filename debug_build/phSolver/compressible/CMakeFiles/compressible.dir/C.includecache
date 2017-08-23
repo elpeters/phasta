@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../phSolver/common/common_c.h
+FCMangle.h
+-
+
+../phSolver/common/vec_func.h
+math.h
+-
+
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/get_h.c
+vec_func.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/vec_func.h
+
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/gltet.c
+
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/solgmrpetsc.c
+stdio.h
+-
+petscsys.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/petscsys.h
+petscvec.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/petscvec.h
+petscmat.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/petscmat.h
+petscpc.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/petscpc.h
+petscksp.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/petscksp.h
+assert.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/assert.h
+common_c.h
+/Users/Eric_Peters/PHASTA_Forked/phSolver/compressible/common_c.h
+FCMangle.h
+-
+
+FCMangle.h
+

@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/erpe8051/PHASTA_Forked
-BuildDirectory: /home/erpe8051/PHASTA_Forked/debug_build
+SourceDirectory: /users/elpeters/PHASTA_Forked
+BuildDirectory: /users/elpeters/PHASTA_Forked/debug_build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: erpe8051-MacBookPro
+Site: viz003
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -33,8 +33,8 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/erpe8051/PHASTA_Forked"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/usr/local/cmake/3.8.0/bin/cmake" "/users/elpeters/PHASTA_Forked"
+MakeCommand: /usr/local/cmake/3.8.0/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -42,16 +42,17 @@ UpdateVersionOnly:
 
 # CVS options
 # Default is "-d -P -A"
-CVSCommand: CVSCOMMAND-NOTFOUND
+CVSCommand: /usr/bin/cvs
 CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: SVNCOMMAND-NOTFOUND
+SVNCommand: /usr/bin/svn
 SVNOptions: 
 SVNUpdateOptions: 
 
 # Git options
 GITCommand: /usr/bin/git
+GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
 
@@ -69,7 +70,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 5.4.0
+CompilerVersion: 4.9.2
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -77,7 +78,7 @@ ValgrindCommand:
 ValgrindCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
+MemoryCheckCommand: /usr/bin/valgrind
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -16,7 +16,7 @@ phIO.h
 phIO.h
 ../phSolver/common/phIO.h
 
-/home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp
+/users/elpeters/PHASTA_Forked/checkphasta/checkphasta.cpp
 cstdio
 -
 cstdlib
@@ -44,29 +44,23 @@ dirent.h
 mpi.h
 -
 syncio.h
-/home/erpe8051/PHASTA_Forked/checkphasta/syncio.h
+/users/elpeters/PHASTA_Forked/checkphasta/syncio.h
 posixio.h
-/home/erpe8051/PHASTA_Forked/checkphasta/posixio.h
+/users/elpeters/PHASTA_Forked/checkphasta/posixio.h
 phIO.h
-/home/erpe8051/PHASTA_Forked/checkphasta/phIO.h
+/users/elpeters/PHASTA_Forked/checkphasta/phIO.h
 
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
 stddef.h
 -
-cstdint
--
-stdint.h
--
-mpio.h
-/usr/include/mpich/mpio.h
-mpicxx.h
-/usr/include/mpich/mpicxx.h
+mpi_portable_platform.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
 
-/usr/include/mpich/mpicxx.h
-stdio.h
--
-
-/usr/include/mpich/mpio.h
-mpi.h
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
 

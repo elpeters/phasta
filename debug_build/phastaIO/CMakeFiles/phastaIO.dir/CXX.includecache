@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -10,7 +10,7 @@
 stdlib.h
 -
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc
+/users/elpeters/PHASTA_Forked/phastaIO/phastaIO.cc
 map
 -
 vector
@@ -32,17 +32,17 @@ math.h
 sstream
 -
 phastaIO.h
-/home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.h
+/users/elpeters/PHASTA_Forked/phastaIO/phastaIO.h
 phiotmrc.h
-/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiotmrc.h
 phiompi.h
-/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiompi.h
 mpi.h
-/home/erpe8051/PHASTA_Forked/phastaIO/mpi.h
+/users/elpeters/PHASTA_Forked/phastaIO/mpi.h
 phiostats.h
-/home/erpe8051/PHASTA_Forked/phastaIO/phiostats.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiostats.h
 phiotimer.h
-/home/erpe8051/PHASTA_Forked/phastaIO/phiotimer.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiotimer.h
 assert.h
 -
 sys/stat.h
@@ -52,7 +52,7 @@ unistd.h
 errno.h
 -
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.h
+/users/elpeters/PHASTA_Forked/phastaIO/phastaIO.h
 FCMangle.h
 -
 mpi.h
@@ -60,19 +60,19 @@ mpi.h
 string
 -
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiompi.h
 stddef.h
 -
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phiostats.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiostats.h
 stdlib.h
 -
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc
+/users/elpeters/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc
 phiotimer.h
 -
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc
+/users/elpeters/PHASTA_Forked/phastaIO/phiotmrc.cc
 stdio.h
 -
 sys/types.h
@@ -84,31 +84,25 @@ time.h
 cassert
 -
 hwi/include/bqc/A2_inlines.h
-/home/erpe8051/PHASTA_Forked/phastaIO/hwi/include/bqc/A2_inlines.h
+/users/elpeters/PHASTA_Forked/phastaIO/hwi/include/bqc/A2_inlines.h
 phiotmrc.h
-/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiotmrc.h
 
-/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.h
+/users/elpeters/PHASTA_Forked/phastaIO/phiotmrc.h
 
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
 stddef.h
 -
-cstdint
--
-stdint.h
--
-mpio.h
-/usr/include/mpich/mpio.h
-mpicxx.h
-/usr/include/mpich/mpicxx.h
+mpi_portable_platform.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
 
-/usr/include/mpich/mpicxx.h
-stdio.h
--
-
-/usr/include/mpich/mpio.h
-mpi.h
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
 
 FCMangle.h
 

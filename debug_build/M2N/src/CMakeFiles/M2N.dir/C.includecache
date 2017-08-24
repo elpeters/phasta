@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -24,11 +24,11 @@ mpi.h
 string
 -
 
-/home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c
+/users/elpeters/PHASTA_Forked/M2N/src/dumbCvariables.c
 
-/home/erpe8051/PHASTA_Forked/M2N/src/main.c
+/users/elpeters/PHASTA_Forked/M2N/src/main.c
 
-/home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c
+/users/elpeters/PHASTA_Forked/M2N/src/new_interface.c
 stdio.h
 -
 string.h
@@ -44,13 +44,13 @@ math.h
 mpi.h
 -
 phastaIO.h
-/home/erpe8051/PHASTA_Forked/M2N/src/phastaIO.h
+/users/elpeters/PHASTA_Forked/M2N/src/phastaIO.h
 FCMangle.h
 -
 new_interfaceM2N.h
-/home/erpe8051/PHASTA_Forked/M2N/src/new_interfaceM2N.h
+/users/elpeters/PHASTA_Forked/M2N/src/new_interfaceM2N.h
 commonM2N_c.h
-/home/erpe8051/PHASTA_Forked/M2N/src/commonM2N_c.h
+/users/elpeters/PHASTA_Forked/M2N/src/commonM2N_c.h
 winsock2.h
 -
 unistd.h
@@ -58,25 +58,19 @@ unistd.h
 strings.h
 -
 
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
 stddef.h
 -
-cstdint
--
-stdint.h
--
-mpio.h
-/usr/include/mpich/mpio.h
-mpicxx.h
-/usr/include/mpich/mpicxx.h
+mpi_portable_platform.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
 
-/usr/include/mpich/mpicxx.h
-stdio.h
--
-
-/usr/include/mpich/mpio.h
-mpi.h
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
 
 FCMangle.h
 

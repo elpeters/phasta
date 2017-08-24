@@ -1,4 +1,4 @@
-# Install script for directory: /home/erpe8051/PHASTA_Forked/phSolver
+# Install script for directory: /users/elpeters/PHASTA_Forked/phSolver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/erpe8051/PHASTA_Forked/debug_build/phSolver/common/cmake_install.cmake")
-  include("/home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible/cmake_install.cmake")
+  include("/users/elpeters/PHASTA_Forked/debug_build/phSolver/common/cmake_install.cmake")
+  include("/users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible/cmake_install.cmake")
 
 endif()
 

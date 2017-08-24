@@ -1,7 +1,7 @@
 # CMake generated Testfile for 
-# Source directory: /home/erpe8051/PHASTA_Forked/AcuStat
-# Build directory: /home/erpe8051/PHASTA_Forked/debug_build/AcuStat
+# Source directory: /users/elpeters/PHASTA_Forked/AcuStat
+# Build directory: /users/elpeters/PHASTA_Forked/debug_build/AcuStat
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs(src)
+subdirs("src")

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -22,7 +22,7 @@ mpi.h
 string
 -
 
-/home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc
+/users/elpeters/PHASTA_Forked/AcuStat/src/phasta.cc
 stdio.h
 -
 stdlib.h
@@ -44,9 +44,9 @@ mpi.h
 FCMangle.h
 -
 commonAcuStat_c.h
-/home/erpe8051/PHASTA_Forked/AcuStat/src/commonAcuStat_c.h
+/users/elpeters/PHASTA_Forked/AcuStat/src/commonAcuStat_c.h
 
-/home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc
+/users/elpeters/PHASTA_Forked/AcuStat/src/setsyncioparam.cc
 fstream
 -
 stdio.h
@@ -66,31 +66,25 @@ dirent.h
 mpi.h
 -
 phastaIO.h
-/home/erpe8051/PHASTA_Forked/AcuStat/src/phastaIO.h
+/users/elpeters/PHASTA_Forked/AcuStat/src/phastaIO.h
 commonAcuStat_c.h
-/home/erpe8051/PHASTA_Forked/AcuStat/src/commonAcuStat_c.h
+/users/elpeters/PHASTA_Forked/AcuStat/src/commonAcuStat_c.h
 setsyncioparamAcuStat.h
-/home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparamAcuStat.h
+/users/elpeters/PHASTA_Forked/AcuStat/src/setsyncioparamAcuStat.h
 
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
 stddef.h
 -
-cstdint
--
-stdint.h
--
-mpio.h
-/usr/include/mpich/mpio.h
-mpicxx.h
-/usr/include/mpich/mpicxx.h
+mpi_portable_platform.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
 
-/usr/include/mpich/mpicxx.h
-stdio.h
--
-
-/usr/include/mpich/mpio.h
-mpi.h
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
 
 FCMangle.h
 

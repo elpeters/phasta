@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -22,7 +22,7 @@ mpi.h
 string
 -
 
-/home/erpe8051/PHASTA_Forked/M2NFixBnd/src/phasta.cc
+/users/elpeters/PHASTA_Forked/M2NFixBnd/src/phasta.cc
 stdio.h
 -
 stdlib.h
@@ -44,9 +44,9 @@ mpi.h
 FCMangle.h
 -
 commonM2NFixBnd_c.h
-/home/erpe8051/PHASTA_Forked/M2NFixBnd/src/commonM2NFixBnd_c.h
+/users/elpeters/PHASTA_Forked/M2NFixBnd/src/commonM2NFixBnd_c.h
 
-/home/erpe8051/PHASTA_Forked/M2NFixBnd/src/setsyncioparam.cc
+/users/elpeters/PHASTA_Forked/M2NFixBnd/src/setsyncioparam.cc
 fstream
 -
 stdio.h
@@ -66,31 +66,25 @@ dirent.h
 mpi.h
 -
 phastaIO.h
-/home/erpe8051/PHASTA_Forked/M2NFixBnd/src/phastaIO.h
+/users/elpeters/PHASTA_Forked/M2NFixBnd/src/phastaIO.h
 commonM2NFixBnd_c.h
-/home/erpe8051/PHASTA_Forked/M2NFixBnd/src/commonM2NFixBnd_c.h
+/users/elpeters/PHASTA_Forked/M2NFixBnd/src/commonM2NFixBnd_c.h
 setsyncioparamM2NFixBnd.h
-/home/erpe8051/PHASTA_Forked/M2NFixBnd/src/setsyncioparamM2NFixBnd.h
+/users/elpeters/PHASTA_Forked/M2NFixBnd/src/setsyncioparamM2NFixBnd.h
 
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
 stddef.h
 -
-cstdint
--
-stdint.h
--
-mpio.h
-/usr/include/mpich/mpio.h
-mpicxx.h
-/usr/include/mpich/mpicxx.h
+mpi_portable_platform.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
 
-/usr/include/mpich/mpicxx.h
-stdio.h
--
-
-/usr/include/mpich/mpio.h
-mpi.h
-/usr/include/mpich/mpi.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+omp.h
+/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
 
 FCMangle.h
 

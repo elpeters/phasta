@@ -1,4 +1,4 @@
-# Install script for directory: /home/erpe8051/PHASTA_Forked/phastaIO
+# Install script for directory: /users/elpeters/PHASTA_Forked/phastaIO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

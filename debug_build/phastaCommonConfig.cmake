@@ -1,3 +1,3 @@
-SET(PHASTA_COMMON_LIBS common /usr/lib/x86_64-linux-gnu/libmpichcxx.so;/usr/lib/x86_64-linux-gnu/libmpich.so;/usr/lib/x86_64-linux-gnu/libmpichfort.so;/usr/lib/x86_64-linux-gnu/libmpich.so )
-SET(PHASTA_COMMON_INCLUDE_DIRS /home/erpe8051/PHASTA_Forked/phSolver/common;/usr/include/mpich;/usr/include/mpich;/usr/include/mpich;/home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty )
+SET(PHASTA_COMMON_LIBS common /usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi.so;/usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi_usempif08.so;/usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi_usempi_ignore_tkr.so;/usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi_mpifh.so;/usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi.so )
+SET(PHASTA_COMMON_INCLUDE_DIRS /users/elpeters/PHASTA_Forked/phSolver/common;/usr/local/openmpi/2.1.0-gnu49-thread/include;/usr/local/openmpi/2.1.0-gnu49-thread/include;/usr/local/openmpi/2.1.0-gnu49-thread/lib;/users/elpeters/PHASTA_Forked/phSolver/common/phstreamEmpty )
 SET(PHASTA_COMMON_FOUND TRUE )

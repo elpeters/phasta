@@ -11,7 +11,7 @@
 #{
      Equation of State: Incompressible
      Number of Timesteps: 10
-     Time Step Size:  0.01
+     Time Step Size:  0.001
      Turbulence Model: RANS
 #}
 
@@ -36,7 +36,7 @@ OUTPUT CONTROL
 
 #LINEAR SOLVER
 #{
-     #Solver Type: ACUSIM with P Projection
+     Solver Type: svLS #ACUSIM with P Projection
      #Number of GMRES Sweeps per Solve: 1      # replaces nGMRES
      #Number of Krylov Vectors per GMRES Sweep: 200           # replaces Kspace
      #Scalar 1 Solver Tolerance : 1.0e-4

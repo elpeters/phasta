@@ -849,33 +849,9 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o.provides: phSol
 phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o
 
 
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o: ../phSolver/incompressible/ftools.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/ftools.f -o CMakeFiles/incompressible.dir/ftools.f.o
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/ftools.f.i"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /users/elpeters/PHASTA_Forked/phSolver/incompressible/ftools.f > CMakeFiles/incompressible.dir/ftools.f.i
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/ftools.f.s"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /users/elpeters/PHASTA_Forked/phSolver/incompressible/ftools.f -o CMakeFiles/incompressible.dir/ftools.f.s
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.requires:
-
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.requires
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.provides: phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.requires
-	$(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.provides.build
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.provides
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o
-
-
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o: ../phSolver/incompressible/genlmass.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/genlmass.f -o CMakeFiles/incompressible.dir/genlmass.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.i: cmake_force
@@ -899,7 +875,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o.provides.buil
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o: ../phSolver/incompressible/getdiff.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/getdiff.f -o CMakeFiles/incompressible.dir/getdiff.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.i: cmake_force
@@ -923,7 +899,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o.provides.build
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o: ../phSolver/incompressible/getfld.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/getfld.f -o CMakeFiles/incompressible.dir/getfld.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.i: cmake_force
@@ -947,7 +923,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o.provides.build:
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o: ../phSolver/incompressible/hessian.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/hessian.f -o CMakeFiles/incompressible.dir/hessian.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.i: cmake_force
@@ -971,7 +947,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o.provides.build
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o: ../phSolver/incompressible/iclear.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/iclear.f -o CMakeFiles/incompressible.dir/iclear.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.i: cmake_force
@@ -995,7 +971,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o.provides.build:
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o: ../phSolver/incompressible/itrPC.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/itrPC.f -o CMakeFiles/incompressible.dir/itrPC.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.i: cmake_force
@@ -1019,7 +995,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o.provides.build: 
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o: ../phSolver/incompressible/itrbc.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/itrbc.f -o CMakeFiles/incompressible.dir/itrbc.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.i: cmake_force
@@ -1043,7 +1019,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o.provides.build: 
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o: ../phSolver/incompressible/itrdrv.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/itrdrv.f -o CMakeFiles/incompressible.dir/itrdrv.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.i: cmake_force
@@ -1065,33 +1041,9 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o.provides: phSol
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o
 
 
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o: ../phSolver/incompressible/lesSparse.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/lesSparse.f -o CMakeFiles/incompressible.dir/lesSparse.f.o
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/lesSparse.f.i"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /users/elpeters/PHASTA_Forked/phSolver/incompressible/lesSparse.f > CMakeFiles/incompressible.dir/lesSparse.f.i
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/lesSparse.f.s"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /users/elpeters/PHASTA_Forked/phSolver/incompressible/lesSparse.f -o CMakeFiles/incompressible.dir/lesSparse.f.s
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.requires:
-
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.requires
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.provides: phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.requires
-	$(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.provides.build
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.provides
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o
-
-
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o: ../phSolver/incompressible/rstatic.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/rstatic.f -o CMakeFiles/incompressible.dir/rstatic.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.i: cmake_force
@@ -1115,7 +1067,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o.provides.build
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o: ../phSolver/incompressible/soldir.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/soldir.f -o CMakeFiles/incompressible.dir/soldir.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.i: cmake_force
@@ -1139,7 +1091,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o.provides.build:
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o: ../phSolver/incompressible/solfar.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/solfar.f -o CMakeFiles/incompressible.dir/solfar.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.i: cmake_force
@@ -1163,7 +1115,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o.provides.build:
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o: ../phSolver/incompressible/solveGradV.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/solveGradV.f -o CMakeFiles/incompressible.dir/solveGradV.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.i: cmake_force
@@ -1187,7 +1139,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o.provides.bu
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o: ../phSolver/incompressible/solvedata.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/solvedata.f -o CMakeFiles/incompressible.dir/solvedata.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.i: cmake_force
@@ -1211,7 +1163,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o.provides.bui
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o: ../phSolver/incompressible/stats.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/stats.f -o CMakeFiles/incompressible.dir/stats.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.i: cmake_force
@@ -1235,7 +1187,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o.provides.build: 
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o: ../phSolver/incompressible/timedata.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/timedata.f -o CMakeFiles/incompressible.dir/timedata.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.i: cmake_force
@@ -1259,7 +1211,7 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o.provides.buil
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o: ../phSolver/incompressible/timeseries.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/timeseries.f -o CMakeFiles/incompressible.dir/timeseries.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.i: cmake_force
@@ -1281,81 +1233,9 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o.provides: p
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o
 
 
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o: ../phSolver/incompressible/getSol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/incompressible.dir/getSol.c.o   -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/getSol.c
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/incompressible.dir/getSol.c.i"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /users/elpeters/PHASTA_Forked/phSolver/incompressible/getSol.c > CMakeFiles/incompressible.dir/getSol.c.i
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/incompressible.dir/getSol.c.s"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /users/elpeters/PHASTA_Forked/phSolver/incompressible/getSol.c -o CMakeFiles/incompressible.dir/getSol.c.s
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.requires:
-
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.requires
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.provides: phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.requires
-	$(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.provides.build
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.provides
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o
-
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o: ../phSolver/incompressible/lestools.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/incompressible.dir/lestools.c.o   -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/lestools.c
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/incompressible.dir/lestools.c.i"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /users/elpeters/PHASTA_Forked/phSolver/incompressible/lestools.c > CMakeFiles/incompressible.dir/lestools.c.i
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/incompressible.dir/lestools.c.s"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /users/elpeters/PHASTA_Forked/phSolver/incompressible/lestools.c -o CMakeFiles/incompressible.dir/lestools.c.s
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.requires:
-
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.requires
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.provides: phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.requires
-	$(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.provides.build
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.provides
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o
-
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o: ../phSolver/incompressible/usr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/incompressible.dir/usr.c.o   -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/usr.c
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/incompressible.dir/usr.c.i"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /users/elpeters/PHASTA_Forked/phSolver/incompressible/usr.c > CMakeFiles/incompressible.dir/usr.c.i
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/incompressible.dir/usr.c.s"
-	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /users/elpeters/PHASTA_Forked/phSolver/incompressible/usr.c -o CMakeFiles/incompressible.dir/usr.c.s
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.requires:
-
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.requires
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.provides: phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.requires
-	$(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.provides.build
-.PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.provides
-
-phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.provides.build: phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o
-
-
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o: ../phSolver/incompressible/write_hessian.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/incompressible.dir/write_hessian.c.o   -c /users/elpeters/PHASTA_Forked/phSolver/incompressible/write_hessian.c
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.i: cmake_force
@@ -1412,7 +1292,6 @@ incompressible_OBJECTS = \
 "CMakeFiles/incompressible.dir/errsmooth.f.o" \
 "CMakeFiles/incompressible.dir/filters.f.o" \
 "CMakeFiles/incompressible.dir/forces.f.o" \
-"CMakeFiles/incompressible.dir/ftools.f.o" \
 "CMakeFiles/incompressible.dir/genlmass.f.o" \
 "CMakeFiles/incompressible.dir/getdiff.f.o" \
 "CMakeFiles/incompressible.dir/getfld.f.o" \
@@ -1421,7 +1300,6 @@ incompressible_OBJECTS = \
 "CMakeFiles/incompressible.dir/itrPC.f.o" \
 "CMakeFiles/incompressible.dir/itrbc.f.o" \
 "CMakeFiles/incompressible.dir/itrdrv.f.o" \
-"CMakeFiles/incompressible.dir/lesSparse.f.o" \
 "CMakeFiles/incompressible.dir/rstatic.f.o" \
 "CMakeFiles/incompressible.dir/soldir.f.o" \
 "CMakeFiles/incompressible.dir/solfar.f.o" \
@@ -1430,9 +1308,6 @@ incompressible_OBJECTS = \
 "CMakeFiles/incompressible.dir/stats.f.o" \
 "CMakeFiles/incompressible.dir/timedata.f.o" \
 "CMakeFiles/incompressible.dir/timeseries.f.o" \
-"CMakeFiles/incompressible.dir/getSol.c.o" \
-"CMakeFiles/incompressible.dir/lestools.c.o" \
-"CMakeFiles/incompressible.dir/usr.c.o" \
 "CMakeFiles/incompressible.dir/write_hessian.c.o"
 
 # External object files for target incompressible
@@ -1471,7 +1346,6 @@ lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/e
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o
-lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o
@@ -1480,7 +1354,6 @@ lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/i
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o
-lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o
@@ -1489,13 +1362,10 @@ lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/s
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o
-lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o
-lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o
-lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/build.make
 lib/libincompressible.a: phSolver/incompressible/CMakeFiles/incompressible.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX static library ../../lib/libincompressible.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX static library ../../lib/libincompressible.a"
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && $(CMAKE_COMMAND) -P CMakeFiles/incompressible.dir/cmake_clean_target.cmake
 	cd /users/elpeters/PHASTA_Forked/debug_build/phSolver/incompressible && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/incompressible.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1537,7 +1407,6 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompr
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o.requires
-phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o.requires
@@ -1546,7 +1415,6 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompr
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o.requires
-phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o.requires
@@ -1555,9 +1423,6 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompr
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o.requires
-phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o.requires
-phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o.requires
-phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o.requires
 phSolver/incompressible/CMakeFiles/incompressible.dir/requires: phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o.requires
 
 .PHONY : phSolver/incompressible/CMakeFiles/incompressible.dir/requires

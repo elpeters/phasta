@@ -97,7 +97,6 @@ bin/phastaIC.exe: /usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi_usempi_ignore
 bin/phastaIC.exe: /usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi_mpifh.so
 bin/phastaIC.exe: /usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi.so
 bin/phastaIC.exe: lib/libincompressible.a
-bin/phastaIC.exe: /users/matthb2/libles1.5/libles-debianjessie-gcc-ompi.a
 bin/phastaIC.exe: lib/libsvLS.a
 bin/phastaIC.exe: lib/libincompressible.a
 bin/phastaIC.exe: lib/libcommon.a

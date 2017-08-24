@@ -11,7 +11,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "DEBUG"
-  "HAVE_LESLIB"
   "HAVE_SVLS"
   "LINUX"
   "MPICH_SKIP_MPICXX"

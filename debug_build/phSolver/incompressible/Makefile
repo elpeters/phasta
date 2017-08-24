@@ -1061,33 +1061,6 @@ forces.f.s:
 	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.s
 .PHONY : forces.f.s
 
-ftools.o: ftools.f.o
-
-.PHONY : ftools.o
-
-# target to build an object file
-ftools.f.o:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.o
-.PHONY : ftools.f.o
-
-ftools.i: ftools.f.i
-
-.PHONY : ftools.i
-
-# target to preprocess a source file
-ftools.f.i:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.i
-.PHONY : ftools.f.i
-
-ftools.s: ftools.f.s
-
-.PHONY : ftools.s
-
-# target to generate assembly for a file
-ftools.f.s:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/ftools.f.s
-.PHONY : ftools.f.s
-
 genlmass.o: genlmass.f.o
 
 .PHONY : genlmass.o
@@ -1114,33 +1087,6 @@ genlmass.s: genlmass.f.s
 genlmass.f.s:
 	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.s
 .PHONY : genlmass.f.s
-
-getSol.o: getSol.c.o
-
-.PHONY : getSol.o
-
-# target to build an object file
-getSol.c.o:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.o
-.PHONY : getSol.c.o
-
-getSol.i: getSol.c.i
-
-.PHONY : getSol.i
-
-# target to preprocess a source file
-getSol.c.i:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.i
-.PHONY : getSol.c.i
-
-getSol.s: getSol.c.s
-
-.PHONY : getSol.s
-
-# target to generate assembly for a file
-getSol.c.s:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/getSol.c.s
-.PHONY : getSol.c.s
 
 getdiff.o: getdiff.f.o
 
@@ -1330,60 +1276,6 @@ itrdrv.s: itrdrv.f.s
 itrdrv.f.s:
 	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.s
 .PHONY : itrdrv.f.s
-
-lesSparse.o: lesSparse.f.o
-
-.PHONY : lesSparse.o
-
-# target to build an object file
-lesSparse.f.o:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.o
-.PHONY : lesSparse.f.o
-
-lesSparse.i: lesSparse.f.i
-
-.PHONY : lesSparse.i
-
-# target to preprocess a source file
-lesSparse.f.i:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.i
-.PHONY : lesSparse.f.i
-
-lesSparse.s: lesSparse.f.s
-
-.PHONY : lesSparse.s
-
-# target to generate assembly for a file
-lesSparse.f.s:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lesSparse.f.s
-.PHONY : lesSparse.f.s
-
-lestools.o: lestools.c.o
-
-.PHONY : lestools.o
-
-# target to build an object file
-lestools.c.o:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.o
-.PHONY : lestools.c.o
-
-lestools.i: lestools.c.i
-
-.PHONY : lestools.i
-
-# target to preprocess a source file
-lestools.c.i:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.i
-.PHONY : lestools.c.i
-
-lestools.s: lestools.c.s
-
-.PHONY : lestools.s
-
-# target to generate assembly for a file
-lestools.c.s:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/lestools.c.s
-.PHONY : lestools.c.s
 
 main.o: main.cc.o
 
@@ -1631,33 +1523,6 @@ timeseries.f.s:
 	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.s
 .PHONY : timeseries.f.s
 
-usr.o: usr.c.o
-
-.PHONY : usr.o
-
-# target to build an object file
-usr.c.o:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.o
-.PHONY : usr.c.o
-
-usr.i: usr.c.i
-
-.PHONY : usr.i
-
-# target to preprocess a source file
-usr.c.i:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.i
-.PHONY : usr.c.i
-
-usr.s: usr.c.s
-
-.PHONY : usr.s
-
-# target to generate assembly for a file
-usr.c.s:
-	cd /users/elpeters/PHASTA_Forked/debug_build && $(MAKE) -f phSolver/incompressible/CMakeFiles/incompressible.dir/build.make phSolver/incompressible/CMakeFiles/incompressible.dir/usr.c.s
-.PHONY : usr.c.s
-
 write_hessian.o: write_hessian.c.o
 
 .PHONY : write_hessian.o
@@ -1796,15 +1661,9 @@ help:
 	@echo "... forces.o"
 	@echo "... forces.i"
 	@echo "... forces.s"
-	@echo "... ftools.o"
-	@echo "... ftools.i"
-	@echo "... ftools.s"
 	@echo "... genlmass.o"
 	@echo "... genlmass.i"
 	@echo "... genlmass.s"
-	@echo "... getSol.o"
-	@echo "... getSol.i"
-	@echo "... getSol.s"
 	@echo "... getdiff.o"
 	@echo "... getdiff.i"
 	@echo "... getdiff.s"
@@ -1826,12 +1685,6 @@ help:
 	@echo "... itrdrv.o"
 	@echo "... itrdrv.i"
 	@echo "... itrdrv.s"
-	@echo "... lesSparse.o"
-	@echo "... lesSparse.i"
-	@echo "... lesSparse.s"
-	@echo "... lestools.o"
-	@echo "... lestools.i"
-	@echo "... lestools.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -1859,9 +1712,6 @@ help:
 	@echo "... timeseries.o"
 	@echo "... timeseries.i"
 	@echo "... timeseries.s"
-	@echo "... usr.o"
-	@echo "... usr.i"
-	@echo "... usr.s"
 	@echo "... write_hessian.o"
 	@echo "... write_hessian.i"
 	@echo "... write_hessian.s"

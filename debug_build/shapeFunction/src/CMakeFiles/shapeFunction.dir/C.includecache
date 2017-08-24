@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,55 +6,55 @@
 
 #IncludeRegexTransform: 
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/Bn.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/BnDrv.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/En.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/EnDrv.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/Fn.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/FnDrv.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/Lagrange.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c
 stdio.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/blend.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c
 math.h
 -
 shapeFuncInternals.h
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/blendDrv.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c
 math.h
 -
 shapeFuncInternals.h
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/modeShape.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c
 math.h
 -
 shapeFuncInternals.h
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c
 math.h
 -
 shapeFuncInternals.h
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/parDrv.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c
 math.h
 -
 shapeFuncInternals.h
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/uniformP.c
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c
 shapeFuncInternals.h
-/Users/Eric_Peters/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
+/home/erpe8051/PHASTA_Forked/shapeFunction/src/shapeFuncInternals.h
 

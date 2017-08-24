@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -26,15 +26,15 @@ stdlib.h
 stdlib.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/Cinput.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc
 stdio.h
 -
 fstream
 -
 Input.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/Input.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/Input.h
 ValType.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/ValType.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/ValType.h
 stdexcept
 -
 sstream
@@ -42,7 +42,7 @@ sstream
 cstdlib
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/Input.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/Input.h
 vector
 -
 string
@@ -50,9 +50,9 @@ string
 map
 -
 ValType.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/ValType.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/ValType.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/ValType.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc
 string
 -
 vector
@@ -64,19 +64,19 @@ cmath
 cstdlib
 -
 ValType.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/ValType.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/ValType.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/ValType.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/ValType.h
 iostream
 -
 string
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 FCMangle.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/input_fform.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc
 fstream
 -
 stdio.h
@@ -90,23 +90,23 @@ string
 cstring
 -
 Input.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/Input.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/Input.h
 common_c.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 FCMangle.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/newshape.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc
 math.h
 -
 topo_shapedefs.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/topo_shapedefs.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/topo_shapedefs.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phComm.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.h
 FCMangle.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc
 stdio.h
 -
 stdlib.h
@@ -118,17 +118,17 @@ string
 sstream
 -
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 phComm.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phComm.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 mpi.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phString.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc
 stdio.h
 -
 stdlib.h
@@ -140,7 +140,7 @@ string
 sstream
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phasta.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc
 stdio.h
 -
 stdlib.h
@@ -168,33 +168,33 @@ direct.h
 unistd.h
 -
 phasta_version.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phasta_version.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phasta_version.h
 common_c.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 Input.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/Input.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/Input.h
 phiostats.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phiostats.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phiostats.h
 phstream.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstream.h
 streamio.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/streamio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.h
 FCMangle.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phasta_version.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phasta_version.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_posix.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 phio_posix.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_posix.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.h
 phComm.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phComm.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.h
 stdio.h
 -
 stdlib.h
@@ -210,9 +210,9 @@ sstream
 string
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_posix.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_stream.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc
 stdlib.h
 -
 string
@@ -222,23 +222,23 @@ sstream
 phastaIO.h
 -
 phiotimer.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phiotimer.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phiotimer.h
 phio_stream.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_stream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_stream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 phstream.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstream.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_sync.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 phio_sync.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_sync.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.h
 phComm.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phComm.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.h
 stdio.h
 -
 stdlib.h
@@ -254,35 +254,35 @@ sstream
 string
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_sync.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstreamEmpty/phstream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstream.h
 stdio.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc
 phstream.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstreamEmpty/phstream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstream.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/posixio.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc
 stdio.h
 -
 stdlib.h
 -
 posixio.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/posixio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/posixio.h
 phio_posix.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_posix.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/posixio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/posixio.h
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/setsyncioparam.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc
 fstream
 -
 stdio.h
@@ -302,19 +302,19 @@ dirent.h
 mpi.h
 -
 phastaIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phastaIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phastaIO.h
 Input.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/Input.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/Input.h
 common_c.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 setsyncioparam.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/setsyncioparam.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/setsyncioparam.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.h
 FCMangle.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/streamio.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc
 stdio.h
 -
 stdlib.h
@@ -322,39 +322,39 @@ stdlib.h
 cassert
 -
 streamio.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/streamio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.h
 phio_stream.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_stream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.h
 phio_posix.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_posix.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/streamio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.h
 phstream.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phstream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstream.h
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/syncio.cc
+/home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc
 stdio.h
 -
 stdlib.h
 -
 syncio.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/syncio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/syncio.h
 phio_sync.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_sync.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.h
 phio_base.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phio_base.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phio_base.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/syncio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/syncio.h
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/Users/Eric_Peters/PHASTA_Forked/phSolver/common/topo_shapedefs.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/topo_shapedefs.h
 
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
 cstdint
@@ -362,17 +362,17 @@ cstdint
 stdint.h
 -
 mpio.h
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpicxx.h
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 stdio.h
 -
 
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpi.h
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 
 FCMangle.h
 

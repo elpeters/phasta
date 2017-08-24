@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -16,7 +16,7 @@ phIO.h
 phIO.h
 ../phSolver/common/phIO.h
 
-/Users/Eric_Peters/PHASTA_Forked/checkphasta/checkphasta.cpp
+/home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp
 cstdio
 -
 cstdlib
@@ -44,13 +44,13 @@ dirent.h
 mpi.h
 -
 syncio.h
-/Users/Eric_Peters/PHASTA_Forked/checkphasta/syncio.h
+/home/erpe8051/PHASTA_Forked/checkphasta/syncio.h
 posixio.h
-/Users/Eric_Peters/PHASTA_Forked/checkphasta/posixio.h
+/home/erpe8051/PHASTA_Forked/checkphasta/posixio.h
 phIO.h
-/Users/Eric_Peters/PHASTA_Forked/checkphasta/phIO.h
+/home/erpe8051/PHASTA_Forked/checkphasta/phIO.h
 
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
 cstdint
@@ -58,15 +58,15 @@ cstdint
 stdint.h
 -
 mpio.h
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpicxx.h
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 stdio.h
 -
 
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpi.h
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 

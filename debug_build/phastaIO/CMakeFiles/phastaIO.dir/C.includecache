@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.c
+/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c
 mpi.h
 -
 assert.h
 -
 phiompi.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.h
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.h
 stddef.h
 -
 
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
 cstdint
@@ -26,15 +26,15 @@ cstdint
 stdint.h
 -
 mpio.h
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpicxx.h
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 stdio.h
 -
 
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpi.h
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 

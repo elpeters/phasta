@@ -1,73 +1,61 @@
-The system is: Darwin - 16.4.0 - x86_64
+The system is: Linux - 4.10.0-28-generic - x86_64
 Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
-Compiler: /usr/local/bin/gfortran-7 
+Compiler: /usr/bin/mpif90 
 Build flags: 
-Id flags: -v 
+Id flags: -v
 
 The output was:
 0
-Driving: /usr/local/bin/gfortran-7 -v CMakeFortranCompilerId.F -mmacosx-version-min=10.12.4 -asm_macosx_version_min=10.12 -l gfortran -shared-libgcc
+mpifort for MPICH version 3.2
+Driving: gfortran -Wl,-Bsymbolic-functions -Wl,-z,relro -v CMakeFortranCompilerId.F -I/usr/include/mpich -I/usr/include/mpich -L/usr/lib/x86_64-linux-gnu -lmpichfort -lmpich -l gfortran -l m -shared-libgcc
 Using built-in specs.
-COLLECT_GCC=/usr/local/bin/gfortran-7
-COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper
-Target: x86_64-apple-darwin16.4.0
-Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.1.0 (Homebrew GCC 7.1.0) 
-COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2'
- /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//ccxEYy46.f90 -quiet -v -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.12.4 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/finclude -o /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//cczpFe4q.s
-GNU Fortran (Homebrew GCC 7.1.0) version 7.1.0 (x86_64-apple-darwin16.4.0)
-	compiled by GNU C version 7.1.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
-
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccYIq8Nj.f90 -quiet -v -I /usr/include/mpich -I /usr/include/mpich -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/5/finclude -o /tmp/ccBezF9N.s
+GNU Fortran (Ubuntu 5.4.0-6ubuntu1~16.04.4) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/local/include"
-ignoring nonexistent directory "/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../../../../x86_64-apple-darwin16.4.0/include"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"
+ignoring duplicate directory "/usr/include/mpich"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/finclude
- /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/include
- /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/include-fixed
- /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include
+ /usr/include/mpich
+ /usr/lib/gcc/x86_64-linux-gnu/5/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/5/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
 End of search list.
-GNU Fortran2008 (Homebrew GCC 7.1.0) version 7.1.0 (x86_64-apple-darwin16.4.0)
-	compiled by GNU C version 7.1.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
-
+GNU Fortran2008 (Ubuntu 5.4.0-6ubuntu1~16.04.4) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.12.4'  '-shared-libgcc' '-mtune=core2'
- as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.12 -o /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//ccZTWSaB.o /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//cczpFe4q.s
-Apple LLVM version 8.1.0 (clang-802.0.42)
-Target: x86_64-apple-darwin16.4.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.12.0 -filetype obj -main-file-name cczpFe4q.s -target-cpu penryn -fdebug-compilation-dir /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/3.9.0/CompilerIdFortran -dwarf-debug-producer Apple LLVM version 8.1.0 (clang-802.0.42) -dwarf-version=4 -mrelocation-model pic -o /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//ccZTWSaB.o /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//cczpFe4q.s
-Reading specs from /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../libgfortran.spec
+COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v -I /usr/include/mpich -I /usr/include/mpich --64 -o /tmp/ccKwBBHi.o /tmp/ccBezF9N.s
+GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.12.4'  '-shared-libgcc' '-mtune=core2'
-COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/
-LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.12.4'  '-shared-libgcc' '-mtune=core2'
- /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.12.4 -weak_reference_mismatches non-weak -o a.out -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//ccZTWSaB.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
-collect2 version 7.1.0
-/usr/bin/ld -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.12.4 -weak_reference_mismatches non-weak -o a.out -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//ccZTWSaB.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
-Framework search paths:
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
- /usr/bin/nm -n /var/folders/11/k3qhf6690g31tl19gpc41yl80000gn/T//ccZTWSaB.o
+COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFNx9fN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro /tmp/ccKwBBHi.o -lmpichfort -lmpich -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 
 
 Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
 
-The Fortran compiler identification is GNU, found in "/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/3.9.0/CompilerIdFortran/a.out"
+The Fortran compiler identification is GNU, found in "/home/erpe8051/PHASTA_Forked/build/CMakeFiles/3.5.1/CompilerIdFortran/a.out"
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/local/bin/gcc-7 
+Compiler: /usr/bin/mpicc 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
@@ -75,12 +63,12 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/3.9.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/erpe8051/PHASTA_Forked/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/local/bin/g++-7 
+Compiler: /usr/bin/mpicxx 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
@@ -88,261 +76,316 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/erpe8051/PHASTA_Forked/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the Fortran compiler works passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_15586/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_15586.dir/build.make CMakeFiles/cmTC_15586.dir/build
-Building Fortran object CMakeFiles/cmTC_15586.dir/testFortranCompiler.f.o
-/usr/local/bin/gfortran-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_15586.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_15586
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15586.dir/link.txt --verbose=1
-/usr/local/bin/gfortran-7      -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/cmTC_15586.dir/testFortranCompiler.f.o  -o cmTC_15586 
+Run Build Command:"/usr/bin/make" "cmTC_9afdf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9afdf.dir/build.make CMakeFiles/cmTC_9afdf.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_9afdf.dir/testFortranCompiler.f.o
+/usr/bin/mpif90     -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_9afdf.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_9afdf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9afdf.dir/link.txt --verbose=1
+/usr/bin/mpif90       CMakeFiles/cmTC_9afdf.dir/testFortranCompiler.f.o  -o cmTC_9afdf  
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Detecting Fortran compiler ABI info compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7501/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7501.dir/build.make CMakeFiles/cmTC_e7501.dir/build
-Building Fortran object CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o
-/usr/local/bin/gfortran-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o
-Linking Fortran executable cmTC_e7501
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7501.dir/link.txt --verbose=1
-/usr/local/bin/gfortran-7   -v -Wl,-v   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o  -o cmTC_e7501 
-Driving: /usr/local/bin/gfortran-7 -v -Wl,-v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o -o cmTC_e7501 -mmacosx-version-min=10.12.4 -asm_macosx_version_min=10.12 -l gfortran -shared-libgcc
+Run Build Command:"/usr/bin/make" "cmTC_597b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_597b3.dir/build.make CMakeFiles/cmTC_597b3.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/mpif90     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_597b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_597b3.dir/link.txt --verbose=1
+/usr/bin/mpif90    -v   CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o  -o cmTC_597b3   
+mpifort for MPICH version 3.2
+Driving: gfortran -Wl,-Bsymbolic-functions -Wl,-z,relro -v CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o -o cmTC_597b3 -I/usr/include/mpich -I/usr/include/mpich -L/usr/lib/x86_64-linux-gnu -lmpichfort -lmpich -l gfortran -l m -shared-libgcc
 Using built-in specs.
-COLLECT_GCC=/usr/local/bin/gfortran-7
-COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper
-Target: x86_64-apple-darwin16.4.0
-Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.1.0 (Homebrew GCC 7.1.0) 
-Reading specs from /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../libgfortran.spec
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-o' 'cmTC_e7501' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2'
-COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/
-LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-o' 'cmTC_e7501' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2'
- /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_e7501 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -v CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
-collect2 version 7.1.0
-/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_e7501 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -v CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
-Framework search paths:
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
- /usr/bin/nm -n CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_597b3' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_597b3' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm0mtwG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_597b3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o -lmpichfort -lmpich -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Parsed Fortran implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e7501/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7501.dir/build.make CMakeFiles/cmTC_e7501.dir/build]
-  ignore line: [Building Fortran object CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [/usr/local/bin/gfortran-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [Linking Fortran executable cmTC_e7501]
-  ignore line: [/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7501.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/gfortran-7   -v -Wl,-v   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o  -o cmTC_e7501 ]
-  ignore line: [Driving: /usr/local/bin/gfortran-7 -v -Wl,-v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o -o cmTC_e7501 -mmacosx-version-min=10.12.4 -asm_macosx_version_min=10.12 -l gfortran -shared-libgcc]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_597b3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_597b3.dir/build.make CMakeFiles/cmTC_597b3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/mpif90     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_597b3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_597b3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/mpif90    -v   CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o  -o cmTC_597b3   ]
+  ignore line: [mpifort for MPICH version 3.2]
+  ignore line: [Driving: gfortran -Wl,-Bsymbolic-functions -Wl,-z,relro -v CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o -o cmTC_597b3 -I/usr/include/mpich -I/usr/include/mpich -L/usr/lib/x86_64-linux-gnu -lmpichfort -lmpich -l gfortran -l m -shared-libgcc]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/local/bin/gfortran-7]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-apple-darwin16.4.0]
-  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk]
+  ignore line: [COLLECT_GCC=gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.1.0 (Homebrew GCC 7.1.0) ]
-  ignore line: [Reading specs from /usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../libgfortran.spec]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec]
   ignore line: [rename spec lib to liborig]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-o' 'cmTC_e7501' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2']
-  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/]
-  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-o' 'cmTC_e7501' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2']
-  link line: [ /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_e7501 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -v CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v]
-    arg [/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.12.4] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
-    arg [-weak_reference_mismatches] ==> ignore
-    arg [non-weak] ==> ignore
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_597b3' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_597b3' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm0mtwG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_597b3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o -lmpichfort -lmpich -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccm0mtwG.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e7501] ==> ignore
-    arg [-L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-    arg [-L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..] ==> dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..]
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_e7501.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [cmTC_597b3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-Bsymbolic-functions] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_597b3.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lmpichfort] ==> lib [mpichfort]
+    arg [-lmpich] ==> lib [mpich]
     arg [-lgfortran] ==> lib [gfortran]
-    arg [-no_compact_unwind] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
     arg [-lquadmath] ==> lib [quadmath]
     arg [-lm] ==> lib [m]
-    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lSystem] ==> lib [System]
-    arg [-v] ==> ignore
-  Library search paths: [;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [System]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7]
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
-  implicit libs: [gfortran;gcc_ext.10.5;gcc;quadmath;m;gcc_ext.10.5;gcc]
-  implicit dirs: [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [mpichfort;mpich;gfortran;m;quadmath;m;c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
 Determining if the Fortran compiler supports Fortran 90 passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4ec7/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4ec7.dir/build.make CMakeFiles/cmTC_d4ec7.dir/build
-Building Fortran object CMakeFiles/cmTC_d4ec7.dir/testFortranCompilerF90.f90.o
-/usr/local/bin/gfortran-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_d4ec7.dir/testFortranCompilerF90.f90.o
-Linking Fortran executable cmTC_d4ec7
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4ec7.dir/link.txt --verbose=1
-/usr/local/bin/gfortran-7      -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/cmTC_d4ec7.dir/testFortranCompilerF90.f90.o  -o cmTC_d4ec7 
+Run Build Command:"/usr/bin/make" "cmTC_7e998/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e998.dir/build.make CMakeFiles/cmTC_7e998.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_7e998.dir/testFortranCompilerF90.f90.o
+/usr/bin/mpif90     -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_7e998.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_7e998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e998.dir/link.txt --verbose=1
+/usr/bin/mpif90       CMakeFiles/cmTC_7e998.dir/testFortranCompilerF90.f90.o  -o cmTC_7e998  
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48ed7/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48ed7.dir/build.make CMakeFiles/cmTC_48ed7.dir/build
-Building C object CMakeFiles/cmTC_48ed7.dir/testCCompiler.c.o
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_48ed7.dir/testCCompiler.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_48ed7
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ed7.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48ed7.dir/testCCompiler.c.o  -o cmTC_48ed7 
+Run Build Command:"/usr/bin/make" "cmTC_34e0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34e0d.dir/build.make CMakeFiles/cmTC_34e0d.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34e0d.dir/testCCompiler.c.o
+/usr/bin/mpicc     -o CMakeFiles/cmTC_34e0d.dir/testCCompiler.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_34e0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34e0d.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTC_34e0d.dir/testCCompiler.c.o  -o cmTC_34e0d -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2342d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2342d.dir/build.make CMakeFiles/cmTC_2342d.dir/build
-Building C object CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_2342d
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2342d.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o  -o cmTC_2342d 
+Run Build Command:"/usr/bin/make" "cmTC_07935/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07935.dir/build.make CMakeFiles/cmTC_07935.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o
+/usr/bin/mpicc     -o CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_07935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07935.dir/link.txt --verbose=1
+/usr/bin/mpicc      -v CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o  -o cmTC_07935 -rdynamic  
+mpicc for MPICH version 3.2
 Using built-in specs.
-COLLECT_GCC=/usr/local/bin/gcc-7
-COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper
-Target: x86_64-apple-darwin16.4.0
-Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.1.0 (Homebrew GCC 7.1.0) 
-COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/
-LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../
-COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-v' '-o' 'cmTC_2342d' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-mtune=core2'
- /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_2342d -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
-collect2 version 7.1.0
-/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_2342d -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
-Framework search paths:
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
- /usr/bin/nm -n CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07935' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnYmmHX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_07935 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2342d/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2342d.dir/build.make CMakeFiles/cmTC_2342d.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_2342d]
-  ignore line: [/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2342d.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o  -o cmTC_2342d ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_07935/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_07935.dir/build.make CMakeFiles/cmTC_07935.dir/build]
+  ignore line: [make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/mpicc     -o CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_07935]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07935.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/mpicc      -v CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o  -o cmTC_07935 -rdynamic  ]
+  ignore line: [mpicc for MPICH version 3.2]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/local/bin/gcc-7]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-apple-darwin16.4.0]
-  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk]
+  ignore line: [COLLECT_GCC=gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.1.0 (Homebrew GCC 7.1.0) ]
-  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/]
-  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-v' '-o' 'cmTC_2342d' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-mtune=core2']
-  link line: [ /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_2342d -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
-    arg [/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.12.4] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
-    arg [-weak_reference_mismatches] ==> ignore
-    arg [non-weak] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07935' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnYmmHX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_07935 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnYmmHX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2342d] ==> ignore
-    arg [-L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-    arg [-L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..] ==> dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..]
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_2342d.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-no_compact_unwind] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [cmTC_07935] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-Bsymbolic-functions] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_07935.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpich] ==> lib [mpich]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lSystem] ==> lib [System]
-    arg [-v] ==> ignore
-  Library search paths: [;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [System]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7]
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
-  implicit libs: [gcc_ext.10.5;gcc]
-  implicit dirs: [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [mpich;c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34b07/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_34b07.dir/build.make CMakeFiles/cmTC_34b07.dir/build
-Building C object CMakeFiles/cmTC_34b07.dir/feature_tests.c.o
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c11 -o CMakeFiles/cmTC_34b07.dir/feature_tests.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_34b07
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34b07.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_34b07.dir/feature_tests.c.o  -o cmTC_34b07 
+Run Build Command:"/usr/bin/make" "cmTC_dc99f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc99f.dir/build.make CMakeFiles/cmTC_dc99f.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc99f.dir/feature_tests.c.o
+/usr/bin/mpicc    -std=c11 -o CMakeFiles/cmTC_dc99f.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dc99f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc99f.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTC_dc99f.dir/feature_tests.c.o  -o cmTC_dc99f -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -352,15 +395,17 @@ Linking C executable cmTC_34b07
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d87e0/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d87e0.dir/build.make CMakeFiles/cmTC_d87e0.dir/build
-Building C object CMakeFiles/cmTC_d87e0.dir/feature_tests.c.o
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c99 -o CMakeFiles/cmTC_d87e0.dir/feature_tests.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d87e0
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d87e0.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d87e0.dir/feature_tests.c.o  -o cmTC_d87e0 
+Run Build Command:"/usr/bin/make" "cmTC_797c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_797c3.dir/build.make CMakeFiles/cmTC_797c3.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_797c3.dir/feature_tests.c.o
+/usr/bin/mpicc    -std=c99 -o CMakeFiles/cmTC_797c3.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_797c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_797c3.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTC_797c3.dir/feature_tests.c.o  -o cmTC_797c3 -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -370,15 +415,17 @@ Linking C executable cmTC_d87e0
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7f909/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f909.dir/build.make CMakeFiles/cmTC_7f909.dir/build
-Building C object CMakeFiles/cmTC_7f909.dir/feature_tests.c.o
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c90 -o CMakeFiles/cmTC_7f909.dir/feature_tests.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7f909
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f909.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f909.dir/feature_tests.c.o  -o cmTC_7f909 
+Run Build Command:"/usr/bin/make" "cmTC_3ca9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ca9f.dir/build.make CMakeFiles/cmTC_3ca9f.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ca9f.dir/feature_tests.c.o
+/usr/bin/mpicc    -std=c90 -o CMakeFiles/cmTC_3ca9f.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3ca9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ca9f.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTC_3ca9f.dir/feature_tests.c.o  -o cmTC_3ca9f -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -386,198 +433,150 @@ Linking C executable cmTC_7f909
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_61090/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_61090.dir/build.make CMakeFiles/cmTC_61090.dir/build
-Building CXX object CMakeFiles/cmTC_61090.dir/testCXXCompiler.cxx.o
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_61090.dir/testCXXCompiler.cxx.o -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_61090
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61090.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_61090.dir/testCXXCompiler.cxx.o  -o cmTC_61090 
+Run Build Command:"/usr/bin/make" "cmTC_39047/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39047.dir/build.make CMakeFiles/cmTC_39047.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39047.dir/testCXXCompiler.cxx.o
+/usr/bin/mpicxx      -o CMakeFiles/cmTC_39047.dir/testCXXCompiler.cxx.o -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_39047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39047.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTC_39047.dir/testCXXCompiler.cxx.o  -o cmTC_39047 -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e28a/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e28a.dir/build.make CMakeFiles/cmTC_8e28a.dir/build
-Building CXX object CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8e28a
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e28a.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8e28a 
+Run Build Command:"/usr/bin/make" "cmTC_c416b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c416b.dir/build.make CMakeFiles/cmTC_c416b.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/mpicxx      -o CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c416b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c416b.dir/link.txt --verbose=1
+/usr/bin/mpicxx       -v CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c416b -rdynamic  
+mpicxx for MPICH version 3.2
 Using built-in specs.
-COLLECT_GCC=/usr/local/bin/g++-7
-COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper
-Target: x86_64-apple-darwin16.4.0
-Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+COLLECT_GCC=g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.1.0 (Homebrew GCC 7.1.0) 
-COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/
-LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../
-COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-v' '-o' 'cmTC_8e28a' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2'
- /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_8e28a -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
-collect2 version 7.1.0
-/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_8e28a -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-@(#)PROGRAM:ld  PROJECT:ld64-278.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0
-	/usr/local/Cellar/gcc/7.1.0/lib/gcc/7
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
-Framework search paths:
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
- /usr/bin/nm -n CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c416b' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOuIywo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c416b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8e28a/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e28a.dir/build.make CMakeFiles/cmTC_8e28a.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8e28a]
-  ignore line: [/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e28a.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8e28a ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c416b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c416b.dir/build.make CMakeFiles/cmTC_c416b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/mpicxx      -o CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c416b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c416b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/mpicxx       -v CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c416b -rdynamic  ]
+  ignore line: [mpicxx for MPICH version 3.2]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/local/bin/g++-7]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-apple-darwin16.4.0]
-  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin16.4.0 --prefix=/usr/local/Cellar/gcc/7.1.0 --libdir=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk]
+  ignore line: [COLLECT_GCC=g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.1.0 (Homebrew GCC 7.1.0) ]
-  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/]
-  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/:/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk' '-v' '-o' 'cmTC_8e28a' '-mmacosx-version-min=10.12.4' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2']
-  link line: [ /usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -weak_reference_mismatches non-weak -o cmTC_8e28a -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0 -L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
-    arg [/usr/local/Cellar/gcc/7.1.0/libexec/gcc/x86_64-apple-darwin16.4.0/7.1.0/collect2] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.12.4] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
-    arg [-weak_reference_mismatches] ==> ignore
-    arg [non-weak] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c416b' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOuIywo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c416b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOuIywo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8e28a] ==> ignore
-    arg [-L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-    arg [-L/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..] ==> dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..]
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_8e28a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_c416b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-Bsymbolic-functions] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_c416b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpichcxx] ==> lib [mpichcxx]
+    arg [-lmpich] ==> lib [mpich]
     arg [-lstdc++] ==> lib [stdc++]
-    arg [-no_compact_unwind] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lSystem] ==> lib [System]
-    arg [-v] ==> ignore
-  Library search paths: [;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [System]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0/../../..] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0]
-  collapse library dir [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7]
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
-  implicit libs: [stdc++;gcc_ext.10.5;gcc]
-  implicit dirs: [/usr/local/Cellar/gcc/7.1.0/lib/gcc/7/gcc/x86_64-apple-darwin16.4.0/7.1.0;/usr/local/Cellar/gcc/7.1.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [mpichcxx;mpich;stdc++;m;c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
-
-
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_236f1/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_236f1.dir/build.make CMakeFiles/cmTC_236f1.dir/build
-Building CXX object CMakeFiles/cmTC_236f1.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++1z -o CMakeFiles/cmTC_236f1.dir/feature_tests.cxx.o -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_236f1
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236f1.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_236f1.dir/feature_tests.cxx.o  -o cmTC_236f1 
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7ab8/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7ab8.dir/build.make CMakeFiles/cmTC_e7ab8.dir/build
-Building CXX object CMakeFiles/cmTC_e7ab8.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++14 -o CMakeFiles/cmTC_e7ab8.dir/feature_tests.cxx.o -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e7ab8
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7ab8.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e7ab8.dir/feature_tests.cxx.o  -o cmTC_e7ab8 
+Run Build Command:"/usr/bin/make" "cmTC_0e7f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e7f2.dir/build.make CMakeFiles/cmTC_0e7f2.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e7f2.dir/feature_tests.cxx.o
+/usr/bin/mpicxx     -std=c++14 -o CMakeFiles/cmTC_0e7f2.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0e7f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e7f2.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTC_0e7f2.dir/feature_tests.cxx.o  -o cmTC_0e7f2 -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -640,15 +639,17 @@ Linking CXX executable cmTC_e7ab8
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ba7a3/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ba7a3.dir/build.make CMakeFiles/cmTC_ba7a3.dir/build
-Building CXX object CMakeFiles/cmTC_ba7a3.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++11 -o CMakeFiles/cmTC_ba7a3.dir/feature_tests.cxx.o -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ba7a3
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba7a3.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ba7a3.dir/feature_tests.cxx.o  -o cmTC_ba7a3 
+Run Build Command:"/usr/bin/make" "cmTC_b930a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b930a.dir/build.make CMakeFiles/cmTC_b930a.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b930a.dir/feature_tests.cxx.o
+/usr/bin/mpicxx     -std=c++11 -o CMakeFiles/cmTC_b930a.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b930a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b930a.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTC_b930a.dir/feature_tests.cxx.o  -o cmTC_b930a -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -711,15 +712,17 @@ Linking CXX executable cmTC_ba7a3
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01873/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01873.dir/build.make CMakeFiles/cmTC_01873.dir/build
-Building CXX object CMakeFiles/cmTC_01873.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c++98 -o CMakeFiles/cmTC_01873.dir/feature_tests.cxx.o -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_01873
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01873.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_01873.dir/feature_tests.cxx.o  -o cmTC_01873 
+Run Build Command:"/usr/bin/make" "cmTC_971b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_971b3.dir/build.make CMakeFiles/cmTC_971b3.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_971b3.dir/feature_tests.cxx.o
+/usr/bin/mpicxx     -std=c++98 -o CMakeFiles/cmTC_971b3.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_971b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971b3.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTC_971b3.dir/feature_tests.cxx.o  -o cmTC_971b3 -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -780,80 +783,80 @@ Linking CXX executable cmTC_01873
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Verifying Fortran/CXX Compiler Compatibility passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX
 
-Run Build Command:"/usr/bin/make" "VerifyFortranC"
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -H/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify -B/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/Makefile2 VerifyFortranC
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -H/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify -B/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_progress_start /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 6
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/Makefile2 CMakeFiles/VerifyFortranC.dir/all
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
-cd /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+Run Build Command:"/usr/bin/make"
+/usr/bin/cmake -H/usr/share/cmake-3.5/Modules/FortranCInterface/Verify -B/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+cd /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-3.5/Modules/FortranCInterface/Verify /usr/share/cmake-3.5/Modules/FortranCInterface/Verify /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
 Scanning dependencies of target VerifyFortran
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/requires
-make[3]: Nothing to be done for `CMakeFiles/VerifyFortran.dir/requires'.
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/requires
+make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+make[2]: Nothing to be done for 'CMakeFiles/VerifyFortran.dir/requires'.
+make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 16%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
-/usr/local/bin/gfortran-7 -DVERIFY_CXX -I/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG -O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/mpif90  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
 [ 33%] Linking Fortran static library libVerifyFortran.a
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
 /usr/bin/ar qc libVerifyFortran.a  CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
 /usr/bin/ranlib libVerifyFortran.a
+make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 33%] Built target VerifyFortran
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
-cd /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+cd /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-3.5/Modules/FortranCInterface/Verify /usr/share/cmake-3.5/Modules/FortranCInterface/Verify /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
 Scanning dependencies of target VerifyFortranC
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 50%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
-/usr/local/bin/gcc-7 -DVERIFY_CXX -I/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify/main.c
+/usr/bin/mpicc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
 [ 66%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
-/usr/local/bin/gcc-7 -DVERIFY_CXX -I/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify/VerifyC.c
+/usr/bin/mpicc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
 [ 83%] Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o
-/usr/local/bin/g++-7  -DVERIFY_CXX -I/Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+/usr/bin/mpicxx   -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
 [100%] Linking CXX executable VerifyFortranC
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
-/usr/local/bin/g++-7  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC libVerifyFortran.a -lgfortran -lquadmath -lm 
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/bin/mpicxx   -O3 -DNDEBUG   CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC libVerifyFortran.a -lmpichfort -lgfortran -lquadmath 
+make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
 [100%] Built target VerifyFortranC
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_progress_start /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 0
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/cmake -E cmake_progress_start /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 0
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a17cf/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a17cf.dir/build.make CMakeFiles/cmTC_a17cf.dir/build
-Building C object CMakeFiles/cmTC_a17cf.dir/CheckIncludeFile.c.o
-/usr/local/bin/gcc-7   -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_a17cf.dir/CheckIncludeFile.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a17cf
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a17cf.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a17cf.dir/CheckIncludeFile.c.o  -o cmTC_a17cf 
+Run Build Command:"/usr/bin/make" "cmTC_0f43a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f43a.dir/build.make CMakeFiles/cmTC_0f43a.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f43a.dir/CheckIncludeFile.c.o
+/usr/bin/mpicc     -o CMakeFiles/cmTC_0f43a.dir/CheckIncludeFile.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0f43a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f43a.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTC_0f43a.dir/CheckIncludeFile.c.o  -o cmTC_0f43a -rdynamic 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
 
-Determining if the pthread_create exist passed with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b3cb/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b3cb.dir/build.make CMakeFiles/cmTC_3b3cb.dir/build
-Building C object CMakeFiles/cmTC_3b3cb.dir/CheckSymbolExists.c.o
-/usr/local/bin/gcc-7   -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_3b3cb.dir/CheckSymbolExists.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3b3cb
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b3cb.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7   -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b3cb.dir/CheckSymbolExists.c.o  -o cmTC_3b3cb 
+Run Build Command:"/usr/bin/make" "cmTC_75499/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75499.dir/build.make CMakeFiles/cmTC_75499.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75499.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_75499.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75499.dir/link.txt --verbose=1
+/usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_75499.dir/CheckFunctionExists.c.o  -o cmTC_75499 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/CMakeTmp'
 
-File /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <pthread.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
 

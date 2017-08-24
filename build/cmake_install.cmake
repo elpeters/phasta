@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Eric_Peters/PHASTA_Forked
+# Install script for directory: /home/erpe8051/PHASTA_Forked
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,17 +27,22 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Eric_Peters/PHASTA_Forked/build/phastaIO/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/shapeFunction/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/svLS/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/phSolver/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/checkphasta/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/converterIO/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/AcuStat/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/M2N/cmake_install.cmake")
-  include("/Users/Eric_Peters/PHASTA_Forked/build/M2NFixBnd/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/phastaIO/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/shapeFunction/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/svLS/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/phSolver/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/checkphasta/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/converterIO/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/AcuStat/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/M2N/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/build/M2NFixBnd/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Eric_Peters/PHASTA_Forked/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/erpe8051/PHASTA_Forked/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

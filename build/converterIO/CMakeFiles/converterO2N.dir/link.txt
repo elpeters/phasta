@@ -1,1 +1,1 @@
-/usr/local/bin/g++-7  -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/converterO2N.dir/converterO2N.cc.o  -o ../bin/converterO2N ../lib/libphastaIO.a /usr/local/bin/lib/libmpi.dylib /usr/local/bin/lib/libpmpi.dylib -lgfortran -lquadmath -lm 
+/usr/bin/mpicxx   -O3 -DNDEBUG   CMakeFiles/converterO2N.dir/converterO2N.cc.o  -o ../bin/converterO2N -rdynamic ../lib/libphastaIO.a -lmpich -lmpichfort -lgfortran -lquadmath 

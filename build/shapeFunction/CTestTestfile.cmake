@@ -1,7 +1,7 @@
 # CMake generated Testfile for 
-# Source directory: /Users/Eric_Peters/PHASTA_Forked/shapeFunction
-# Build directory: /Users/Eric_Peters/PHASTA_Forked/build/shapeFunction
+# Source directory: /home/erpe8051/PHASTA_Forked/shapeFunction
+# Build directory: /home/erpe8051/PHASTA_Forked/build/shapeFunction
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs("src")
+subdirs(src)

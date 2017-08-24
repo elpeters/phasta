@@ -1,1 +1,1 @@
-/usr/local/bin/gfortran-7   -O3 -DNDEBUG -O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk CMakeFiles/FortranCInterface.dir/main.F.o CMakeFiles/FortranCInterface.dir/call_sub.f.o CMakeFiles/FortranCInterface.dir/call_mod.f90.o  -o FortranCInterface libsymbols.a libmyfort.a 
+/usr/bin/mpif90     CMakeFiles/FortranCInterface.dir/main.F.o CMakeFiles/FortranCInterface.dir/call_sub.f.o CMakeFiles/FortranCInterface.dir/call_mod.f90.o  -o FortranCInterface libsymbols.a libmyfort.a 

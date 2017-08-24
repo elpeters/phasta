@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -10,7 +10,7 @@
 stdlib.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phastaIO.cc
+/home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc
 map
 -
 vector
@@ -32,17 +32,17 @@ math.h
 sstream
 -
 phastaIO.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phastaIO.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.h
 phiotmrc.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiotmrc.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.h
 phiompi.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.h
 mpi.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/mpi.h
+/home/erpe8051/PHASTA_Forked/phastaIO/mpi.h
 phiostats.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiostats.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiostats.h
 phiotimer.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiotimer.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiotimer.h
 assert.h
 -
 sys/stat.h
@@ -52,7 +52,7 @@ unistd.h
 errno.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phastaIO.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.h
 FCMangle.h
 -
 mpi.h
@@ -60,19 +60,19 @@ mpi.h
 string
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiompi.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiompi.h
 stddef.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiostats.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiostats.h
 stdlib.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc
+/home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc
 phiotimer.h
 -
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiotmrc.cc
+/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc
 stdio.h
 -
 sys/types.h
@@ -84,13 +84,13 @@ time.h
 cassert
 -
 hwi/include/bqc/A2_inlines.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/hwi/include/bqc/A2_inlines.h
+/home/erpe8051/PHASTA_Forked/phastaIO/hwi/include/bqc/A2_inlines.h
 phiotmrc.h
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiotmrc.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.h
 
-/Users/Eric_Peters/PHASTA_Forked/phastaIO/phiotmrc.h
+/home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.h
 
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
 cstdint
@@ -98,17 +98,17 @@ cstdint
 stdint.h
 -
 mpio.h
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpicxx.h
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 stdio.h
 -
 
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpi.h
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 
 FCMangle.h
 

@@ -1,9 +1,9 @@
 # CMake generated Testfile for 
-# Source directory: /Users/Eric_Peters/PHASTA_Forked/phSolver
-# Build directory: /Users/Eric_Peters/PHASTA_Forked/build/phSolver
+# Source directory: /home/erpe8051/PHASTA_Forked/phSolver
+# Build directory: /home/erpe8051/PHASTA_Forked/build/phSolver
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs("common")
-subdirs("incompressible")
-subdirs("compressible")
+subdirs(common)
+subdirs(incompressible)
+subdirs(compressible)

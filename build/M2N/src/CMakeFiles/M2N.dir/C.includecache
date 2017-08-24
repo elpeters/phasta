@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -24,11 +24,11 @@ mpi.h
 string
 -
 
-/Users/Eric_Peters/PHASTA_Forked/M2N/src/dumbCvariables.c
+/home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c
 
-/Users/Eric_Peters/PHASTA_Forked/M2N/src/main.c
+/home/erpe8051/PHASTA_Forked/M2N/src/main.c
 
-/Users/Eric_Peters/PHASTA_Forked/M2N/src/new_interface.c
+/home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c
 stdio.h
 -
 string.h
@@ -44,13 +44,13 @@ math.h
 mpi.h
 -
 phastaIO.h
-/Users/Eric_Peters/PHASTA_Forked/M2N/src/phastaIO.h
+/home/erpe8051/PHASTA_Forked/M2N/src/phastaIO.h
 FCMangle.h
 -
 new_interfaceM2N.h
-/Users/Eric_Peters/PHASTA_Forked/M2N/src/new_interfaceM2N.h
+/home/erpe8051/PHASTA_Forked/M2N/src/new_interfaceM2N.h
 commonM2N_c.h
-/Users/Eric_Peters/PHASTA_Forked/M2N/src/commonM2N_c.h
+/home/erpe8051/PHASTA_Forked/M2N/src/commonM2N_c.h
 winsock2.h
 -
 unistd.h
@@ -58,7 +58,7 @@ unistd.h
 strings.h
 -
 
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
 cstdint
@@ -66,17 +66,17 @@ cstdint
 stdint.h
 -
 mpio.h
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpicxx.h
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 stdio.h
 -
 
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpi.h
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 
 FCMangle.h
 

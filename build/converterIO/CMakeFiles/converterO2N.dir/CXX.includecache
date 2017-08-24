@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -14,7 +14,7 @@ mpi.h
 string
 -
 
-/Users/Eric_Peters/PHASTA_Forked/converterIO/converterO2N.cc
+/home/erpe8051/PHASTA_Forked/converterIO/converterO2N.cc
 stdio.h
 -
 iostream
@@ -28,13 +28,13 @@ mpi.h
 math.h
 -
 phastaIO.h
-/Users/Eric_Peters/PHASTA_Forked/converterIO/phastaIO.h
+/home/erpe8051/PHASTA_Forked/converterIO/phastaIO.h
 sys/stat.h
 -
 sys/types.h
 -
 
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
 cstdint
@@ -42,17 +42,17 @@ cstdint
 stdint.h
 -
 mpio.h
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpicxx.h
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/bin/include/mpicxx.h
+/usr/include/mpich/mpicxx.h
 stdio.h
 -
 
-/usr/local/bin/include/mpio.h
+/usr/include/mpich/mpio.h
 mpi.h
-/usr/local/bin/include/mpi.h
+/usr/include/mpich/mpi.h
 
 FCMangle.h
 

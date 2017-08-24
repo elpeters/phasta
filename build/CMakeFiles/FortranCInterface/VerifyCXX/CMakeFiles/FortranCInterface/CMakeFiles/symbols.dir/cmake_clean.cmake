@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/symbols.dir/mymodule_.c.o"
   "CMakeFiles/symbols.dir/my_module_.c.o"
-  "CMakeFiles/symbols.dir/MY_MODULE.c.o"
-  "CMakeFiles/symbols.dir/MYMODULE.c.o"
   "CMakeFiles/symbols.dir/symbols/my_sub.c.o"
   "CMakeFiles/symbols.dir/symbols/my_sub_.c.o"
   "CMakeFiles/symbols.dir/symbols/my_sub__.c.o"

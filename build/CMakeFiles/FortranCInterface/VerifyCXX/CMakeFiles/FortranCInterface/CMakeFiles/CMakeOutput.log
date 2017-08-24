@@ -1,13 +1,15 @@
 Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
-Change Dir: /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_334ac/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_334ac.dir/build.make CMakeFiles/cmTC_334ac.dir/build
-Building C object CMakeFiles/cmTC_334ac.dir/src.c.o
-/usr/local/bin/gcc-7   -DC_SUPPORTS_DOLLAR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_334ac.dir/src.c.o   -c /Users/Eric_Peters/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_334ac
-/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_334ac.dir/link.txt --verbose=1
-/usr/local/bin/gcc-7  -DC_SUPPORTS_DOLLAR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_334ac.dir/src.c.o  -o cmTC_334ac 
+Run Build Command:"/usr/bin/make" "cmTC_cd689/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd689.dir/build.make CMakeFiles/cmTC_cd689.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd689.dir/src.c.o
+/usr/bin/mpicc    -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_cd689.dir/src.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cd689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd689.dir/link.txt --verbose=1
+/usr/bin/mpicc   -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTC_cd689.dir/src.c.o  -o cmTC_cd689 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
 
 Source file was:
 

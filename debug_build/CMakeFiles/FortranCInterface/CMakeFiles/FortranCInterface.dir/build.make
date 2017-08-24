@@ -60,15 +60,15 @@ include CMakeFiles/FortranCInterface.dir/flags.make
 CMakeFiles/FortranCInterface.dir/main.F.o: CMakeFiles/FortranCInterface.dir/flags.make
 CMakeFiles/FortranCInterface.dir/main.F.o: /usr/share/cmake-3.5/Modules/FortranCInterface/main.F
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/FortranCInterface.dir/main.F.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) -DCALL_MOD $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/main.F -o CMakeFiles/FortranCInterface.dir/main.F.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) -DCALL_MOD $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/main.F -o CMakeFiles/FortranCInterface.dir/main.F.o
 
 CMakeFiles/FortranCInterface.dir/main.F.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/FortranCInterface.dir/main.F.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) -DCALL_MOD $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/main.F > CMakeFiles/FortranCInterface.dir/main.F.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) -DCALL_MOD $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/main.F > CMakeFiles/FortranCInterface.dir/main.F.i
 
 CMakeFiles/FortranCInterface.dir/main.F.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/FortranCInterface.dir/main.F.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) -DCALL_MOD $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/main.F -o CMakeFiles/FortranCInterface.dir/main.F.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) -DCALL_MOD $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/main.F -o CMakeFiles/FortranCInterface.dir/main.F.s
 
 CMakeFiles/FortranCInterface.dir/main.F.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/FortranCInterface.dir/main.F.o.provides.build: CMakeFiles/FortranCInt
 CMakeFiles/FortranCInterface.dir/call_sub.f.o: CMakeFiles/FortranCInterface.dir/flags.make
 CMakeFiles/FortranCInterface.dir/call_sub.f.o: /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/FortranCInterface.dir/call_sub.f.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f -o CMakeFiles/FortranCInterface.dir/call_sub.f.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f -o CMakeFiles/FortranCInterface.dir/call_sub.f.o
 
 CMakeFiles/FortranCInterface.dir/call_sub.f.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/FortranCInterface.dir/call_sub.f.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f > CMakeFiles/FortranCInterface.dir/call_sub.f.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f > CMakeFiles/FortranCInterface.dir/call_sub.f.i
 
 CMakeFiles/FortranCInterface.dir/call_sub.f.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/FortranCInterface.dir/call_sub.f.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f -o CMakeFiles/FortranCInterface.dir/call_sub.f.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/call_sub.f -o CMakeFiles/FortranCInterface.dir/call_sub.f.s
 
 CMakeFiles/FortranCInterface.dir/call_sub.f.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/FortranCInterface.dir/call_sub.f.o.provides.build: CMakeFiles/Fortran
 CMakeFiles/FortranCInterface.dir/call_mod.f90.o: CMakeFiles/FortranCInterface.dir/flags.make
 CMakeFiles/FortranCInterface.dir/call_mod.f90.o: /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object CMakeFiles/FortranCInterface.dir/call_mod.f90.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90 -o CMakeFiles/FortranCInterface.dir/call_mod.f90.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90 -o CMakeFiles/FortranCInterface.dir/call_mod.f90.o
 
 CMakeFiles/FortranCInterface.dir/call_mod.f90.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/FortranCInterface.dir/call_mod.f90.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90 > CMakeFiles/FortranCInterface.dir/call_mod.f90.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90 > CMakeFiles/FortranCInterface.dir/call_mod.f90.i
 
 CMakeFiles/FortranCInterface.dir/call_mod.f90.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/FortranCInterface.dir/call_mod.f90.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90 -o CMakeFiles/FortranCInterface.dir/call_mod.f90.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/call_mod.f90 -o CMakeFiles/FortranCInterface.dir/call_mod.f90.s
 
 CMakeFiles/FortranCInterface.dir/call_mod.f90.o.requires:
 

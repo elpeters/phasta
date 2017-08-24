@@ -36,7 +36,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/erpe8051/PHASTA_Forked/debug_build/phSolver/common/cmake_install.cmake")
   include("/home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible/cmake_install.cmake")
-  include("/home/erpe8051/PHASTA_Forked/debug_build/phSolver/compressible/cmake_install.cmake")
 
 endif()
 

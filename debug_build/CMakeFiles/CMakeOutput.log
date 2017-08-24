@@ -1,31 +1,28 @@
-The system is: Linux - 4.10.0-28-generic - x86_64
+The system is: Linux - 4.10.0-32-generic - x86_64
 Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
-Compiler: /usr/bin/mpif90 
+Compiler: /usr/bin/gfortran 
 Build flags: 
 Id flags: -v
 
 The output was:
 0
-mpifort for MPICH version 3.2
-Driving: gfortran -Wl,-Bsymbolic-functions -Wl,-z,relro -v CMakeFortranCompilerId.F -I/usr/include/mpich -I/usr/include/mpich -L/usr/lib/x86_64-linux-gnu -lmpichfort -lmpich -l gfortran -l m -shared-libgcc
+Driving: /usr/bin/gfortran -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
 Using built-in specs.
-COLLECT_GCC=gfortran
+COLLECT_GCC=/usr/bin/gfortran
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
-COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccJVwFOV.f90 -quiet -v -I /usr/include/mpich -I /usr/include/mpich -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/5/finclude -o /tmp/ccfqfPzw.s
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccIjdWNT.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/5/finclude -o /tmp/ccRVNWCL.s
 GNU Fortran (Ubuntu 5.4.0-6ubuntu1~16.04.4) version 5.4.0 20160609 (x86_64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
 ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"
-ignoring duplicate directory "/usr/include/mpich"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/include/mpich
  /usr/lib/gcc/x86_64-linux-gnu/5/finclude
  /usr/lib/gcc/x86_64-linux-gnu/5/include
  /usr/local/include
@@ -36,16 +33,16 @@ End of search list.
 GNU Fortran2008 (Ubuntu 5.4.0-6ubuntu1~16.04.4) version 5.4.0 20160609 (x86_64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v -I /usr/include/mpich -I /usr/include/mpich --64 -o /tmp/ccNdNto7.o /tmp/ccfqfPzw.s
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccqWGgED.o /tmp/ccRVNWCL.s
 GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctPZGdI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro /tmp/ccNdNto7.o -lmpichfort -lmpich -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHHnDHv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. /tmp/ccqWGgED.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 
 
 Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
@@ -53,7 +50,7 @@ Compilation of the Fortran compiler identification source "CMakeFortranCompilerI
 The Fortran compiler identification is GNU, found in "/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/3.5.1/CompilerIdFortran/a.out"
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/mpicc 
+Compiler: /usr/bin/gcc 
 Build flags: 
 Id flags: 
 
@@ -66,7 +63,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/mpicxx 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags: 
 
@@ -81,32 +78,31 @@ The CXX compiler identification is GNU, found in "/home/erpe8051/PHASTA_Forked/d
 Determining if the Fortran compiler works passed with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37691/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37691.dir/build.make CMakeFiles/cmTC_37691.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d3be7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3be7.dir/build.make CMakeFiles/cmTC_d3be7.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_37691.dir/testFortranCompiler.f.o
-/usr/bin/mpif90     -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_37691.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_37691
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37691.dir/link.txt --verbose=1
-/usr/bin/mpif90       CMakeFiles/cmTC_37691.dir/testFortranCompiler.f.o  -o cmTC_37691  
+Building Fortran object CMakeFiles/cmTC_d3be7.dir/testFortranCompiler.f.o
+/usr/bin/gfortran     -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_d3be7.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_d3be7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3be7.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTC_d3be7.dir/testFortranCompiler.f.o  -o cmTC_d3be7  
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
 Detecting Fortran compiler ABI info compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a779c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a779c.dir/build.make CMakeFiles/cmTC_a779c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23f61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23f61.dir/build.make CMakeFiles/cmTC_23f61.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o
-/usr/bin/mpif90     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o
-Linking Fortran executable cmTC_a779c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a779c.dir/link.txt --verbose=1
-/usr/bin/mpif90    -v   CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o  -o cmTC_a779c   
-mpifort for MPICH version 3.2
-Driving: gfortran -Wl,-Bsymbolic-functions -Wl,-z,relro -v CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o -o cmTC_a779c -I/usr/include/mpich -I/usr/include/mpich -L/usr/lib/x86_64-linux-gnu -lmpichfort -lmpich -l gfortran -l m -shared-libgcc
+Building Fortran object CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_23f61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f61.dir/link.txt --verbose=1
+/usr/bin/gfortran    -v   CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o  -o cmTC_23f61   
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o -o cmTC_23f61 -l gfortran -l m -shared-libgcc
 Using built-in specs.
-COLLECT_GCC=gfortran
+COLLECT_GCC=/usr/bin/gfortran
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
@@ -114,11 +110,11 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a779c' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23f61' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a779c' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cccRVp3j.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a779c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o -lmpichfort -lmpich -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23f61' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD0cF9i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_23f61 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -126,18 +122,17 @@ Parsed Fortran implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a779c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a779c.dir/build.make CMakeFiles/cmTC_a779c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_23f61/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_23f61.dir/build.make CMakeFiles/cmTC_23f61.dir/build]
   ignore line: [make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building Fortran object CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [/usr/bin/mpif90     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [Linking Fortran executable cmTC_a779c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a779c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/mpif90    -v   CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o  -o cmTC_a779c   ]
-  ignore line: [mpifort for MPICH version 3.2]
-  ignore line: [Driving: gfortran -Wl,-Bsymbolic-functions -Wl,-z,relro -v CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o -o cmTC_a779c -I/usr/include/mpich -I/usr/include/mpich -L/usr/lib/x86_64-linux-gnu -lmpichfort -lmpich -l gfortran -l m -shared-libgcc]
+  ignore line: [Building Fortran object CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran     -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_23f61]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f61.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran    -v   CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o  -o cmTC_23f61   ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o -o cmTC_23f61 -l gfortran -l m -shared-libgcc]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=gfortran]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
@@ -145,16 +140,16 @@ Parsed Fortran implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec]
   ignore line: [rename spec lib to liborig]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a779c' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23f61' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a779c' '-I' '/usr/include/mpich' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cccRVp3j.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a779c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o -lmpichfort -lmpich -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23f61' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD0cF9i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_23f61 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccRVp3j.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccD0cF9i.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
@@ -175,11 +170,10 @@ Parsed Fortran implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a779c] ==> ignore
+    arg [cmTC_23f61] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
@@ -188,11 +182,7 @@ Parsed Fortran implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [-Bsymbolic-functions] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_a779c.dir/CMakeFortranCompilerABI.F.o] ==> ignore
-    arg [-lmpichfort] ==> lib [mpichfort]
-    arg [-lmpich] ==> lib [mpich]
+    arg [CMakeFiles/cmTC_23f61.dir/CMakeFortranCompilerABI.F.o] ==> ignore
     arg [-lgfortran] ==> lib [gfortran]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -212,7 +202,6 @@ Parsed Fortran implicit link information from above output:
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
@@ -221,53 +210,52 @@ Parsed Fortran implicit link information from above output:
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
-  implicit libs: [mpichfort;mpich;gfortran;m;quadmath;m;c]
-  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit libs: [gfortran;m;quadmath;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Determining if the Fortran compiler supports Fortran 90 passed with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7f35a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7f35a.dir/build.make CMakeFiles/cmTC_7f35a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_52b67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52b67.dir/build.make CMakeFiles/cmTC_52b67.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_7f35a.dir/testFortranCompilerF90.f90.o
-/usr/bin/mpif90     -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_7f35a.dir/testFortranCompilerF90.f90.o
-Linking Fortran executable cmTC_7f35a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f35a.dir/link.txt --verbose=1
-/usr/bin/mpif90       CMakeFiles/cmTC_7f35a.dir/testFortranCompilerF90.f90.o  -o cmTC_7f35a  
+Building Fortran object CMakeFiles/cmTC_52b67.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran     -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_52b67.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_52b67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b67.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTC_52b67.dir/testFortranCompilerF90.f90.o  -o cmTC_52b67  
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95115/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95115.dir/build.make CMakeFiles/cmTC_95115.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_693e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_693e4.dir/build.make CMakeFiles/cmTC_693e4.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95115.dir/testCCompiler.c.o
-/usr/bin/mpicc     -o CMakeFiles/cmTC_95115.dir/testCCompiler.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_95115
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95115.dir/link.txt --verbose=1
-/usr/bin/mpicc       CMakeFiles/cmTC_95115.dir/testCCompiler.c.o  -o cmTC_95115 -rdynamic 
+Building C object CMakeFiles/cmTC_693e4.dir/testCCompiler.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_693e4.dir/testCCompiler.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_693e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693e4.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_693e4.dir/testCCompiler.c.o  -o cmTC_693e4 -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6ccc9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6ccc9.dir/build.make CMakeFiles/cmTC_6ccc9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a6762/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6762.dir/build.make CMakeFiles/cmTC_a6762.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o
-/usr/bin/mpicc     -o CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_6ccc9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ccc9.dir/link.txt --verbose=1
-/usr/bin/mpicc      -v CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o  -o cmTC_6ccc9 -rdynamic  
-mpicc for MPICH version 3.2
+Building C object CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a6762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6762.dir/link.txt --verbose=1
+/usr/bin/gcc      -v CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o  -o cmTC_a6762 -rdynamic  
 Using built-in specs.
-COLLECT_GCC=gcc
+COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
@@ -275,8 +263,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ccc9' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrCP29A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ccc9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6762' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYZCT7v.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a6762 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -284,17 +272,16 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6ccc9/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6ccc9.dir/build.make CMakeFiles/cmTC_6ccc9.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a6762/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a6762.dir/build.make CMakeFiles/cmTC_a6762.dir/build]
   ignore line: [make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/mpicc     -o CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_6ccc9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ccc9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/mpicc      -v CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o  -o cmTC_6ccc9 -rdynamic  ]
-  ignore line: [mpicc for MPICH version 3.2]
+  ignore line: [Building C object CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc     -o CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a6762]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6762.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -v CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o  -o cmTC_a6762 -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=gcc]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
@@ -302,13 +289,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ccc9' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrCP29A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ccc9 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6762' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYZCT7v.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a6762 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrCP29A.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYZCT7v.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -326,11 +313,10 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6ccc9] ==> ignore
+    arg [cmTC_a6762] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
@@ -339,10 +325,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [-Bsymbolic-functions] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_6ccc9.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lmpich] ==> lib [mpich]
+    arg [CMakeFiles/cmTC_a6762.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -358,7 +341,6 @@ Parsed C implicit link information from above output:
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
@@ -367,8 +349,8 @@ Parsed C implicit link information from above output:
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
-  implicit libs: [mpich;c]
-  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
@@ -377,14 +359,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3070/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3070.dir/build.make CMakeFiles/cmTC_b3070.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6f423/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f423.dir/build.make CMakeFiles/cmTC_6f423.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3070.dir/feature_tests.c.o
-/usr/bin/mpicc    -std=c11 -o CMakeFiles/cmTC_b3070.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b3070
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3070.dir/link.txt --verbose=1
-/usr/bin/mpicc       CMakeFiles/cmTC_b3070.dir/feature_tests.c.o  -o cmTC_b3070 -rdynamic 
+Building C object CMakeFiles/cmTC_6f423.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c11 -o CMakeFiles/cmTC_6f423.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6f423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f423.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_6f423.dir/feature_tests.c.o  -o cmTC_6f423 -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -397,14 +379,14 @@ make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc4ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc4ee.dir/build.make CMakeFiles/cmTC_fc4ee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_714e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_714e6.dir/build.make CMakeFiles/cmTC_714e6.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc4ee.dir/feature_tests.c.o
-/usr/bin/mpicc    -std=c99 -o CMakeFiles/cmTC_fc4ee.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fc4ee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc4ee.dir/link.txt --verbose=1
-/usr/bin/mpicc       CMakeFiles/cmTC_fc4ee.dir/feature_tests.c.o  -o cmTC_fc4ee -rdynamic 
+Building C object CMakeFiles/cmTC_714e6.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c99 -o CMakeFiles/cmTC_714e6.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_714e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_714e6.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_714e6.dir/feature_tests.c.o  -o cmTC_714e6 -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +399,14 @@ make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00349/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00349.dir/build.make CMakeFiles/cmTC_00349.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ee827/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee827.dir/build.make CMakeFiles/cmTC_ee827.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00349.dir/feature_tests.c.o
-/usr/bin/mpicc    -std=c90 -o CMakeFiles/cmTC_00349.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_00349
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00349.dir/link.txt --verbose=1
-/usr/bin/mpicc       CMakeFiles/cmTC_00349.dir/feature_tests.c.o  -o cmTC_00349 -rdynamic 
+Building C object CMakeFiles/cmTC_ee827.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c90 -o CMakeFiles/cmTC_ee827.dir/feature_tests.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ee827
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee827.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_ee827.dir/feature_tests.c.o  -o cmTC_ee827 -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -435,31 +417,30 @@ make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e94e8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e94e8.dir/build.make CMakeFiles/cmTC_e94e8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3f030/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f030.dir/build.make CMakeFiles/cmTC_3f030.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e94e8.dir/testCXXCompiler.cxx.o
-/usr/bin/mpicxx      -o CMakeFiles/cmTC_e94e8.dir/testCXXCompiler.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e94e8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e94e8.dir/link.txt --verbose=1
-/usr/bin/mpicxx        CMakeFiles/cmTC_e94e8.dir/testCXXCompiler.cxx.o  -o cmTC_e94e8 -rdynamic 
+Building CXX object CMakeFiles/cmTC_3f030.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_3f030.dir/testCXXCompiler.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3f030
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f030.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3f030.dir/testCXXCompiler.cxx.o  -o cmTC_3f030 -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a01a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a01a6.dir/build.make CMakeFiles/cmTC_a01a6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0ce4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ce4d.dir/build.make CMakeFiles/cmTC_0ce4d.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/mpicxx      -o CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a01a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a01a6.dir/link.txt --verbose=1
-/usr/bin/mpicxx       -v CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a01a6 -rdynamic  
-mpicxx for MPICH version 3.2
+Building CXX object CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0ce4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ce4d.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0ce4d -rdynamic  
 Using built-in specs.
-COLLECT_GCC=g++
+COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
@@ -467,8 +448,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a01a6' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccloqbYQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a01a6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ce4d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvH2ZpS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0ce4d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -476,17 +457,16 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a01a6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a01a6.dir/build.make CMakeFiles/cmTC_a01a6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0ce4d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0ce4d.dir/build.make CMakeFiles/cmTC_0ce4d.dir/build]
   ignore line: [make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/mpicxx      -o CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a01a6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a01a6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/mpicxx       -v CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a01a6 -rdynamic  ]
-  ignore line: [mpicxx for MPICH version 3.2]
+  ignore line: [Building CXX object CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0ce4d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ce4d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0ce4d -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=g++]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
@@ -494,13 +474,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a01a6' '-rdynamic' '-I' '/usr/include/mpich' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccloqbYQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a01a6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ce4d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvH2ZpS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0ce4d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccloqbYQ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvH2ZpS.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -518,11 +498,10 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a01a6] ==> ignore
+    arg [cmTC_0ce4d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
@@ -531,11 +510,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [-Bsymbolic-functions] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_a01a6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lmpichcxx] ==> lib [mpichcxx]
-    arg [-lmpich] ==> lib [mpich]
+    arg [CMakeFiles/cmTC_0ce4d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -549,7 +524,6 @@ Parsed CXX implicit link information from above output:
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
@@ -558,8 +532,8 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
-  implicit libs: [mpichcxx;mpich;stdc++;m;c]
-  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
@@ -568,14 +542,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0fd55/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0fd55.dir/build.make CMakeFiles/cmTC_0fd55.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_901cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_901cf.dir/build.make CMakeFiles/cmTC_901cf.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0fd55.dir/feature_tests.cxx.o
-/usr/bin/mpicxx     -std=c++14 -o CMakeFiles/cmTC_0fd55.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0fd55
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd55.dir/link.txt --verbose=1
-/usr/bin/mpicxx        CMakeFiles/cmTC_0fd55.dir/feature_tests.cxx.o  -o cmTC_0fd55 -rdynamic 
+Building CXX object CMakeFiles/cmTC_901cf.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_901cf.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_901cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_901cf.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_901cf.dir/feature_tests.cxx.o  -o cmTC_901cf -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -641,14 +615,14 @@ make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69446/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69446.dir/build.make CMakeFiles/cmTC_69446.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cf20d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf20d.dir/build.make CMakeFiles/cmTC_cf20d.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_69446.dir/feature_tests.cxx.o
-/usr/bin/mpicxx     -std=c++11 -o CMakeFiles/cmTC_69446.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_69446
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69446.dir/link.txt --verbose=1
-/usr/bin/mpicxx        CMakeFiles/cmTC_69446.dir/feature_tests.cxx.o  -o cmTC_69446 -rdynamic 
+Building CXX object CMakeFiles/cmTC_cf20d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_cf20d.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cf20d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf20d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_cf20d.dir/feature_tests.cxx.o  -o cmTC_cf20d -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -714,14 +688,14 @@ make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf9a1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf9a1.dir/build.make CMakeFiles/cmTC_cf9a1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f3372/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3372.dir/build.make CMakeFiles/cmTC_f3372.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf9a1.dir/feature_tests.cxx.o
-/usr/bin/mpicxx     -std=c++98 -o CMakeFiles/cmTC_cf9a1.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cf9a1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf9a1.dir/link.txt --verbose=1
-/usr/bin/mpicxx        CMakeFiles/cmTC_cf9a1.dir/feature_tests.cxx.o  -o cmTC_cf9a1 -rdynamic 
+Building CXX object CMakeFiles/cmTC_f3372.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f3372.dir/feature_tests.cxx.o -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f3372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3372.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f3372.dir/feature_tests.cxx.o  -o cmTC_f3372 -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
@@ -802,7 +776,7 @@ make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 /usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
 make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 16%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
-/usr/bin/mpif90  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/gfortran  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
 [ 33%] Linking Fortran static library libVerifyFortran.a
 /usr/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
 /usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
@@ -818,14 +792,14 @@ make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 /usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
 make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 50%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
-/usr/bin/mpicc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
+/usr/bin/gcc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
 [ 66%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
-/usr/bin/mpicc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
+/usr/bin/gcc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
 [ 83%] Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o
-/usr/bin/mpicxx   -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+/usr/bin/c++   -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
 [100%] Linking CXX executable VerifyFortranC
 /usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
-/usr/bin/mpicxx   -O3 -DNDEBUG   CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC libVerifyFortran.a -lmpichfort -lgfortran -lquadmath 
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC libVerifyFortran.a -lgfortran -lquadmath 
 make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
 [100%] Built target VerifyFortranC
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
@@ -835,28 +809,28 @@ make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4edff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4edff.dir/build.make CMakeFiles/cmTC_4edff.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9d9ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d9ec.dir/build.make CMakeFiles/cmTC_9d9ec.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4edff.dir/CheckIncludeFile.c.o
-/usr/bin/mpicc     -o CMakeFiles/cmTC_4edff.dir/CheckIncludeFile.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_4edff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4edff.dir/link.txt --verbose=1
-/usr/bin/mpicc       CMakeFiles/cmTC_4edff.dir/CheckIncludeFile.c.o  -o cmTC_4edff -rdynamic 
+Building C object CMakeFiles/cmTC_9d9ec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_9d9ec.dir/CheckIncludeFile.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9d9ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d9ec.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_9d9ec.dir/CheckIncludeFile.c.o  -o cmTC_9d9ec -rdynamic 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fca37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fca37.dir/build.make CMakeFiles/cmTC_fca37.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_95dae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95dae.dir/build.make CMakeFiles/cmTC_95dae.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fca37.dir/CheckFunctionExists.c.o
-/usr/bin/mpicc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fca37.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fca37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca37.dir/link.txt --verbose=1
-/usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fca37.dir/CheckFunctionExists.c.o  -o cmTC_fca37 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_95dae.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_95dae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95dae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95dae.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_95dae.dir/CheckFunctionExists.c.o  -o cmTC_95dae -rdynamic -lpthread 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/CMakeTmp'
 
 

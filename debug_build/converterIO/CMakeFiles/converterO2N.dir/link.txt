@@ -1,1 +1,1 @@
-/usr/bin/mpicxx   -g   CMakeFiles/converterO2N.dir/converterO2N.cc.o  -o ../bin/converterO2N -rdynamic ../lib/libphastaIO.a -lmpich -lmpichfort -lgfortran -lquadmath 
+/usr/bin/c++   -g   CMakeFiles/converterO2N.dir/converterO2N.cc.o  -o ../bin/converterO2N -rdynamic ../lib/libphastaIO.a -lmpich -lgfortran -lquadmath 

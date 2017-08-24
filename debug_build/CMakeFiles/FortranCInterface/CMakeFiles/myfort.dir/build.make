@@ -60,15 +60,15 @@ include CMakeFiles/myfort.dir/flags.make
 CMakeFiles/myfort.dir/mysub.f.o: CMakeFiles/myfort.dir/flags.make
 CMakeFiles/myfort.dir/mysub.f.o: /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/myfort.dir/mysub.f.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f -o CMakeFiles/myfort.dir/mysub.f.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f -o CMakeFiles/myfort.dir/mysub.f.o
 
 CMakeFiles/myfort.dir/mysub.f.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/myfort.dir/mysub.f.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f > CMakeFiles/myfort.dir/mysub.f.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f > CMakeFiles/myfort.dir/mysub.f.i
 
 CMakeFiles/myfort.dir/mysub.f.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/myfort.dir/mysub.f.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f -o CMakeFiles/myfort.dir/mysub.f.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/mysub.f -o CMakeFiles/myfort.dir/mysub.f.s
 
 CMakeFiles/myfort.dir/mysub.f.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/myfort.dir/mysub.f.o.provides.build: CMakeFiles/myfort.dir/mysub.f.o
 CMakeFiles/myfort.dir/my_sub.f.o: CMakeFiles/myfort.dir/flags.make
 CMakeFiles/myfort.dir/my_sub.f.o: /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/myfort.dir/my_sub.f.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f -o CMakeFiles/myfort.dir/my_sub.f.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f -o CMakeFiles/myfort.dir/my_sub.f.o
 
 CMakeFiles/myfort.dir/my_sub.f.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/myfort.dir/my_sub.f.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f > CMakeFiles/myfort.dir/my_sub.f.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f > CMakeFiles/myfort.dir/my_sub.f.i
 
 CMakeFiles/myfort.dir/my_sub.f.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/myfort.dir/my_sub.f.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f -o CMakeFiles/myfort.dir/my_sub.f.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/my_sub.f -o CMakeFiles/myfort.dir/my_sub.f.s
 
 CMakeFiles/myfort.dir/my_sub.f.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/myfort.dir/my_sub.f.o.provides.build: CMakeFiles/myfort.dir/my_sub.f.
 CMakeFiles/myfort.dir/mymodule.f90.o: CMakeFiles/myfort.dir/flags.make
 CMakeFiles/myfort.dir/mymodule.f90.o: /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object CMakeFiles/myfort.dir/mymodule.f90.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90 -o CMakeFiles/myfort.dir/mymodule.f90.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90 -o CMakeFiles/myfort.dir/mymodule.f90.o
 
 CMakeFiles/myfort.dir/mymodule.f90.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/myfort.dir/mymodule.f90.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90 > CMakeFiles/myfort.dir/mymodule.f90.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90 > CMakeFiles/myfort.dir/mymodule.f90.i
 
 CMakeFiles/myfort.dir/mymodule.f90.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/myfort.dir/mymodule.f90.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90 -o CMakeFiles/myfort.dir/mymodule.f90.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule.f90 -o CMakeFiles/myfort.dir/mymodule.f90.s
 
 CMakeFiles/myfort.dir/mymodule.f90.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/myfort.dir/mymodule.f90.o.provides.build: CMakeFiles/myfort.dir/mymod
 CMakeFiles/myfort.dir/my_module.f90.o: CMakeFiles/myfort.dir/flags.make
 CMakeFiles/myfort.dir/my_module.f90.o: /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object CMakeFiles/myfort.dir/my_module.f90.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90 -o CMakeFiles/myfort.dir/my_module.f90.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90 -o CMakeFiles/myfort.dir/my_module.f90.o
 
 CMakeFiles/myfort.dir/my_module.f90.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/myfort.dir/my_module.f90.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90 > CMakeFiles/myfort.dir/my_module.f90.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90 > CMakeFiles/myfort.dir/my_module.f90.i
 
 CMakeFiles/myfort.dir/my_module.f90.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/myfort.dir/my_module.f90.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90 -o CMakeFiles/myfort.dir/my_module.f90.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/my_module.f90 -o CMakeFiles/myfort.dir/my_module.f90.s
 
 CMakeFiles/myfort.dir/my_module.f90.o.requires:
 

@@ -17,7 +17,7 @@ make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 /usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
 make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 16%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
-/usr/bin/mpif90  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/gfortran  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
 [ 33%] Linking Fortran static library libVerifyFortran.a
 /usr/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
 /usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
@@ -33,14 +33,14 @@ make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/
 /usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
 make[2]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
 [ 50%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
-/usr/bin/mpicc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
+/usr/bin/gcc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
 [ 66%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
-/usr/bin/mpicc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
+/usr/bin/gcc  -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
 [ 83%] Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o
-/usr/bin/mpicxx   -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+/usr/bin/c++   -DVERIFY_CXX -I/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
 [100%] Linking CXX executable VerifyFortranC
 /usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
-/usr/bin/mpicxx   -O3 -DNDEBUG   CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC libVerifyFortran.a -lmpichfort -lgfortran -lquadmath 
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC libVerifyFortran.a -lgfortran -lquadmath 
 make[2]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'
 [100%] Built target VerifyFortranC
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX'

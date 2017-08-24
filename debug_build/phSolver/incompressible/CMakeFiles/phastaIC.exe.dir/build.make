@@ -60,15 +60,15 @@ include phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/flags.make
 phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/main.cc.o: phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/flags.make
 phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/main.cc.o: ../phSolver/incompressible/main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/main.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIC.exe.dir/main.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIC.exe.dir/main.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc
 
 phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phastaIC.exe.dir/main.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc > CMakeFiles/phastaIC.exe.dir/main.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc > CMakeFiles/phastaIC.exe.dir/main.cc.i
 
 phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phastaIC.exe.dir/main.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc -o CMakeFiles/phastaIC.exe.dir/main.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc -o CMakeFiles/phastaIC.exe.dir/main.cc.s
 
 phSolver/incompressible/CMakeFiles/phastaIC.exe.dir/main.cc.o.requires:
 

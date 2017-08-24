@@ -60,15 +60,15 @@ include phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phio_stream.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phio_stream.cc.o: ../phSolver/common/phio_stream.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object phSolver/common/CMakeFiles/common.dir/phio_stream.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phio_stream.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phio_stream.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc
 
 phSolver/common/CMakeFiles/common.dir/phio_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phio_stream.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc > CMakeFiles/common.dir/phio_stream.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc > CMakeFiles/common.dir/phio_stream.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phio_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phio_stream.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc -o CMakeFiles/common.dir/phio_stream.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phio_stream.cc -o CMakeFiles/common.dir/phio_stream.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phio_stream.cc.o.requires:
 
@@ -84,15 +84,15 @@ phSolver/common/CMakeFiles/common.dir/phio_stream.cc.o.provides.build: phSolver/
 phSolver/common/CMakeFiles/common.dir/newshape.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/newshape.cc.o: ../phSolver/common/newshape.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object phSolver/common/CMakeFiles/common.dir/newshape.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/newshape.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/newshape.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc
 
 phSolver/common/CMakeFiles/common.dir/newshape.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/newshape.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc > CMakeFiles/common.dir/newshape.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc > CMakeFiles/common.dir/newshape.cc.i
 
 phSolver/common/CMakeFiles/common.dir/newshape.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/newshape.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc -o CMakeFiles/common.dir/newshape.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/newshape.cc -o CMakeFiles/common.dir/newshape.cc.s
 
 phSolver/common/CMakeFiles/common.dir/newshape.cc.o.requires:
 
@@ -108,15 +108,15 @@ phSolver/common/CMakeFiles/common.dir/newshape.cc.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/streamio.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/streamio.cc.o: ../phSolver/common/streamio.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object phSolver/common/CMakeFiles/common.dir/streamio.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/streamio.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/streamio.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc
 
 phSolver/common/CMakeFiles/common.dir/streamio.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/streamio.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc > CMakeFiles/common.dir/streamio.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc > CMakeFiles/common.dir/streamio.cc.i
 
 phSolver/common/CMakeFiles/common.dir/streamio.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/streamio.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc -o CMakeFiles/common.dir/streamio.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.cc -o CMakeFiles/common.dir/streamio.cc.s
 
 phSolver/common/CMakeFiles/common.dir/streamio.cc.o.requires:
 
@@ -132,15 +132,15 @@ phSolver/common/CMakeFiles/common.dir/streamio.cc.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.o: ../phSolver/common/setsyncioparam.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/setsyncioparam.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/setsyncioparam.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc
 
 phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/setsyncioparam.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc > CMakeFiles/common.dir/setsyncioparam.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc > CMakeFiles/common.dir/setsyncioparam.cc.i
 
 phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/setsyncioparam.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc -o CMakeFiles/common.dir/setsyncioparam.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.cc -o CMakeFiles/common.dir/setsyncioparam.cc.s
 
 phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.o.requires:
 
@@ -156,15 +156,15 @@ phSolver/common/CMakeFiles/common.dir/setsyncioparam.cc.o.provides.build: phSolv
 phSolver/common/CMakeFiles/common.dir/phString.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phString.cc.o: ../phSolver/common/phString.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object phSolver/common/CMakeFiles/common.dir/phString.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phString.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phString.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc
 
 phSolver/common/CMakeFiles/common.dir/phString.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phString.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc > CMakeFiles/common.dir/phString.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc > CMakeFiles/common.dir/phString.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phString.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phString.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc -o CMakeFiles/common.dir/phString.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phString.cc -o CMakeFiles/common.dir/phString.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phString.cc.o.requires:
 
@@ -180,15 +180,15 @@ phSolver/common/CMakeFiles/common.dir/phString.cc.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/phasta.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phasta.cc.o: ../phSolver/common/phasta.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object phSolver/common/CMakeFiles/common.dir/phasta.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phasta.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phasta.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc
 
 phSolver/common/CMakeFiles/common.dir/phasta.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phasta.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc > CMakeFiles/common.dir/phasta.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc > CMakeFiles/common.dir/phasta.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phasta.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phasta.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc -o CMakeFiles/common.dir/phasta.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phasta.cc -o CMakeFiles/common.dir/phasta.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phasta.cc.o.requires:
 
@@ -204,15 +204,15 @@ phSolver/common/CMakeFiles/common.dir/phasta.cc.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/phio_posix.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phio_posix.cc.o: ../phSolver/common/phio_posix.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object phSolver/common/CMakeFiles/common.dir/phio_posix.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phio_posix.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phio_posix.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc
 
 phSolver/common/CMakeFiles/common.dir/phio_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phio_posix.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc > CMakeFiles/common.dir/phio_posix.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc > CMakeFiles/common.dir/phio_posix.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phio_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phio_posix.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc -o CMakeFiles/common.dir/phio_posix.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phio_posix.cc -o CMakeFiles/common.dir/phio_posix.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phio_posix.cc.o.requires:
 
@@ -228,15 +228,15 @@ phSolver/common/CMakeFiles/common.dir/phio_posix.cc.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/phio_sync.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phio_sync.cc.o: ../phSolver/common/phio_sync.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object phSolver/common/CMakeFiles/common.dir/phio_sync.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phio_sync.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phio_sync.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc
 
 phSolver/common/CMakeFiles/common.dir/phio_sync.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phio_sync.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc > CMakeFiles/common.dir/phio_sync.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc > CMakeFiles/common.dir/phio_sync.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phio_sync.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phio_sync.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc -o CMakeFiles/common.dir/phio_sync.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phio_sync.cc -o CMakeFiles/common.dir/phio_sync.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phio_sync.cc.o.requires:
 
@@ -252,15 +252,15 @@ phSolver/common/CMakeFiles/common.dir/phio_sync.cc.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/ValType.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/ValType.cc.o: ../phSolver/common/ValType.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object phSolver/common/CMakeFiles/common.dir/ValType.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/ValType.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/ValType.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc
 
 phSolver/common/CMakeFiles/common.dir/ValType.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/ValType.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc > CMakeFiles/common.dir/ValType.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc > CMakeFiles/common.dir/ValType.cc.i
 
 phSolver/common/CMakeFiles/common.dir/ValType.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/ValType.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc -o CMakeFiles/common.dir/ValType.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ValType.cc -o CMakeFiles/common.dir/ValType.cc.s
 
 phSolver/common/CMakeFiles/common.dir/ValType.cc.o.requires:
 
@@ -276,15 +276,15 @@ phSolver/common/CMakeFiles/common.dir/ValType.cc.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/phIO.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phIO.cc.o: ../phSolver/common/phIO.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object phSolver/common/CMakeFiles/common.dir/phIO.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phIO.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phIO.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc
 
 phSolver/common/CMakeFiles/common.dir/phIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phIO.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc > CMakeFiles/common.dir/phIO.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc > CMakeFiles/common.dir/phIO.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phIO.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc -o CMakeFiles/common.dir/phIO.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.cc -o CMakeFiles/common.dir/phIO.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phIO.cc.o.requires:
 
@@ -300,15 +300,15 @@ phSolver/common/CMakeFiles/common.dir/phIO.cc.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/Cinput.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/Cinput.cc.o: ../phSolver/common/Cinput.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object phSolver/common/CMakeFiles/common.dir/Cinput.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/Cinput.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/Cinput.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc
 
 phSolver/common/CMakeFiles/common.dir/Cinput.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/Cinput.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc > CMakeFiles/common.dir/Cinput.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc > CMakeFiles/common.dir/Cinput.cc.i
 
 phSolver/common/CMakeFiles/common.dir/Cinput.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/Cinput.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc -o CMakeFiles/common.dir/Cinput.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/Cinput.cc -o CMakeFiles/common.dir/Cinput.cc.s
 
 phSolver/common/CMakeFiles/common.dir/Cinput.cc.o.requires:
 
@@ -324,15 +324,15 @@ phSolver/common/CMakeFiles/common.dir/Cinput.cc.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/input_fform.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/input_fform.cc.o: ../phSolver/common/input_fform.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object phSolver/common/CMakeFiles/common.dir/input_fform.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/input_fform.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/input_fform.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc
 
 phSolver/common/CMakeFiles/common.dir/input_fform.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/input_fform.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc > CMakeFiles/common.dir/input_fform.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc > CMakeFiles/common.dir/input_fform.cc.i
 
 phSolver/common/CMakeFiles/common.dir/input_fform.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/input_fform.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc -o CMakeFiles/common.dir/input_fform.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/input_fform.cc -o CMakeFiles/common.dir/input_fform.cc.s
 
 phSolver/common/CMakeFiles/common.dir/input_fform.cc.o.requires:
 
@@ -348,15 +348,15 @@ phSolver/common/CMakeFiles/common.dir/input_fform.cc.o.provides.build: phSolver/
 phSolver/common/CMakeFiles/common.dir/syncio.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/syncio.cc.o: ../phSolver/common/syncio.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object phSolver/common/CMakeFiles/common.dir/syncio.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/syncio.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/syncio.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc
 
 phSolver/common/CMakeFiles/common.dir/syncio.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/syncio.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc > CMakeFiles/common.dir/syncio.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc > CMakeFiles/common.dir/syncio.cc.i
 
 phSolver/common/CMakeFiles/common.dir/syncio.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/syncio.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc -o CMakeFiles/common.dir/syncio.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.cc -o CMakeFiles/common.dir/syncio.cc.s
 
 phSolver/common/CMakeFiles/common.dir/syncio.cc.o.requires:
 
@@ -372,15 +372,15 @@ phSolver/common/CMakeFiles/common.dir/syncio.cc.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/posixio.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/posixio.cc.o: ../phSolver/common/posixio.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object phSolver/common/CMakeFiles/common.dir/posixio.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/posixio.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/posixio.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc
 
 phSolver/common/CMakeFiles/common.dir/posixio.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/posixio.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc > CMakeFiles/common.dir/posixio.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc > CMakeFiles/common.dir/posixio.cc.i
 
 phSolver/common/CMakeFiles/common.dir/posixio.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/posixio.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc -o CMakeFiles/common.dir/posixio.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.cc -o CMakeFiles/common.dir/posixio.cc.s
 
 phSolver/common/CMakeFiles/common.dir/posixio.cc.o.requires:
 
@@ -396,15 +396,15 @@ phSolver/common/CMakeFiles/common.dir/posixio.cc.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/renum.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/renum.f.o: ../phSolver/common/renum.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building Fortran object phSolver/common/CMakeFiles/common.dir/renum.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/renum.f -o CMakeFiles/common.dir/renum.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/renum.f -o CMakeFiles/common.dir/renum.f.o
 
 phSolver/common/CMakeFiles/common.dir/renum.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/renum.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/renum.f > CMakeFiles/common.dir/renum.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/renum.f > CMakeFiles/common.dir/renum.f.i
 
 phSolver/common/CMakeFiles/common.dir/renum.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/renum.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/renum.f -o CMakeFiles/common.dir/renum.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/renum.f -o CMakeFiles/common.dir/renum.f.s
 
 phSolver/common/CMakeFiles/common.dir/renum.f.o.requires:
 
@@ -420,15 +420,15 @@ phSolver/common/CMakeFiles/common.dir/renum.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/bardmc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/bardmc.f.o: ../phSolver/common/bardmc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building Fortran object phSolver/common/CMakeFiles/common.dir/bardmc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/bardmc.f -o CMakeFiles/common.dir/bardmc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/bardmc.f -o CMakeFiles/common.dir/bardmc.f.o
 
 phSolver/common/CMakeFiles/common.dir/bardmc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/bardmc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/bardmc.f > CMakeFiles/common.dir/bardmc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/bardmc.f > CMakeFiles/common.dir/bardmc.f.i
 
 phSolver/common/CMakeFiles/common.dir/bardmc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/bardmc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/bardmc.f -o CMakeFiles/common.dir/bardmc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/bardmc.f -o CMakeFiles/common.dir/bardmc.f.s
 
 phSolver/common/CMakeFiles/common.dir/bardmc.f.o.requires:
 
@@ -444,15 +444,15 @@ phSolver/common/CMakeFiles/common.dir/bardmc.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/elm3keps.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/elm3keps.f.o: ../phSolver/common/elm3keps.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building Fortran object phSolver/common/CMakeFiles/common.dir/elm3keps.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/elm3keps.f -o CMakeFiles/common.dir/elm3keps.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/elm3keps.f -o CMakeFiles/common.dir/elm3keps.f.o
 
 phSolver/common/CMakeFiles/common.dir/elm3keps.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/elm3keps.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/elm3keps.f > CMakeFiles/common.dir/elm3keps.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/elm3keps.f > CMakeFiles/common.dir/elm3keps.f.i
 
 phSolver/common/CMakeFiles/common.dir/elm3keps.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/elm3keps.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/elm3keps.f -o CMakeFiles/common.dir/elm3keps.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/elm3keps.f -o CMakeFiles/common.dir/elm3keps.f.s
 
 phSolver/common/CMakeFiles/common.dir/elm3keps.f.o.requires:
 
@@ -468,15 +468,15 @@ phSolver/common/CMakeFiles/common.dir/elm3keps.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/qpbc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/qpbc.f.o: ../phSolver/common/qpbc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building Fortran object phSolver/common/CMakeFiles/common.dir/qpbc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/qpbc.f -o CMakeFiles/common.dir/qpbc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/qpbc.f -o CMakeFiles/common.dir/qpbc.f.o
 
 phSolver/common/CMakeFiles/common.dir/qpbc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/qpbc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/qpbc.f > CMakeFiles/common.dir/qpbc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/qpbc.f > CMakeFiles/common.dir/qpbc.f.i
 
 phSolver/common/CMakeFiles/common.dir/qpbc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/qpbc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/qpbc.f -o CMakeFiles/common.dir/qpbc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/qpbc.f -o CMakeFiles/common.dir/qpbc.f.s
 
 phSolver/common/CMakeFiles/common.dir/qpbc.f.o.requires:
 
@@ -492,15 +492,15 @@ phSolver/common/CMakeFiles/common.dir/qpbc.f.o.provides.build: phSolver/common/C
 phSolver/common/CMakeFiles/common.dir/posixio.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/posixio.f.o: ../phSolver/common/posixio.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building Fortran object phSolver/common/CMakeFiles/common.dir/posixio.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.f -o CMakeFiles/common.dir/posixio.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.f -o CMakeFiles/common.dir/posixio.f.o
 
 phSolver/common/CMakeFiles/common.dir/posixio.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/posixio.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.f > CMakeFiles/common.dir/posixio.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.f > CMakeFiles/common.dir/posixio.f.i
 
 phSolver/common/CMakeFiles/common.dir/posixio.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/posixio.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.f -o CMakeFiles/common.dir/posixio.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/posixio.f -o CMakeFiles/common.dir/posixio.f.s
 
 phSolver/common/CMakeFiles/common.dir/posixio.f.o.requires:
 
@@ -516,15 +516,15 @@ phSolver/common/CMakeFiles/common.dir/posixio.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/input.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/input.f.o: ../phSolver/common/input.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building Fortran object phSolver/common/CMakeFiles/common.dir/input.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/input.f -o CMakeFiles/common.dir/input.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/input.f -o CMakeFiles/common.dir/input.f.o
 
 phSolver/common/CMakeFiles/common.dir/input.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/input.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/input.f > CMakeFiles/common.dir/input.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/input.f > CMakeFiles/common.dir/input.f.i
 
 phSolver/common/CMakeFiles/common.dir/input.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/input.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/input.f -o CMakeFiles/common.dir/input.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/input.f -o CMakeFiles/common.dir/input.f.s
 
 phSolver/common/CMakeFiles/common.dir/input.f.o.requires:
 
@@ -540,15 +540,15 @@ phSolver/common/CMakeFiles/common.dir/input.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/gensvb.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gensvb.f.o: ../phSolver/common/gensvb.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building Fortran object phSolver/common/CMakeFiles/common.dir/gensvb.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gensvb.f -o CMakeFiles/common.dir/gensvb.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gensvb.f -o CMakeFiles/common.dir/gensvb.f.o
 
 phSolver/common/CMakeFiles/common.dir/gensvb.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/gensvb.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gensvb.f > CMakeFiles/common.dir/gensvb.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gensvb.f > CMakeFiles/common.dir/gensvb.f.i
 
 phSolver/common/CMakeFiles/common.dir/gensvb.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/gensvb.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gensvb.f -o CMakeFiles/common.dir/gensvb.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gensvb.f -o CMakeFiles/common.dir/gensvb.f.s
 
 phSolver/common/CMakeFiles/common.dir/gensvb.f.o.requires:
 
@@ -564,15 +564,15 @@ phSolver/common/CMakeFiles/common.dir/gensvb.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/solvecon.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/solvecon.f.o: ../phSolver/common/solvecon.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building Fortran object phSolver/common/CMakeFiles/common.dir/solvecon.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/solvecon.f -o CMakeFiles/common.dir/solvecon.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/solvecon.f -o CMakeFiles/common.dir/solvecon.f.o
 
 phSolver/common/CMakeFiles/common.dir/solvecon.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/solvecon.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/solvecon.f > CMakeFiles/common.dir/solvecon.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/solvecon.f > CMakeFiles/common.dir/solvecon.f.i
 
 phSolver/common/CMakeFiles/common.dir/solvecon.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/solvecon.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/solvecon.f -o CMakeFiles/common.dir/solvecon.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/solvecon.f -o CMakeFiles/common.dir/solvecon.f.s
 
 phSolver/common/CMakeFiles/common.dir/solvecon.f.o.requires:
 
@@ -588,15 +588,15 @@ phSolver/common/CMakeFiles/common.dir/solvecon.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/BCprofile2.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/BCprofile2.f.o: ../phSolver/common/BCprofile2.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building Fortran object phSolver/common/CMakeFiles/common.dir/BCprofile2.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/BCprofile2.f -o CMakeFiles/common.dir/BCprofile2.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/BCprofile2.f -o CMakeFiles/common.dir/BCprofile2.f.o
 
 phSolver/common/CMakeFiles/common.dir/BCprofile2.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/BCprofile2.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/BCprofile2.f > CMakeFiles/common.dir/BCprofile2.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/BCprofile2.f > CMakeFiles/common.dir/BCprofile2.f.i
 
 phSolver/common/CMakeFiles/common.dir/BCprofile2.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/BCprofile2.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/BCprofile2.f -o CMakeFiles/common.dir/BCprofile2.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/BCprofile2.f -o CMakeFiles/common.dir/BCprofile2.f.s
 
 phSolver/common/CMakeFiles/common.dir/BCprofile2.f.o.requires:
 
@@ -612,15 +612,15 @@ phSolver/common/CMakeFiles/common.dir/BCprofile2.f.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/streamio.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/streamio.f.o: ../phSolver/common/streamio.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building Fortran object phSolver/common/CMakeFiles/common.dir/streamio.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.f -o CMakeFiles/common.dir/streamio.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.f -o CMakeFiles/common.dir/streamio.f.o
 
 phSolver/common/CMakeFiles/common.dir/streamio.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/streamio.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.f > CMakeFiles/common.dir/streamio.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.f > CMakeFiles/common.dir/streamio.f.i
 
 phSolver/common/CMakeFiles/common.dir/streamio.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/streamio.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.f -o CMakeFiles/common.dir/streamio.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/streamio.f -o CMakeFiles/common.dir/streamio.f.s
 
 phSolver/common/CMakeFiles/common.dir/streamio.f.o.requires:
 
@@ -636,15 +636,15 @@ phSolver/common/CMakeFiles/common.dir/streamio.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/commuInt.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/commuInt.f.o: ../phSolver/common/commuInt.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building Fortran object phSolver/common/CMakeFiles/common.dir/commuInt.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/commuInt.f -o CMakeFiles/common.dir/commuInt.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/commuInt.f -o CMakeFiles/common.dir/commuInt.f.o
 
 phSolver/common/CMakeFiles/common.dir/commuInt.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/commuInt.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/commuInt.f > CMakeFiles/common.dir/commuInt.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/commuInt.f > CMakeFiles/common.dir/commuInt.f.i
 
 phSolver/common/CMakeFiles/common.dir/commuInt.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/commuInt.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/commuInt.f -o CMakeFiles/common.dir/commuInt.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/commuInt.f -o CMakeFiles/common.dir/commuInt.f.s
 
 phSolver/common/CMakeFiles/common.dir/commuInt.f.o.requires:
 
@@ -660,15 +660,15 @@ phSolver/common/CMakeFiles/common.dir/commuInt.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/asithf.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/asithf.f.o: ../phSolver/common/asithf.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building Fortran object phSolver/common/CMakeFiles/common.dir/asithf.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asithf.f -o CMakeFiles/common.dir/asithf.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asithf.f -o CMakeFiles/common.dir/asithf.f.o
 
 phSolver/common/CMakeFiles/common.dir/asithf.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/asithf.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asithf.f > CMakeFiles/common.dir/asithf.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asithf.f > CMakeFiles/common.dir/asithf.f.i
 
 phSolver/common/CMakeFiles/common.dir/asithf.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/asithf.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asithf.f -o CMakeFiles/common.dir/asithf.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asithf.f -o CMakeFiles/common.dir/asithf.f.s
 
 phSolver/common/CMakeFiles/common.dir/asithf.f.o.requires:
 
@@ -684,15 +684,15 @@ phSolver/common/CMakeFiles/common.dir/asithf.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.o: ../phSolver/common/mod_BCsfIDmap.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_BCsfIDmap.f -o CMakeFiles/common.dir/mod_BCsfIDmap.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_BCsfIDmap.f -o CMakeFiles/common.dir/mod_BCsfIDmap.f.o
 
 phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mod_BCsfIDmap.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_BCsfIDmap.f > CMakeFiles/common.dir/mod_BCsfIDmap.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_BCsfIDmap.f > CMakeFiles/common.dir/mod_BCsfIDmap.f.i
 
 phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mod_BCsfIDmap.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_BCsfIDmap.f -o CMakeFiles/common.dir/mod_BCsfIDmap.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_BCsfIDmap.f -o CMakeFiles/common.dir/mod_BCsfIDmap.f.s
 
 phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.o.requires:
 
@@ -708,15 +708,15 @@ phSolver/common/CMakeFiles/common.dir/mod_BCsfIDmap.f.o.provides.build: phSolver
 phSolver/common/CMakeFiles/common.dir/phStr.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phStr.f.o: ../phSolver/common/phStr.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building Fortran object phSolver/common/CMakeFiles/common.dir/phStr.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/phStr.f -o CMakeFiles/common.dir/phStr.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/phStr.f -o CMakeFiles/common.dir/phStr.f.o
 
 phSolver/common/CMakeFiles/common.dir/phStr.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/phStr.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phStr.f > CMakeFiles/common.dir/phStr.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phStr.f > CMakeFiles/common.dir/phStr.f.i
 
 phSolver/common/CMakeFiles/common.dir/phStr.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/phStr.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phStr.f -o CMakeFiles/common.dir/phStr.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phStr.f -o CMakeFiles/common.dir/phStr.f.s
 
 phSolver/common/CMakeFiles/common.dir/phStr.f.o.requires:
 
@@ -732,15 +732,15 @@ phSolver/common/CMakeFiles/common.dir/phStr.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/fncorp.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/fncorp.f.o: ../phSolver/common/fncorp.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building Fortran object phSolver/common/CMakeFiles/common.dir/fncorp.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/fncorp.f -o CMakeFiles/common.dir/fncorp.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/fncorp.f -o CMakeFiles/common.dir/fncorp.f.o
 
 phSolver/common/CMakeFiles/common.dir/fncorp.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/fncorp.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/fncorp.f > CMakeFiles/common.dir/fncorp.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/fncorp.f > CMakeFiles/common.dir/fncorp.f.i
 
 phSolver/common/CMakeFiles/common.dir/fncorp.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/fncorp.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/fncorp.f -o CMakeFiles/common.dir/fncorp.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/fncorp.f -o CMakeFiles/common.dir/fncorp.f.s
 
 phSolver/common/CMakeFiles/common.dir/fncorp.f.o.requires:
 
@@ -756,15 +756,15 @@ phSolver/common/CMakeFiles/common.dir/fncorp.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genint.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genint.f.o: ../phSolver/common/genint.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genint.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genint.f -o CMakeFiles/common.dir/genint.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genint.f -o CMakeFiles/common.dir/genint.f.o
 
 phSolver/common/CMakeFiles/common.dir/genint.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genint.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genint.f > CMakeFiles/common.dir/genint.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genint.f > CMakeFiles/common.dir/genint.f.i
 
 phSolver/common/CMakeFiles/common.dir/genint.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genint.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genint.f -o CMakeFiles/common.dir/genint.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genint.f -o CMakeFiles/common.dir/genint.f.s
 
 phSolver/common/CMakeFiles/common.dir/genint.f.o.requires:
 
@@ -780,15 +780,15 @@ phSolver/common/CMakeFiles/common.dir/genint.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genini.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genini.f.o: ../phSolver/common/genini.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genini.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genini.f -o CMakeFiles/common.dir/genini.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genini.f -o CMakeFiles/common.dir/genini.f.o
 
 phSolver/common/CMakeFiles/common.dir/genini.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genini.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genini.f > CMakeFiles/common.dir/genini.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genini.f > CMakeFiles/common.dir/genini.f.i
 
 phSolver/common/CMakeFiles/common.dir/genini.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genini.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genini.f -o CMakeFiles/common.dir/genini.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genini.f -o CMakeFiles/common.dir/genini.f.s
 
 phSolver/common/CMakeFiles/common.dir/genini.f.o.requires:
 
@@ -804,15 +804,15 @@ phSolver/common/CMakeFiles/common.dir/genini.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/ibcupdate.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/ibcupdate.f.o: ../phSolver/common/ibcupdate.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building Fortran object phSolver/common/CMakeFiles/common.dir/ibcupdate.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/ibcupdate.f -o CMakeFiles/common.dir/ibcupdate.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/ibcupdate.f -o CMakeFiles/common.dir/ibcupdate.f.o
 
 phSolver/common/CMakeFiles/common.dir/ibcupdate.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/ibcupdate.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ibcupdate.f > CMakeFiles/common.dir/ibcupdate.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ibcupdate.f > CMakeFiles/common.dir/ibcupdate.f.i
 
 phSolver/common/CMakeFiles/common.dir/ibcupdate.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/ibcupdate.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ibcupdate.f -o CMakeFiles/common.dir/ibcupdate.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ibcupdate.f -o CMakeFiles/common.dir/ibcupdate.f.s
 
 phSolver/common/CMakeFiles/common.dir/ibcupdate.f.o.requires:
 
@@ -828,15 +828,15 @@ phSolver/common/CMakeFiles/common.dir/ibcupdate.f.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/mpiset.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mpiset.f.o: ../phSolver/common/mpiset.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mpiset.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mpiset.f -o CMakeFiles/common.dir/mpiset.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mpiset.f -o CMakeFiles/common.dir/mpiset.f.o
 
 phSolver/common/CMakeFiles/common.dir/mpiset.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mpiset.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mpiset.f > CMakeFiles/common.dir/mpiset.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mpiset.f > CMakeFiles/common.dir/mpiset.f.i
 
 phSolver/common/CMakeFiles/common.dir/mpiset.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mpiset.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mpiset.f -o CMakeFiles/common.dir/mpiset.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mpiset.f -o CMakeFiles/common.dir/mpiset.f.s
 
 phSolver/common/CMakeFiles/common.dir/mpiset.f.o.requires:
 
@@ -852,15 +852,15 @@ phSolver/common/CMakeFiles/common.dir/mpiset.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/dtn.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/dtn.f.o: ../phSolver/common/dtn.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building Fortran object phSolver/common/CMakeFiles/common.dir/dtn.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/dtn.f -o CMakeFiles/common.dir/dtn.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/dtn.f -o CMakeFiles/common.dir/dtn.f.o
 
 phSolver/common/CMakeFiles/common.dir/dtn.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/dtn.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/dtn.f > CMakeFiles/common.dir/dtn.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/dtn.f > CMakeFiles/common.dir/dtn.f.i
 
 phSolver/common/CMakeFiles/common.dir/dtn.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/dtn.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/dtn.f -o CMakeFiles/common.dir/dtn.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/dtn.f -o CMakeFiles/common.dir/dtn.f.s
 
 phSolver/common/CMakeFiles/common.dir/dtn.f.o.requires:
 
@@ -876,15 +876,15 @@ phSolver/common/CMakeFiles/common.dir/dtn.f.o.provides.build: phSolver/common/CM
 phSolver/common/CMakeFiles/common.dir/aveprep.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/aveprep.f.o: ../phSolver/common/aveprep.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building Fortran object phSolver/common/CMakeFiles/common.dir/aveprep.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/aveprep.f -o CMakeFiles/common.dir/aveprep.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/aveprep.f -o CMakeFiles/common.dir/aveprep.f.o
 
 phSolver/common/CMakeFiles/common.dir/aveprep.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/aveprep.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/aveprep.f > CMakeFiles/common.dir/aveprep.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/aveprep.f > CMakeFiles/common.dir/aveprep.f.i
 
 phSolver/common/CMakeFiles/common.dir/aveprep.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/aveprep.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/aveprep.f -o CMakeFiles/common.dir/aveprep.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/aveprep.f -o CMakeFiles/common.dir/aveprep.f.s
 
 phSolver/common/CMakeFiles/common.dir/aveprep.f.o.requires:
 
@@ -900,15 +900,15 @@ phSolver/common/CMakeFiles/common.dir/aveprep.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/pvsqbi.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/pvsqbi.f.o: ../phSolver/common/pvsqbi.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building Fortran object phSolver/common/CMakeFiles/common.dir/pvsqbi.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/pvsqbi.f -o CMakeFiles/common.dir/pvsqbi.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/pvsqbi.f -o CMakeFiles/common.dir/pvsqbi.f.o
 
 phSolver/common/CMakeFiles/common.dir/pvsqbi.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/pvsqbi.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/pvsqbi.f > CMakeFiles/common.dir/pvsqbi.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/pvsqbi.f > CMakeFiles/common.dir/pvsqbi.f.i
 
 phSolver/common/CMakeFiles/common.dir/pvsqbi.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/pvsqbi.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/pvsqbi.f -o CMakeFiles/common.dir/pvsqbi.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/pvsqbi.f -o CMakeFiles/common.dir/pvsqbi.f.s
 
 phSolver/common/CMakeFiles/common.dir/pvsqbi.f.o.requires:
 
@@ -924,15 +924,15 @@ phSolver/common/CMakeFiles/common.dir/pvsqbi.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/ludcmp.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/ludcmp.f.o: ../phSolver/common/ludcmp.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building Fortran object phSolver/common/CMakeFiles/common.dir/ludcmp.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/ludcmp.f -o CMakeFiles/common.dir/ludcmp.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/ludcmp.f -o CMakeFiles/common.dir/ludcmp.f.o
 
 phSolver/common/CMakeFiles/common.dir/ludcmp.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/ludcmp.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ludcmp.f > CMakeFiles/common.dir/ludcmp.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ludcmp.f > CMakeFiles/common.dir/ludcmp.f.i
 
 phSolver/common/CMakeFiles/common.dir/ludcmp.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/ludcmp.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ludcmp.f -o CMakeFiles/common.dir/ludcmp.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ludcmp.f -o CMakeFiles/common.dir/ludcmp.f.s
 
 phSolver/common/CMakeFiles/common.dir/ludcmp.f.o.requires:
 
@@ -948,15 +948,15 @@ phSolver/common/CMakeFiles/common.dir/ludcmp.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.o: ../phSolver/common/setBlowing_Duct.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building Fortran object phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct.f -o CMakeFiles/common.dir/setBlowing_Duct.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct.f -o CMakeFiles/common.dir/setBlowing_Duct.f.o
 
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/setBlowing_Duct.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct.f > CMakeFiles/common.dir/setBlowing_Duct.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct.f > CMakeFiles/common.dir/setBlowing_Duct.f.i
 
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/setBlowing_Duct.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct.f -o CMakeFiles/common.dir/setBlowing_Duct.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct.f -o CMakeFiles/common.dir/setBlowing_Duct.f.s
 
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.o.requires:
 
@@ -972,15 +972,15 @@ phSolver/common/CMakeFiles/common.dir/setBlowing_Duct.f.o.provides.build: phSolv
 phSolver/common/CMakeFiles/common.dir/commu.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/commu.f.o: ../phSolver/common/commu.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building Fortran object phSolver/common/CMakeFiles/common.dir/commu.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/commu.f -o CMakeFiles/common.dir/commu.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/commu.f -o CMakeFiles/common.dir/commu.f.o
 
 phSolver/common/CMakeFiles/common.dir/commu.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/commu.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/commu.f > CMakeFiles/common.dir/commu.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/commu.f > CMakeFiles/common.dir/commu.f.i
 
 phSolver/common/CMakeFiles/common.dir/commu.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/commu.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/commu.f -o CMakeFiles/common.dir/commu.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/commu.f -o CMakeFiles/common.dir/commu.f.s
 
 phSolver/common/CMakeFiles/common.dir/commu.f.o.requires:
 
@@ -996,15 +996,15 @@ phSolver/common/CMakeFiles/common.dir/commu.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/scatnu.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/scatnu.f.o: ../phSolver/common/scatnu.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building Fortran object phSolver/common/CMakeFiles/common.dir/scatnu.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/scatnu.f -o CMakeFiles/common.dir/scatnu.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/scatnu.f -o CMakeFiles/common.dir/scatnu.f.o
 
 phSolver/common/CMakeFiles/common.dir/scatnu.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/scatnu.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/scatnu.f > CMakeFiles/common.dir/scatnu.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/scatnu.f > CMakeFiles/common.dir/scatnu.f.i
 
 phSolver/common/CMakeFiles/common.dir/scatnu.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/scatnu.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/scatnu.f -o CMakeFiles/common.dir/scatnu.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/scatnu.f -o CMakeFiles/common.dir/scatnu.f.s
 
 phSolver/common/CMakeFiles/common.dir/scatnu.f.o.requires:
 
@@ -1020,15 +1020,15 @@ phSolver/common/CMakeFiles/common.dir/scatnu.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.o: ../phSolver/common/get_a_not_hex.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building Fortran object phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/get_a_not_hex.f -o CMakeFiles/common.dir/get_a_not_hex.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/get_a_not_hex.f -o CMakeFiles/common.dir/get_a_not_hex.f.o
 
 phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/get_a_not_hex.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/get_a_not_hex.f > CMakeFiles/common.dir/get_a_not_hex.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/get_a_not_hex.f > CMakeFiles/common.dir/get_a_not_hex.f.i
 
 phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/get_a_not_hex.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/get_a_not_hex.f -o CMakeFiles/common.dir/get_a_not_hex.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/get_a_not_hex.f -o CMakeFiles/common.dir/get_a_not_hex.f.s
 
 phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.o.requires:
 
@@ -1044,15 +1044,15 @@ phSolver/common/CMakeFiles/common.dir/get_a_not_hex.f.o.provides.build: phSolver
 phSolver/common/CMakeFiles/common.dir/hierarchic.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/hierarchic.f.o: ../phSolver/common/hierarchic.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building Fortran object phSolver/common/CMakeFiles/common.dir/hierarchic.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/hierarchic.f -o CMakeFiles/common.dir/hierarchic.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/hierarchic.f -o CMakeFiles/common.dir/hierarchic.f.o
 
 phSolver/common/CMakeFiles/common.dir/hierarchic.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/hierarchic.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/hierarchic.f > CMakeFiles/common.dir/hierarchic.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/hierarchic.f > CMakeFiles/common.dir/hierarchic.f.i
 
 phSolver/common/CMakeFiles/common.dir/hierarchic.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/hierarchic.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/hierarchic.f -o CMakeFiles/common.dir/hierarchic.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/hierarchic.f -o CMakeFiles/common.dir/hierarchic.f.s
 
 phSolver/common/CMakeFiles/common.dir/hierarchic.f.o.requires:
 
@@ -1068,15 +1068,15 @@ phSolver/common/CMakeFiles/common.dir/hierarchic.f.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/ctypes.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/ctypes.f.o: ../phSolver/common/ctypes.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building Fortran object phSolver/common/CMakeFiles/common.dir/ctypes.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/ctypes.f -o CMakeFiles/common.dir/ctypes.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/ctypes.f -o CMakeFiles/common.dir/ctypes.f.o
 
 phSolver/common/CMakeFiles/common.dir/ctypes.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/ctypes.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ctypes.f > CMakeFiles/common.dir/ctypes.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ctypes.f > CMakeFiles/common.dir/ctypes.f.i
 
 phSolver/common/CMakeFiles/common.dir/ctypes.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/ctypes.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ctypes.f -o CMakeFiles/common.dir/ctypes.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ctypes.f -o CMakeFiles/common.dir/ctypes.f.s
 
 phSolver/common/CMakeFiles/common.dir/ctypes.f.o.requires:
 
@@ -1092,15 +1092,15 @@ phSolver/common/CMakeFiles/common.dir/ctypes.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/INIprofile.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/INIprofile.f.o: ../phSolver/common/INIprofile.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building Fortran object phSolver/common/CMakeFiles/common.dir/INIprofile.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/INIprofile.f -o CMakeFiles/common.dir/INIprofile.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/INIprofile.f -o CMakeFiles/common.dir/INIprofile.f.o
 
 phSolver/common/CMakeFiles/common.dir/INIprofile.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/INIprofile.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/INIprofile.f > CMakeFiles/common.dir/INIprofile.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/INIprofile.f > CMakeFiles/common.dir/INIprofile.f.i
 
 phSolver/common/CMakeFiles/common.dir/INIprofile.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/INIprofile.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/INIprofile.f -o CMakeFiles/common.dir/INIprofile.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/INIprofile.f -o CMakeFiles/common.dir/INIprofile.f.s
 
 phSolver/common/CMakeFiles/common.dir/INIprofile.f.o.requires:
 
@@ -1116,15 +1116,15 @@ phSolver/common/CMakeFiles/common.dir/INIprofile.f.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.o: ../phSolver/common/setBlowing_Duct3.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building Fortran object phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct3.f -o CMakeFiles/common.dir/setBlowing_Duct3.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct3.f -o CMakeFiles/common.dir/setBlowing_Duct3.f.o
 
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/setBlowing_Duct3.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct3.f > CMakeFiles/common.dir/setBlowing_Duct3.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct3.f > CMakeFiles/common.dir/setBlowing_Duct3.f.i
 
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/setBlowing_Duct3.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct3.f -o CMakeFiles/common.dir/setBlowing_Duct3.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setBlowing_Duct3.f -o CMakeFiles/common.dir/setBlowing_Duct3.f.s
 
 phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.o.requires:
 
@@ -1140,15 +1140,15 @@ phSolver/common/CMakeFiles/common.dir/setBlowing_Duct3.f.o.provides.build: phSol
 phSolver/common/CMakeFiles/common.dir/elem-search.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/elem-search.f.o: ../phSolver/common/elem-search.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building Fortran object phSolver/common/CMakeFiles/common.dir/elem-search.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/elem-search.f -o CMakeFiles/common.dir/elem-search.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/elem-search.f -o CMakeFiles/common.dir/elem-search.f.o
 
 phSolver/common/CMakeFiles/common.dir/elem-search.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/elem-search.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/elem-search.f > CMakeFiles/common.dir/elem-search.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/elem-search.f > CMakeFiles/common.dir/elem-search.f.i
 
 phSolver/common/CMakeFiles/common.dir/elem-search.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/elem-search.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/elem-search.f -o CMakeFiles/common.dir/elem-search.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/elem-search.f -o CMakeFiles/common.dir/elem-search.f.s
 
 phSolver/common/CMakeFiles/common.dir/elem-search.f.o.requires:
 
@@ -1164,15 +1164,15 @@ phSolver/common/CMakeFiles/common.dir/elem-search.f.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/asbwmod.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/asbwmod.f.o: ../phSolver/common/asbwmod.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building Fortran object phSolver/common/CMakeFiles/common.dir/asbwmod.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asbwmod.f -o CMakeFiles/common.dir/asbwmod.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asbwmod.f -o CMakeFiles/common.dir/asbwmod.f.o
 
 phSolver/common/CMakeFiles/common.dir/asbwmod.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/asbwmod.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asbwmod.f > CMakeFiles/common.dir/asbwmod.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asbwmod.f > CMakeFiles/common.dir/asbwmod.f.i
 
 phSolver/common/CMakeFiles/common.dir/asbwmod.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/asbwmod.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asbwmod.f -o CMakeFiles/common.dir/asbwmod.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asbwmod.f -o CMakeFiles/common.dir/asbwmod.f.s
 
 phSolver/common/CMakeFiles/common.dir/asbwmod.f.o.requires:
 
@@ -1188,15 +1188,15 @@ phSolver/common/CMakeFiles/common.dir/asbwmod.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/genbkb.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genbkb.f.o: ../phSolver/common/genbkb.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genbkb.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbkb.f -o CMakeFiles/common.dir/genbkb.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbkb.f -o CMakeFiles/common.dir/genbkb.f.o
 
 phSolver/common/CMakeFiles/common.dir/genbkb.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genbkb.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbkb.f > CMakeFiles/common.dir/genbkb.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbkb.f > CMakeFiles/common.dir/genbkb.f.i
 
 phSolver/common/CMakeFiles/common.dir/genbkb.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genbkb.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbkb.f -o CMakeFiles/common.dir/genbkb.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbkb.f -o CMakeFiles/common.dir/genbkb.f.s
 
 phSolver/common/CMakeFiles/common.dir/genbkb.f.o.requires:
 
@@ -1212,15 +1212,15 @@ phSolver/common/CMakeFiles/common.dir/genbkb.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/shp10t.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shp10t.f.o: ../phSolver/common/shp10t.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building Fortran object phSolver/common/CMakeFiles/common.dir/shp10t.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/shp10t.f -o CMakeFiles/common.dir/shp10t.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/shp10t.f -o CMakeFiles/common.dir/shp10t.f.o
 
 phSolver/common/CMakeFiles/common.dir/shp10t.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/shp10t.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shp10t.f > CMakeFiles/common.dir/shp10t.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shp10t.f > CMakeFiles/common.dir/shp10t.f.i
 
 phSolver/common/CMakeFiles/common.dir/shp10t.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/shp10t.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shp10t.f -o CMakeFiles/common.dir/shp10t.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shp10t.f -o CMakeFiles/common.dir/shp10t.f.s
 
 phSolver/common/CMakeFiles/common.dir/shp10t.f.o.requires:
 
@@ -1236,15 +1236,15 @@ phSolver/common/CMakeFiles/common.dir/shp10t.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/findslpw.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/findslpw.f.o: ../phSolver/common/findslpw.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building Fortran object phSolver/common/CMakeFiles/common.dir/findslpw.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/findslpw.f -o CMakeFiles/common.dir/findslpw.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/findslpw.f -o CMakeFiles/common.dir/findslpw.f.o
 
 phSolver/common/CMakeFiles/common.dir/findslpw.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/findslpw.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/findslpw.f > CMakeFiles/common.dir/findslpw.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/findslpw.f > CMakeFiles/common.dir/findslpw.f.i
 
 phSolver/common/CMakeFiles/common.dir/findslpw.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/findslpw.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/findslpw.f -o CMakeFiles/common.dir/findslpw.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/findslpw.f -o CMakeFiles/common.dir/findslpw.f.s
 
 phSolver/common/CMakeFiles/common.dir/findslpw.f.o.requires:
 
@@ -1260,15 +1260,15 @@ phSolver/common/CMakeFiles/common.dir/findslpw.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/cmass.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/cmass.f.o: ../phSolver/common/cmass.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building Fortran object phSolver/common/CMakeFiles/common.dir/cmass.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/cmass.f -o CMakeFiles/common.dir/cmass.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/cmass.f -o CMakeFiles/common.dir/cmass.f.o
 
 phSolver/common/CMakeFiles/common.dir/cmass.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/cmass.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/cmass.f > CMakeFiles/common.dir/cmass.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/cmass.f > CMakeFiles/common.dir/cmass.f.i
 
 phSolver/common/CMakeFiles/common.dir/cmass.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/cmass.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/cmass.f -o CMakeFiles/common.dir/cmass.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/cmass.f -o CMakeFiles/common.dir/cmass.f.s
 
 phSolver/common/CMakeFiles/common.dir/cmass.f.o.requires:
 
@@ -1284,15 +1284,15 @@ phSolver/common/CMakeFiles/common.dir/cmass.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/filtprep.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/filtprep.f.o: ../phSolver/common/filtprep.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building Fortran object phSolver/common/CMakeFiles/common.dir/filtprep.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/filtprep.f -o CMakeFiles/common.dir/filtprep.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/filtprep.f -o CMakeFiles/common.dir/filtprep.f.o
 
 phSolver/common/CMakeFiles/common.dir/filtprep.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/filtprep.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/filtprep.f > CMakeFiles/common.dir/filtprep.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/filtprep.f > CMakeFiles/common.dir/filtprep.f.i
 
 phSolver/common/CMakeFiles/common.dir/filtprep.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/filtprep.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/filtprep.f -o CMakeFiles/common.dir/filtprep.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/filtprep.f -o CMakeFiles/common.dir/filtprep.f.s
 
 phSolver/common/CMakeFiles/common.dir/filtprep.f.o.requires:
 
@@ -1308,15 +1308,15 @@ phSolver/common/CMakeFiles/common.dir/filtprep.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/asadj.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/asadj.f.o: ../phSolver/common/asadj.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building Fortran object phSolver/common/CMakeFiles/common.dir/asadj.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asadj.f -o CMakeFiles/common.dir/asadj.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asadj.f -o CMakeFiles/common.dir/asadj.f.o
 
 phSolver/common/CMakeFiles/common.dir/asadj.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/asadj.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asadj.f > CMakeFiles/common.dir/asadj.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asadj.f > CMakeFiles/common.dir/asadj.f.i
 
 phSolver/common/CMakeFiles/common.dir/asadj.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/asadj.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asadj.f -o CMakeFiles/common.dir/asadj.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asadj.f -o CMakeFiles/common.dir/asadj.f.s
 
 phSolver/common/CMakeFiles/common.dir/asadj.f.o.requires:
 
@@ -1332,15 +1332,15 @@ phSolver/common/CMakeFiles/common.dir/asadj.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/rwvelb.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/rwvelb.f.o: ../phSolver/common/rwvelb.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building Fortran object phSolver/common/CMakeFiles/common.dir/rwvelb.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/rwvelb.f -o CMakeFiles/common.dir/rwvelb.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/rwvelb.f -o CMakeFiles/common.dir/rwvelb.f.o
 
 phSolver/common/CMakeFiles/common.dir/rwvelb.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/rwvelb.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/rwvelb.f > CMakeFiles/common.dir/rwvelb.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/rwvelb.f > CMakeFiles/common.dir/rwvelb.f.i
 
 phSolver/common/CMakeFiles/common.dir/rwvelb.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/rwvelb.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/rwvelb.f -o CMakeFiles/common.dir/rwvelb.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/rwvelb.f -o CMakeFiles/common.dir/rwvelb.f.s
 
 phSolver/common/CMakeFiles/common.dir/rwvelb.f.o.requires:
 
@@ -1356,15 +1356,15 @@ phSolver/common/CMakeFiles/common.dir/rwvelb.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/getstrl.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/getstrl.f.o: ../phSolver/common/getstrl.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building Fortran object phSolver/common/CMakeFiles/common.dir/getstrl.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/getstrl.f -o CMakeFiles/common.dir/getstrl.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/getstrl.f -o CMakeFiles/common.dir/getstrl.f.o
 
 phSolver/common/CMakeFiles/common.dir/getstrl.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/getstrl.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getstrl.f > CMakeFiles/common.dir/getstrl.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getstrl.f > CMakeFiles/common.dir/getstrl.f.i
 
 phSolver/common/CMakeFiles/common.dir/getstrl.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/getstrl.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getstrl.f -o CMakeFiles/common.dir/getstrl.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getstrl.f -o CMakeFiles/common.dir/getstrl.f.s
 
 phSolver/common/CMakeFiles/common.dir/getstrl.f.o.requires:
 
@@ -1380,15 +1380,15 @@ phSolver/common/CMakeFiles/common.dir/getstrl.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/asbnabi.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/asbnabi.f.o: ../phSolver/common/asbnabi.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building Fortran object phSolver/common/CMakeFiles/common.dir/asbnabi.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asbnabi.f -o CMakeFiles/common.dir/asbnabi.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/asbnabi.f -o CMakeFiles/common.dir/asbnabi.f.o
 
 phSolver/common/CMakeFiles/common.dir/asbnabi.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/asbnabi.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asbnabi.f > CMakeFiles/common.dir/asbnabi.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/asbnabi.f > CMakeFiles/common.dir/asbnabi.f.i
 
 phSolver/common/CMakeFiles/common.dir/asbnabi.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/asbnabi.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asbnabi.f -o CMakeFiles/common.dir/asbnabi.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/asbnabi.f -o CMakeFiles/common.dir/asbnabi.f.s
 
 phSolver/common/CMakeFiles/common.dir/asbnabi.f.o.requires:
 
@@ -1404,15 +1404,15 @@ phSolver/common/CMakeFiles/common.dir/asbnabi.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/mod_slpw.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mod_slpw.f.o: ../phSolver/common/mod_slpw.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mod_slpw.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_slpw.f -o CMakeFiles/common.dir/mod_slpw.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_slpw.f -o CMakeFiles/common.dir/mod_slpw.f.o
 
 phSolver/common/CMakeFiles/common.dir/mod_slpw.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mod_slpw.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_slpw.f > CMakeFiles/common.dir/mod_slpw.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_slpw.f > CMakeFiles/common.dir/mod_slpw.f.i
 
 phSolver/common/CMakeFiles/common.dir/mod_slpw.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mod_slpw.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_slpw.f -o CMakeFiles/common.dir/mod_slpw.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_slpw.f -o CMakeFiles/common.dir/mod_slpw.f.s
 
 phSolver/common/CMakeFiles/common.dir/mod_slpw.f.o.requires:
 
@@ -1428,15 +1428,15 @@ phSolver/common/CMakeFiles/common.dir/mod_slpw.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/fillsparse.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/fillsparse.f.o: ../phSolver/common/fillsparse.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building Fortran object phSolver/common/CMakeFiles/common.dir/fillsparse.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.f -o CMakeFiles/common.dir/fillsparse.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.f -o CMakeFiles/common.dir/fillsparse.f.o
 
 phSolver/common/CMakeFiles/common.dir/fillsparse.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/fillsparse.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.f > CMakeFiles/common.dir/fillsparse.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.f > CMakeFiles/common.dir/fillsparse.f.i
 
 phSolver/common/CMakeFiles/common.dir/fillsparse.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/fillsparse.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.f -o CMakeFiles/common.dir/fillsparse.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.f -o CMakeFiles/common.dir/fillsparse.f.s
 
 phSolver/common/CMakeFiles/common.dir/fillsparse.f.o.requires:
 
@@ -1452,15 +1452,15 @@ phSolver/common/CMakeFiles/common.dir/fillsparse.f.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/proces.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/proces.f.o: ../phSolver/common/proces.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building Fortran object phSolver/common/CMakeFiles/common.dir/proces.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/proces.f -o CMakeFiles/common.dir/proces.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/proces.f -o CMakeFiles/common.dir/proces.f.o
 
 phSolver/common/CMakeFiles/common.dir/proces.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/proces.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/proces.f > CMakeFiles/common.dir/proces.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/proces.f > CMakeFiles/common.dir/proces.f.i
 
 phSolver/common/CMakeFiles/common.dir/proces.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/proces.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/proces.f -o CMakeFiles/common.dir/proces.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/proces.f -o CMakeFiles/common.dir/proces.f.s
 
 phSolver/common/CMakeFiles/common.dir/proces.f.o.requires:
 
@@ -1476,15 +1476,15 @@ phSolver/common/CMakeFiles/common.dir/proces.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/localy.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/localy.f.o: ../phSolver/common/localy.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building Fortran object phSolver/common/CMakeFiles/common.dir/localy.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/localy.f -o CMakeFiles/common.dir/localy.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/localy.f -o CMakeFiles/common.dir/localy.f.o
 
 phSolver/common/CMakeFiles/common.dir/localy.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/localy.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/localy.f > CMakeFiles/common.dir/localy.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/localy.f > CMakeFiles/common.dir/localy.f.i
 
 phSolver/common/CMakeFiles/common.dir/localy.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/localy.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/localy.f -o CMakeFiles/common.dir/localy.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/localy.f -o CMakeFiles/common.dir/localy.f.s
 
 phSolver/common/CMakeFiles/common.dir/localy.f.o.requires:
 
@@ -1500,15 +1500,15 @@ phSolver/common/CMakeFiles/common.dir/localy.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.o: ../phSolver/common/genbkbPosix.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbPosix.f -o CMakeFiles/common.dir/genbkbPosix.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbPosix.f -o CMakeFiles/common.dir/genbkbPosix.f.o
 
 phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genbkbPosix.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbPosix.f > CMakeFiles/common.dir/genbkbPosix.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbPosix.f > CMakeFiles/common.dir/genbkbPosix.f.i
 
 phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genbkbPosix.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbPosix.f -o CMakeFiles/common.dir/genbkbPosix.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbPosix.f -o CMakeFiles/common.dir/genbkbPosix.f.s
 
 phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.o.requires:
 
@@ -1524,15 +1524,15 @@ phSolver/common/CMakeFiles/common.dir/genbkbPosix.f.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/sonfath.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/sonfath.f.o: ../phSolver/common/sonfath.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building Fortran object phSolver/common/CMakeFiles/common.dir/sonfath.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/sonfath.f -o CMakeFiles/common.dir/sonfath.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/sonfath.f -o CMakeFiles/common.dir/sonfath.f.o
 
 phSolver/common/CMakeFiles/common.dir/sonfath.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/sonfath.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/sonfath.f > CMakeFiles/common.dir/sonfath.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/sonfath.f > CMakeFiles/common.dir/sonfath.f.i
 
 phSolver/common/CMakeFiles/common.dir/sonfath.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/sonfath.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/sonfath.f -o CMakeFiles/common.dir/sonfath.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/sonfath.f -o CMakeFiles/common.dir/sonfath.f.s
 
 phSolver/common/CMakeFiles/common.dir/sonfath.f.o.requires:
 
@@ -1548,15 +1548,15 @@ phSolver/common/CMakeFiles/common.dir/sonfath.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/restar.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/restar.f.o: ../phSolver/common/restar.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building Fortran object phSolver/common/CMakeFiles/common.dir/restar.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/restar.f -o CMakeFiles/common.dir/restar.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/restar.f -o CMakeFiles/common.dir/restar.f.o
 
 phSolver/common/CMakeFiles/common.dir/restar.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/restar.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/restar.f > CMakeFiles/common.dir/restar.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/restar.f > CMakeFiles/common.dir/restar.f.i
 
 phSolver/common/CMakeFiles/common.dir/restar.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/restar.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/restar.f -o CMakeFiles/common.dir/restar.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/restar.f -o CMakeFiles/common.dir/restar.f.s
 
 phSolver/common/CMakeFiles/common.dir/restar.f.o.requires:
 
@@ -1572,15 +1572,15 @@ phSolver/common/CMakeFiles/common.dir/restar.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genshp.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genshp.f.o: ../phSolver/common/genshp.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genshp.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genshp.f -o CMakeFiles/common.dir/genshp.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genshp.f -o CMakeFiles/common.dir/genshp.f.o
 
 phSolver/common/CMakeFiles/common.dir/genshp.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genshp.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genshp.f > CMakeFiles/common.dir/genshp.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genshp.f > CMakeFiles/common.dir/genshp.f.i
 
 phSolver/common/CMakeFiles/common.dir/genshp.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genshp.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genshp.f -o CMakeFiles/common.dir/genshp.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genshp.f -o CMakeFiles/common.dir/genshp.f.s
 
 phSolver/common/CMakeFiles/common.dir/genshp.f.o.requires:
 
@@ -1596,15 +1596,15 @@ phSolver/common/CMakeFiles/common.dir/genshp.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/getvel.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/getvel.f.o: ../phSolver/common/getvel.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building Fortran object phSolver/common/CMakeFiles/common.dir/getvel.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/getvel.f -o CMakeFiles/common.dir/getvel.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/getvel.f -o CMakeFiles/common.dir/getvel.f.o
 
 phSolver/common/CMakeFiles/common.dir/getvel.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/getvel.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getvel.f > CMakeFiles/common.dir/getvel.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getvel.f > CMakeFiles/common.dir/getvel.f.i
 
 phSolver/common/CMakeFiles/common.dir/getvel.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/getvel.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getvel.f -o CMakeFiles/common.dir/getvel.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getvel.f -o CMakeFiles/common.dir/getvel.f.s
 
 phSolver/common/CMakeFiles/common.dir/getvel.f.o.requires:
 
@@ -1620,15 +1620,15 @@ phSolver/common/CMakeFiles/common.dir/getvel.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genblkPosix.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genblkPosix.f.o: ../phSolver/common/genblkPosix.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genblkPosix.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genblkPosix.f -o CMakeFiles/common.dir/genblkPosix.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genblkPosix.f -o CMakeFiles/common.dir/genblkPosix.f.o
 
 phSolver/common/CMakeFiles/common.dir/genblkPosix.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genblkPosix.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genblkPosix.f > CMakeFiles/common.dir/genblkPosix.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genblkPosix.f > CMakeFiles/common.dir/genblkPosix.f.i
 
 phSolver/common/CMakeFiles/common.dir/genblkPosix.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genblkPosix.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genblkPosix.f -o CMakeFiles/common.dir/genblkPosix.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genblkPosix.f -o CMakeFiles/common.dir/genblkPosix.f.s
 
 phSolver/common/CMakeFiles/common.dir/genblkPosix.f.o.requires:
 
@@ -1644,15 +1644,15 @@ phSolver/common/CMakeFiles/common.dir/genblkPosix.f.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/spebc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/spebc.f.o: ../phSolver/common/spebc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building Fortran object phSolver/common/CMakeFiles/common.dir/spebc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/spebc.f -o CMakeFiles/common.dir/spebc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/spebc.f -o CMakeFiles/common.dir/spebc.f.o
 
 phSolver/common/CMakeFiles/common.dir/spebc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/spebc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/spebc.f > CMakeFiles/common.dir/spebc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/spebc.f > CMakeFiles/common.dir/spebc.f.i
 
 phSolver/common/CMakeFiles/common.dir/spebc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/spebc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/spebc.f -o CMakeFiles/common.dir/spebc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/spebc.f -o CMakeFiles/common.dir/spebc.f.s
 
 phSolver/common/CMakeFiles/common.dir/spebc.f.o.requires:
 
@@ -1668,15 +1668,15 @@ phSolver/common/CMakeFiles/common.dir/spebc.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/lubksb.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/lubksb.f.o: ../phSolver/common/lubksb.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building Fortran object phSolver/common/CMakeFiles/common.dir/lubksb.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/lubksb.f -o CMakeFiles/common.dir/lubksb.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/lubksb.f -o CMakeFiles/common.dir/lubksb.f.o
 
 phSolver/common/CMakeFiles/common.dir/lubksb.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/lubksb.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/lubksb.f > CMakeFiles/common.dir/lubksb.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/lubksb.f > CMakeFiles/common.dir/lubksb.f.i
 
 phSolver/common/CMakeFiles/common.dir/lubksb.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/lubksb.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/lubksb.f -o CMakeFiles/common.dir/lubksb.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/lubksb.f -o CMakeFiles/common.dir/lubksb.f.s
 
 phSolver/common/CMakeFiles/common.dir/lubksb.f.o.requires:
 
@@ -1692,15 +1692,15 @@ phSolver/common/CMakeFiles/common.dir/lubksb.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/phIO.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phIO.f.o: ../phSolver/common/phIO.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building Fortran object phSolver/common/CMakeFiles/common.dir/phIO.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.f -o CMakeFiles/common.dir/phIO.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.f -o CMakeFiles/common.dir/phIO.f.o
 
 phSolver/common/CMakeFiles/common.dir/phIO.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/phIO.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.f > CMakeFiles/common.dir/phIO.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.f > CMakeFiles/common.dir/phIO.f.i
 
 phSolver/common/CMakeFiles/common.dir/phIO.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/phIO.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.f -o CMakeFiles/common.dir/phIO.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phIO.f -o CMakeFiles/common.dir/phIO.f.s
 
 phSolver/common/CMakeFiles/common.dir/phIO.f.o.requires:
 
@@ -1716,15 +1716,15 @@ phSolver/common/CMakeFiles/common.dir/phIO.f.o.provides.build: phSolver/common/C
 phSolver/common/CMakeFiles/common.dir/local_mass.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/local_mass.f.o: ../phSolver/common/local_mass.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building Fortran object phSolver/common/CMakeFiles/common.dir/local_mass.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/local_mass.f -o CMakeFiles/common.dir/local_mass.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/local_mass.f -o CMakeFiles/common.dir/local_mass.f.o
 
 phSolver/common/CMakeFiles/common.dir/local_mass.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/local_mass.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/local_mass.f > CMakeFiles/common.dir/local_mass.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/local_mass.f > CMakeFiles/common.dir/local_mass.f.i
 
 phSolver/common/CMakeFiles/common.dir/local_mass.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/local_mass.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/local_mass.f -o CMakeFiles/common.dir/local_mass.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/local_mass.f -o CMakeFiles/common.dir/local_mass.f.s
 
 phSolver/common/CMakeFiles/common.dir/local_mass.f.o.requires:
 
@@ -1740,15 +1740,15 @@ phSolver/common/CMakeFiles/common.dir/local_mass.f.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/perprep.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/perprep.f.o: ../phSolver/common/perprep.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building Fortran object phSolver/common/CMakeFiles/common.dir/perprep.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/perprep.f -o CMakeFiles/common.dir/perprep.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/perprep.f -o CMakeFiles/common.dir/perprep.f.o
 
 phSolver/common/CMakeFiles/common.dir/perprep.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/perprep.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/perprep.f > CMakeFiles/common.dir/perprep.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/perprep.f > CMakeFiles/common.dir/perprep.f.i
 
 phSolver/common/CMakeFiles/common.dir/perprep.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/perprep.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/perprep.f -o CMakeFiles/common.dir/perprep.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/perprep.f -o CMakeFiles/common.dir/perprep.f.s
 
 phSolver/common/CMakeFiles/common.dir/perprep.f.o.requires:
 
@@ -1764,15 +1764,15 @@ phSolver/common/CMakeFiles/common.dir/perprep.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/clear.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/clear.f.o: ../phSolver/common/clear.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building Fortran object phSolver/common/CMakeFiles/common.dir/clear.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/clear.f -o CMakeFiles/common.dir/clear.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/clear.f -o CMakeFiles/common.dir/clear.f.o
 
 phSolver/common/CMakeFiles/common.dir/clear.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/clear.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/clear.f > CMakeFiles/common.dir/clear.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/clear.f > CMakeFiles/common.dir/clear.f.i
 
 phSolver/common/CMakeFiles/common.dir/clear.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/clear.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/clear.f -o CMakeFiles/common.dir/clear.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/clear.f -o CMakeFiles/common.dir/clear.f.s
 
 phSolver/common/CMakeFiles/common.dir/clear.f.o.requires:
 
@@ -1788,15 +1788,15 @@ phSolver/common/CMakeFiles/common.dir/clear.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/genshpb.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genshpb.f.o: ../phSolver/common/genshpb.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genshpb.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genshpb.f -o CMakeFiles/common.dir/genshpb.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genshpb.f -o CMakeFiles/common.dir/genshpb.f.o
 
 phSolver/common/CMakeFiles/common.dir/genshpb.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genshpb.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genshpb.f > CMakeFiles/common.dir/genshpb.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genshpb.f > CMakeFiles/common.dir/genshpb.f.i
 
 phSolver/common/CMakeFiles/common.dir/genshpb.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genshpb.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genshpb.f -o CMakeFiles/common.dir/genshpb.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genshpb.f -o CMakeFiles/common.dir/genshpb.f.s
 
 phSolver/common/CMakeFiles/common.dir/genshpb.f.o.requires:
 
@@ -1812,15 +1812,15 @@ phSolver/common/CMakeFiles/common.dir/genshpb.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/f3lhs.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/f3lhs.f.o: ../phSolver/common/f3lhs.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building Fortran object phSolver/common/CMakeFiles/common.dir/f3lhs.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/f3lhs.f -o CMakeFiles/common.dir/f3lhs.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/f3lhs.f -o CMakeFiles/common.dir/f3lhs.f.o
 
 phSolver/common/CMakeFiles/common.dir/f3lhs.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/f3lhs.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/f3lhs.f > CMakeFiles/common.dir/f3lhs.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/f3lhs.f > CMakeFiles/common.dir/f3lhs.f.i
 
 phSolver/common/CMakeFiles/common.dir/f3lhs.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/f3lhs.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/f3lhs.f -o CMakeFiles/common.dir/f3lhs.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/f3lhs.f -o CMakeFiles/common.dir/f3lhs.f.s
 
 phSolver/common/CMakeFiles/common.dir/f3lhs.f.o.requires:
 
@@ -1836,15 +1836,15 @@ phSolver/common/CMakeFiles/common.dir/f3lhs.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/eqn_plane.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/eqn_plane.f.o: ../phSolver/common/eqn_plane.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building Fortran object phSolver/common/CMakeFiles/common.dir/eqn_plane.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/eqn_plane.f -o CMakeFiles/common.dir/eqn_plane.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/eqn_plane.f -o CMakeFiles/common.dir/eqn_plane.f.o
 
 phSolver/common/CMakeFiles/common.dir/eqn_plane.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/eqn_plane.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/eqn_plane.f > CMakeFiles/common.dir/eqn_plane.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/eqn_plane.f > CMakeFiles/common.dir/eqn_plane.f.i
 
 phSolver/common/CMakeFiles/common.dir/eqn_plane.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/eqn_plane.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/eqn_plane.f -o CMakeFiles/common.dir/eqn_plane.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/eqn_plane.f -o CMakeFiles/common.dir/eqn_plane.f.s
 
 phSolver/common/CMakeFiles/common.dir/eqn_plane.f.o.requires:
 
@@ -1860,15 +1860,15 @@ phSolver/common/CMakeFiles/common.dir/eqn_plane.f.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/gendat.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gendat.f.o: ../phSolver/common/gendat.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building Fortran object phSolver/common/CMakeFiles/common.dir/gendat.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gendat.f -o CMakeFiles/common.dir/gendat.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gendat.f -o CMakeFiles/common.dir/gendat.f.o
 
 phSolver/common/CMakeFiles/common.dir/gendat.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/gendat.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gendat.f > CMakeFiles/common.dir/gendat.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gendat.f > CMakeFiles/common.dir/gendat.f.i
 
 phSolver/common/CMakeFiles/common.dir/gendat.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/gendat.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gendat.f -o CMakeFiles/common.dir/gendat.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gendat.f -o CMakeFiles/common.dir/gendat.f.s
 
 phSolver/common/CMakeFiles/common.dir/gendat.f.o.requires:
 
@@ -1884,15 +1884,15 @@ phSolver/common/CMakeFiles/common.dir/gendat.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/e3metric.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/e3metric.f.o: ../phSolver/common/e3metric.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building Fortran object phSolver/common/CMakeFiles/common.dir/e3metric.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/e3metric.f -o CMakeFiles/common.dir/e3metric.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/e3metric.f -o CMakeFiles/common.dir/e3metric.f.o
 
 phSolver/common/CMakeFiles/common.dir/e3metric.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/e3metric.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/e3metric.f > CMakeFiles/common.dir/e3metric.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/e3metric.f > CMakeFiles/common.dir/e3metric.f.i
 
 phSolver/common/CMakeFiles/common.dir/e3metric.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/e3metric.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/e3metric.f -o CMakeFiles/common.dir/e3metric.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/e3metric.f -o CMakeFiles/common.dir/e3metric.f.s
 
 phSolver/common/CMakeFiles/common.dir/e3metric.f.o.requires:
 
@@ -1908,15 +1908,15 @@ phSolver/common/CMakeFiles/common.dir/e3metric.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.o: ../phSolver/common/mkdir_mod.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mkdir_mod.f -o CMakeFiles/common.dir/mkdir_mod.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mkdir_mod.f -o CMakeFiles/common.dir/mkdir_mod.f.o
 
 phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mkdir_mod.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mkdir_mod.f > CMakeFiles/common.dir/mkdir_mod.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mkdir_mod.f > CMakeFiles/common.dir/mkdir_mod.f.i
 
 phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mkdir_mod.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mkdir_mod.f -o CMakeFiles/common.dir/mkdir_mod.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mkdir_mod.f -o CMakeFiles/common.dir/mkdir_mod.f.s
 
 phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.o.requires:
 
@@ -1932,15 +1932,15 @@ phSolver/common/CMakeFiles/common.dir/mkdir_mod.f.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/rerun_check.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/rerun_check.f.o: ../phSolver/common/rerun_check.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building Fortran object phSolver/common/CMakeFiles/common.dir/rerun_check.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/rerun_check.f -o CMakeFiles/common.dir/rerun_check.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/rerun_check.f -o CMakeFiles/common.dir/rerun_check.f.o
 
 phSolver/common/CMakeFiles/common.dir/rerun_check.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/rerun_check.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/rerun_check.f > CMakeFiles/common.dir/rerun_check.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/rerun_check.f > CMakeFiles/common.dir/rerun_check.f.i
 
 phSolver/common/CMakeFiles/common.dir/rerun_check.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/rerun_check.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/rerun_check.f -o CMakeFiles/common.dir/rerun_check.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/rerun_check.f -o CMakeFiles/common.dir/rerun_check.f.s
 
 phSolver/common/CMakeFiles/common.dir/rerun_check.f.o.requires:
 
@@ -1956,15 +1956,15 @@ phSolver/common/CMakeFiles/common.dir/rerun_check.f.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/error.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/error.f.o: ../phSolver/common/error.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building Fortran object phSolver/common/CMakeFiles/common.dir/error.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/error.f -o CMakeFiles/common.dir/error.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/error.f -o CMakeFiles/common.dir/error.f.o
 
 phSolver/common/CMakeFiles/common.dir/error.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/error.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/error.f > CMakeFiles/common.dir/error.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/error.f > CMakeFiles/common.dir/error.f.i
 
 phSolver/common/CMakeFiles/common.dir/error.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/error.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/error.f -o CMakeFiles/common.dir/error.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/error.f -o CMakeFiles/common.dir/error.f.s
 
 phSolver/common/CMakeFiles/common.dir/error.f.o.requires:
 
@@ -1980,15 +1980,15 @@ phSolver/common/CMakeFiles/common.dir/error.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/getdmc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/getdmc.f.o: ../phSolver/common/getdmc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building Fortran object phSolver/common/CMakeFiles/common.dir/getdmc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/getdmc.f -o CMakeFiles/common.dir/getdmc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/getdmc.f -o CMakeFiles/common.dir/getdmc.f.o
 
 phSolver/common/CMakeFiles/common.dir/getdmc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/getdmc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getdmc.f > CMakeFiles/common.dir/getdmc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getdmc.f > CMakeFiles/common.dir/getdmc.f.i
 
 phSolver/common/CMakeFiles/common.dir/getdmc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/getdmc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getdmc.f -o CMakeFiles/common.dir/getdmc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getdmc.f -o CMakeFiles/common.dir/getdmc.f.s
 
 phSolver/common/CMakeFiles/common.dir/getdmc.f.o.requires:
 
@@ -2004,15 +2004,15 @@ phSolver/common/CMakeFiles/common.dir/getdmc.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genscale.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genscale.f.o: ../phSolver/common/genscale.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genscale.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genscale.f -o CMakeFiles/common.dir/genscale.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genscale.f -o CMakeFiles/common.dir/genscale.f.o
 
 phSolver/common/CMakeFiles/common.dir/genscale.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genscale.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genscale.f > CMakeFiles/common.dir/genscale.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genscale.f > CMakeFiles/common.dir/genscale.f.i
 
 phSolver/common/CMakeFiles/common.dir/genscale.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genscale.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genscale.f -o CMakeFiles/common.dir/genscale.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genscale.f -o CMakeFiles/common.dir/genscale.f.s
 
 phSolver/common/CMakeFiles/common.dir/genscale.f.o.requires:
 
@@ -2028,15 +2028,15 @@ phSolver/common/CMakeFiles/common.dir/genscale.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/findTurbWall.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/findTurbWall.f.o: ../phSolver/common/findTurbWall.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building Fortran object phSolver/common/CMakeFiles/common.dir/findTurbWall.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/findTurbWall.f -o CMakeFiles/common.dir/findTurbWall.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/findTurbWall.f -o CMakeFiles/common.dir/findTurbWall.f.o
 
 phSolver/common/CMakeFiles/common.dir/findTurbWall.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/findTurbWall.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/findTurbWall.f > CMakeFiles/common.dir/findTurbWall.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/findTurbWall.f > CMakeFiles/common.dir/findTurbWall.f.i
 
 phSolver/common/CMakeFiles/common.dir/findTurbWall.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/findTurbWall.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/findTurbWall.f -o CMakeFiles/common.dir/findTurbWall.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/findTurbWall.f -o CMakeFiles/common.dir/findTurbWall.f.s
 
 phSolver/common/CMakeFiles/common.dir/findTurbWall.f.o.requires:
 
@@ -2052,15 +2052,15 @@ phSolver/common/CMakeFiles/common.dir/findTurbWall.f.o.provides.build: phSolver/
 phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.o: ../phSolver/common/mod_blowing_Duct.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_blowing_Duct.f -o CMakeFiles/common.dir/mod_blowing_Duct.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_blowing_Duct.f -o CMakeFiles/common.dir/mod_blowing_Duct.f.o
 
 phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mod_blowing_Duct.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_blowing_Duct.f > CMakeFiles/common.dir/mod_blowing_Duct.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_blowing_Duct.f > CMakeFiles/common.dir/mod_blowing_Duct.f.i
 
 phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mod_blowing_Duct.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_blowing_Duct.f -o CMakeFiles/common.dir/mod_blowing_Duct.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_blowing_Duct.f -o CMakeFiles/common.dir/mod_blowing_Duct.f.s
 
 phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.o.requires:
 
@@ -2076,15 +2076,15 @@ phSolver/common/CMakeFiles/common.dir/mod_blowing_Duct.f.o.provides.build: phSol
 phSolver/common/CMakeFiles/common.dir/gensav.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gensav.f.o: ../phSolver/common/gensav.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building Fortran object phSolver/common/CMakeFiles/common.dir/gensav.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gensav.f -o CMakeFiles/common.dir/gensav.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gensav.f -o CMakeFiles/common.dir/gensav.f.o
 
 phSolver/common/CMakeFiles/common.dir/gensav.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/gensav.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gensav.f > CMakeFiles/common.dir/gensav.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gensav.f > CMakeFiles/common.dir/gensav.f.i
 
 phSolver/common/CMakeFiles/common.dir/gensav.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/gensav.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gensav.f -o CMakeFiles/common.dir/gensav.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gensav.f -o CMakeFiles/common.dir/gensav.f.s
 
 phSolver/common/CMakeFiles/common.dir/gensav.f.o.requires:
 
@@ -2100,15 +2100,15 @@ phSolver/common/CMakeFiles/common.dir/gensav.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genbc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genbc.f.o: ../phSolver/common/genbc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genbc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbc.f -o CMakeFiles/common.dir/genbc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbc.f -o CMakeFiles/common.dir/genbc.f.o
 
 phSolver/common/CMakeFiles/common.dir/genbc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genbc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbc.f > CMakeFiles/common.dir/genbc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbc.f > CMakeFiles/common.dir/genbc.f.i
 
 phSolver/common/CMakeFiles/common.dir/genbc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genbc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbc.f -o CMakeFiles/common.dir/genbc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbc.f -o CMakeFiles/common.dir/genbc.f.s
 
 phSolver/common/CMakeFiles/common.dir/genbc.f.o.requires:
 
@@ -2124,15 +2124,15 @@ phSolver/common/CMakeFiles/common.dir/genbc.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/gettab.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gettab.f.o: ../phSolver/common/gettab.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building Fortran object phSolver/common/CMakeFiles/common.dir/gettab.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gettab.f -o CMakeFiles/common.dir/gettab.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/gettab.f -o CMakeFiles/common.dir/gettab.f.o
 
 phSolver/common/CMakeFiles/common.dir/gettab.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/gettab.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gettab.f > CMakeFiles/common.dir/gettab.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gettab.f > CMakeFiles/common.dir/gettab.f.i
 
 phSolver/common/CMakeFiles/common.dir/gettab.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/gettab.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gettab.f -o CMakeFiles/common.dir/gettab.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gettab.f -o CMakeFiles/common.dir/gettab.f.s
 
 phSolver/common/CMakeFiles/common.dir/gettab.f.o.requires:
 
@@ -2148,15 +2148,15 @@ phSolver/common/CMakeFiles/common.dir/gettab.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genibc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genibc.f.o: ../phSolver/common/genibc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genibc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genibc.f -o CMakeFiles/common.dir/genibc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genibc.f -o CMakeFiles/common.dir/genibc.f.o
 
 phSolver/common/CMakeFiles/common.dir/genibc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genibc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genibc.f > CMakeFiles/common.dir/genibc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genibc.f > CMakeFiles/common.dir/genibc.f.i
 
 phSolver/common/CMakeFiles/common.dir/genibc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genibc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genibc.f -o CMakeFiles/common.dir/genibc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genibc.f -o CMakeFiles/common.dir/genibc.f.s
 
 phSolver/common/CMakeFiles/common.dir/genibc.f.o.requires:
 
@@ -2172,15 +2172,15 @@ phSolver/common/CMakeFiles/common.dir/genibc.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/pointer.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/pointer.f.o: ../phSolver/common/pointer.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building Fortran object phSolver/common/CMakeFiles/common.dir/pointer.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/pointer.f -o CMakeFiles/common.dir/pointer.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/pointer.f -o CMakeFiles/common.dir/pointer.f.o
 
 phSolver/common/CMakeFiles/common.dir/pointer.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/pointer.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/pointer.f > CMakeFiles/common.dir/pointer.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/pointer.f > CMakeFiles/common.dir/pointer.f.i
 
 phSolver/common/CMakeFiles/common.dir/pointer.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/pointer.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/pointer.f -o CMakeFiles/common.dir/pointer.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/pointer.f -o CMakeFiles/common.dir/pointer.f.s
 
 phSolver/common/CMakeFiles/common.dir/pointer.f.o.requires:
 
@@ -2196,15 +2196,15 @@ phSolver/common/CMakeFiles/common.dir/pointer.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/errorsmooth.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/errorsmooth.f.o: ../phSolver/common/errorsmooth.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building Fortran object phSolver/common/CMakeFiles/common.dir/errorsmooth.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/errorsmooth.f -o CMakeFiles/common.dir/errorsmooth.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/errorsmooth.f -o CMakeFiles/common.dir/errorsmooth.f.o
 
 phSolver/common/CMakeFiles/common.dir/errorsmooth.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/errorsmooth.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/errorsmooth.f > CMakeFiles/common.dir/errorsmooth.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/errorsmooth.f > CMakeFiles/common.dir/errorsmooth.f.i
 
 phSolver/common/CMakeFiles/common.dir/errorsmooth.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/errorsmooth.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/errorsmooth.f -o CMakeFiles/common.dir/errorsmooth.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/errorsmooth.f -o CMakeFiles/common.dir/errorsmooth.f.s
 
 phSolver/common/CMakeFiles/common.dir/errorsmooth.f.o.requires:
 
@@ -2220,15 +2220,15 @@ phSolver/common/CMakeFiles/common.dir/errorsmooth.f.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/bctint.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/bctint.f.o: ../phSolver/common/bctint.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building Fortran object phSolver/common/CMakeFiles/common.dir/bctint.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/bctint.f -o CMakeFiles/common.dir/bctint.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/bctint.f -o CMakeFiles/common.dir/bctint.f.o
 
 phSolver/common/CMakeFiles/common.dir/bctint.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/bctint.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/bctint.f > CMakeFiles/common.dir/bctint.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/bctint.f > CMakeFiles/common.dir/bctint.f.i
 
 phSolver/common/CMakeFiles/common.dir/bctint.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/bctint.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/bctint.f -o CMakeFiles/common.dir/bctint.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/bctint.f -o CMakeFiles/common.dir/bctint.f.s
 
 phSolver/common/CMakeFiles/common.dir/bctint.f.o.requires:
 
@@ -2244,15 +2244,15 @@ phSolver/common/CMakeFiles/common.dir/bctint.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genblk.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genblk.f.o: ../phSolver/common/genblk.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genblk.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genblk.f -o CMakeFiles/common.dir/genblk.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genblk.f -o CMakeFiles/common.dir/genblk.f.o
 
 phSolver/common/CMakeFiles/common.dir/genblk.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genblk.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genblk.f > CMakeFiles/common.dir/genblk.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genblk.f > CMakeFiles/common.dir/genblk.f.i
 
 phSolver/common/CMakeFiles/common.dir/genblk.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genblk.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genblk.f -o CMakeFiles/common.dir/genblk.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genblk.f -o CMakeFiles/common.dir/genblk.f.s
 
 phSolver/common/CMakeFiles/common.dir/genblk.f.o.requires:
 
@@ -2268,15 +2268,15 @@ phSolver/common/CMakeFiles/common.dir/genblk.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/rotabc.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/rotabc.f.o: ../phSolver/common/rotabc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building Fortran object phSolver/common/CMakeFiles/common.dir/rotabc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/rotabc.f -o CMakeFiles/common.dir/rotabc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/rotabc.f -o CMakeFiles/common.dir/rotabc.f.o
 
 phSolver/common/CMakeFiles/common.dir/rotabc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/rotabc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/rotabc.f > CMakeFiles/common.dir/rotabc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/rotabc.f > CMakeFiles/common.dir/rotabc.f.i
 
 phSolver/common/CMakeFiles/common.dir/rotabc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/rotabc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/rotabc.f -o CMakeFiles/common.dir/rotabc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/rotabc.f -o CMakeFiles/common.dir/rotabc.f.s
 
 phSolver/common/CMakeFiles/common.dir/rotabc.f.o.requires:
 
@@ -2292,15 +2292,15 @@ phSolver/common/CMakeFiles/common.dir/rotabc.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/turbke.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/turbke.f.o: ../phSolver/common/turbke.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building Fortran object phSolver/common/CMakeFiles/common.dir/turbke.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/turbke.f -o CMakeFiles/common.dir/turbke.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/turbke.f -o CMakeFiles/common.dir/turbke.f.o
 
 phSolver/common/CMakeFiles/common.dir/turbke.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/turbke.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/turbke.f > CMakeFiles/common.dir/turbke.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/turbke.f > CMakeFiles/common.dir/turbke.f.i
 
 phSolver/common/CMakeFiles/common.dir/turbke.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/turbke.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/turbke.f -o CMakeFiles/common.dir/turbke.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/turbke.f -o CMakeFiles/common.dir/turbke.f.s
 
 phSolver/common/CMakeFiles/common.dir/turbke.f.o.requires:
 
@@ -2316,15 +2316,15 @@ phSolver/common/CMakeFiles/common.dir/turbke.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/shp4t.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shp4t.f.o: ../phSolver/common/shp4t.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building Fortran object phSolver/common/CMakeFiles/common.dir/shp4t.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/shp4t.f -o CMakeFiles/common.dir/shp4t.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/shp4t.f -o CMakeFiles/common.dir/shp4t.f.o
 
 phSolver/common/CMakeFiles/common.dir/shp4t.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/shp4t.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shp4t.f > CMakeFiles/common.dir/shp4t.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shp4t.f > CMakeFiles/common.dir/shp4t.f.i
 
 phSolver/common/CMakeFiles/common.dir/shp4t.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/shp4t.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shp4t.f -o CMakeFiles/common.dir/shp4t.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shp4t.f -o CMakeFiles/common.dir/shp4t.f.s
 
 phSolver/common/CMakeFiles/common.dir/shp4t.f.o.requires:
 
@@ -2340,15 +2340,15 @@ phSolver/common/CMakeFiles/common.dir/shp4t.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/readnblk.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/readnblk.f.o: ../phSolver/common/readnblk.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building Fortran object phSolver/common/CMakeFiles/common.dir/readnblk.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/readnblk.f -o CMakeFiles/common.dir/readnblk.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/readnblk.f -o CMakeFiles/common.dir/readnblk.f.o
 
 phSolver/common/CMakeFiles/common.dir/readnblk.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/readnblk.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/readnblk.f > CMakeFiles/common.dir/readnblk.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/readnblk.f > CMakeFiles/common.dir/readnblk.f.i
 
 phSolver/common/CMakeFiles/common.dir/readnblk.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/readnblk.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/readnblk.f -o CMakeFiles/common.dir/readnblk.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/readnblk.f -o CMakeFiles/common.dir/readnblk.f.s
 
 phSolver/common/CMakeFiles/common.dir/readnblk.f.o.requires:
 
@@ -2364,15 +2364,15 @@ phSolver/common/CMakeFiles/common.dir/readnblk.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/slpwBC.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/slpwBC.f.o: ../phSolver/common/slpwBC.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building Fortran object phSolver/common/CMakeFiles/common.dir/slpwBC.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/slpwBC.f -o CMakeFiles/common.dir/slpwBC.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/slpwBC.f -o CMakeFiles/common.dir/slpwBC.f.o
 
 phSolver/common/CMakeFiles/common.dir/slpwBC.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/slpwBC.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/slpwBC.f > CMakeFiles/common.dir/slpwBC.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/slpwBC.f > CMakeFiles/common.dir/slpwBC.f.i
 
 phSolver/common/CMakeFiles/common.dir/slpwBC.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/slpwBC.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/slpwBC.f -o CMakeFiles/common.dir/slpwBC.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/slpwBC.f -o CMakeFiles/common.dir/slpwBC.f.s
 
 phSolver/common/CMakeFiles/common.dir/slpwBC.f.o.requires:
 
@@ -2388,15 +2388,15 @@ phSolver/common/CMakeFiles/common.dir/slpwBC.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genbc1.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genbc1.f.o: ../phSolver/common/genbc1.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genbc1.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbc1.f -o CMakeFiles/common.dir/genbc1.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbc1.f -o CMakeFiles/common.dir/genbc1.f.o
 
 phSolver/common/CMakeFiles/common.dir/genbc1.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genbc1.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbc1.f > CMakeFiles/common.dir/genbc1.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbc1.f > CMakeFiles/common.dir/genbc1.f.i
 
 phSolver/common/CMakeFiles/common.dir/genbc1.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genbc1.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbc1.f -o CMakeFiles/common.dir/genbc1.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbc1.f -o CMakeFiles/common.dir/genbc1.f.s
 
 phSolver/common/CMakeFiles/common.dir/genbc1.f.o.requires:
 
@@ -2412,15 +2412,15 @@ phSolver/common/CMakeFiles/common.dir/genbc1.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/syncio.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/syncio.f.o: ../phSolver/common/syncio.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building Fortran object phSolver/common/CMakeFiles/common.dir/syncio.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.f -o CMakeFiles/common.dir/syncio.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.f -o CMakeFiles/common.dir/syncio.f.o
 
 phSolver/common/CMakeFiles/common.dir/syncio.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/syncio.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.f > CMakeFiles/common.dir/syncio.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.f > CMakeFiles/common.dir/syncio.f.i
 
 phSolver/common/CMakeFiles/common.dir/syncio.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/syncio.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.f -o CMakeFiles/common.dir/syncio.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/syncio.f -o CMakeFiles/common.dir/syncio.f.s
 
 phSolver/common/CMakeFiles/common.dir/syncio.f.o.requires:
 
@@ -2436,15 +2436,15 @@ phSolver/common/CMakeFiles/common.dir/syncio.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.o: ../phSolver/common/genbkbSyncIO.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbSyncIO.f -o CMakeFiles/common.dir/genbkbSyncIO.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbSyncIO.f -o CMakeFiles/common.dir/genbkbSyncIO.f.o
 
 phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genbkbSyncIO.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbSyncIO.f > CMakeFiles/common.dir/genbkbSyncIO.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbSyncIO.f > CMakeFiles/common.dir/genbkbSyncIO.f.i
 
 phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genbkbSyncIO.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbSyncIO.f -o CMakeFiles/common.dir/genbkbSyncIO.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genbkbSyncIO.f -o CMakeFiles/common.dir/genbkbSyncIO.f.s
 
 phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.o.requires:
 
@@ -2460,15 +2460,15 @@ phSolver/common/CMakeFiles/common.dir/genbkbSyncIO.f.o.provides.build: phSolver/
 phSolver/common/CMakeFiles/common.dir/sfID2np.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/sfID2np.f.o: ../phSolver/common/sfID2np.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building Fortran object phSolver/common/CMakeFiles/common.dir/sfID2np.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/sfID2np.f -o CMakeFiles/common.dir/sfID2np.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/sfID2np.f -o CMakeFiles/common.dir/sfID2np.f.o
 
 phSolver/common/CMakeFiles/common.dir/sfID2np.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/sfID2np.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/sfID2np.f > CMakeFiles/common.dir/sfID2np.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/sfID2np.f > CMakeFiles/common.dir/sfID2np.f.i
 
 phSolver/common/CMakeFiles/common.dir/sfID2np.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/sfID2np.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/sfID2np.f -o CMakeFiles/common.dir/sfID2np.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/sfID2np.f -o CMakeFiles/common.dir/sfID2np.f.s
 
 phSolver/common/CMakeFiles/common.dir/sfID2np.f.o.requires:
 
@@ -2484,15 +2484,15 @@ phSolver/common/CMakeFiles/common.dir/sfID2np.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/local.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/local.f.o: ../phSolver/common/local.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building Fortran object phSolver/common/CMakeFiles/common.dir/local.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/local.f -o CMakeFiles/common.dir/local.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/local.f -o CMakeFiles/common.dir/local.f.o
 
 phSolver/common/CMakeFiles/common.dir/local.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/local.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/local.f > CMakeFiles/common.dir/local.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/local.f > CMakeFiles/common.dir/local.f.i
 
 phSolver/common/CMakeFiles/common.dir/local.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/local.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/local.f -o CMakeFiles/common.dir/local.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/local.f -o CMakeFiles/common.dir/local.f.s
 
 phSolver/common/CMakeFiles/common.dir/local.f.o.requires:
 
@@ -2508,15 +2508,15 @@ phSolver/common/CMakeFiles/common.dir/local.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.o: ../phSolver/common/genblkSyncIO.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genblkSyncIO.f -o CMakeFiles/common.dir/genblkSyncIO.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genblkSyncIO.f -o CMakeFiles/common.dir/genblkSyncIO.f.o
 
 phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genblkSyncIO.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genblkSyncIO.f > CMakeFiles/common.dir/genblkSyncIO.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genblkSyncIO.f > CMakeFiles/common.dir/genblkSyncIO.f.i
 
 phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genblkSyncIO.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genblkSyncIO.f -o CMakeFiles/common.dir/genblkSyncIO.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genblkSyncIO.f -o CMakeFiles/common.dir/genblkSyncIO.f.s
 
 phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.o.requires:
 
@@ -2532,15 +2532,15 @@ phSolver/common/CMakeFiles/common.dir/genblkSyncIO.f.o.provides.build: phSolver/
 phSolver/common/CMakeFiles/common.dir/turbsa.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/turbsa.f.o: ../phSolver/common/turbsa.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building Fortran object phSolver/common/CMakeFiles/common.dir/turbsa.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/turbsa.f -o CMakeFiles/common.dir/turbsa.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/turbsa.f -o CMakeFiles/common.dir/turbsa.f.o
 
 phSolver/common/CMakeFiles/common.dir/turbsa.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/turbsa.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/turbsa.f > CMakeFiles/common.dir/turbsa.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/turbsa.f > CMakeFiles/common.dir/turbsa.f.i
 
 phSolver/common/CMakeFiles/common.dir/turbsa.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/turbsa.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/turbsa.f -o CMakeFiles/common.dir/turbsa.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/turbsa.f -o CMakeFiles/common.dir/turbsa.f.s
 
 phSolver/common/CMakeFiles/common.dir/turbsa.f.o.requires:
 
@@ -2556,15 +2556,15 @@ phSolver/common/CMakeFiles/common.dir/turbsa.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/settauw.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/settauw.f.o: ../phSolver/common/settauw.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building Fortran object phSolver/common/CMakeFiles/common.dir/settauw.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/settauw.f -o CMakeFiles/common.dir/settauw.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/settauw.f -o CMakeFiles/common.dir/settauw.f.o
 
 phSolver/common/CMakeFiles/common.dir/settauw.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/settauw.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/settauw.f > CMakeFiles/common.dir/settauw.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/settauw.f > CMakeFiles/common.dir/settauw.f.i
 
 phSolver/common/CMakeFiles/common.dir/settauw.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/settauw.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/settauw.f -o CMakeFiles/common.dir/settauw.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/settauw.f -o CMakeFiles/common.dir/settauw.f.s
 
 phSolver/common/CMakeFiles/common.dir/settauw.f.o.requires:
 
@@ -2580,15 +2580,15 @@ phSolver/common/CMakeFiles/common.dir/settauw.f.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/get_coeff.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/get_coeff.f.o: ../phSolver/common/get_coeff.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building Fortran object phSolver/common/CMakeFiles/common.dir/get_coeff.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/get_coeff.f -o CMakeFiles/common.dir/get_coeff.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/get_coeff.f -o CMakeFiles/common.dir/get_coeff.f.o
 
 phSolver/common/CMakeFiles/common.dir/get_coeff.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/get_coeff.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/get_coeff.f > CMakeFiles/common.dir/get_coeff.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/get_coeff.f > CMakeFiles/common.dir/get_coeff.f.i
 
 phSolver/common/CMakeFiles/common.dir/get_coeff.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/get_coeff.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/get_coeff.f -o CMakeFiles/common.dir/get_coeff.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/get_coeff.f -o CMakeFiles/common.dir/get_coeff.f.s
 
 phSolver/common/CMakeFiles/common.dir/get_coeff.f.o.requires:
 
@@ -2604,15 +2604,15 @@ phSolver/common/CMakeFiles/common.dir/get_coeff.f.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/cname.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/cname.f.o: ../phSolver/common/cname.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building Fortran object phSolver/common/CMakeFiles/common.dir/cname.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/cname.f -o CMakeFiles/common.dir/cname.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/cname.f -o CMakeFiles/common.dir/cname.f.o
 
 phSolver/common/CMakeFiles/common.dir/cname.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/cname.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/cname.f > CMakeFiles/common.dir/cname.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/cname.f > CMakeFiles/common.dir/cname.f.i
 
 phSolver/common/CMakeFiles/common.dir/cname.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/cname.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/cname.f -o CMakeFiles/common.dir/cname.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/cname.f -o CMakeFiles/common.dir/cname.f.s
 
 phSolver/common/CMakeFiles/common.dir/cname.f.o.requires:
 
@@ -2628,15 +2628,15 @@ phSolver/common/CMakeFiles/common.dir/cname.f.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/mpitools.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mpitools.f.o: ../phSolver/common/mpitools.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mpitools.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mpitools.f -o CMakeFiles/common.dir/mpitools.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mpitools.f -o CMakeFiles/common.dir/mpitools.f.o
 
 phSolver/common/CMakeFiles/common.dir/mpitools.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mpitools.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mpitools.f > CMakeFiles/common.dir/mpitools.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mpitools.f > CMakeFiles/common.dir/mpitools.f.i
 
 phSolver/common/CMakeFiles/common.dir/mpitools.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mpitools.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mpitools.f -o CMakeFiles/common.dir/mpitools.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mpitools.f -o CMakeFiles/common.dir/mpitools.f.s
 
 phSolver/common/CMakeFiles/common.dir/mpitools.f.o.requires:
 
@@ -2652,15 +2652,15 @@ phSolver/common/CMakeFiles/common.dir/mpitools.f.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/common.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/common.f.o: ../phSolver/common/common.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building Fortran object phSolver/common/CMakeFiles/common.dir/common.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/common.f -o CMakeFiles/common.dir/common.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/common.f -o CMakeFiles/common.dir/common.f.o
 
 phSolver/common/CMakeFiles/common.dir/common.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/common.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/common.f > CMakeFiles/common.dir/common.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/common.f > CMakeFiles/common.dir/common.f.i
 
 phSolver/common/CMakeFiles/common.dir/common.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/common.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/common.f -o CMakeFiles/common.dir/common.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/common.f -o CMakeFiles/common.dir/common.f.s
 
 phSolver/common/CMakeFiles/common.dir/common.f.o.requires:
 
@@ -2676,15 +2676,15 @@ phSolver/common/CMakeFiles/common.dir/common.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/genadj.f.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/genadj.f.o: ../phSolver/common/genadj.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building Fortran object phSolver/common/CMakeFiles/common.dir/genadj.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genadj.f -o CMakeFiles/common.dir/genadj.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/genadj.f -o CMakeFiles/common.dir/genadj.f.o
 
 phSolver/common/CMakeFiles/common.dir/genadj.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/genadj.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genadj.f > CMakeFiles/common.dir/genadj.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/genadj.f > CMakeFiles/common.dir/genadj.f.i
 
 phSolver/common/CMakeFiles/common.dir/genadj.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/genadj.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genadj.f -o CMakeFiles/common.dir/genadj.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/genadj.f -o CMakeFiles/common.dir/genadj.f.s
 
 phSolver/common/CMakeFiles/common.dir/genadj.f.o.requires:
 
@@ -2700,15 +2700,15 @@ phSolver/common/CMakeFiles/common.dir/genadj.f.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.o: ../phSolver/common/mod_wallData.f90
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building Fortran object phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_wallData.f90 -o CMakeFiles/common.dir/mod_wallData.f90.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/mod_wallData.f90 -o CMakeFiles/common.dir/mod_wallData.f90.o
 
 phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/mod_wallData.f90.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_wallData.f90 > CMakeFiles/common.dir/mod_wallData.f90.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/mod_wallData.f90 > CMakeFiles/common.dir/mod_wallData.f90.i
 
 phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/mod_wallData.f90.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_wallData.f90 -o CMakeFiles/common.dir/mod_wallData.f90.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/mod_wallData.f90 -o CMakeFiles/common.dir/mod_wallData.f90.s
 
 phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.o.requires:
 
@@ -2724,15 +2724,15 @@ phSolver/common/CMakeFiles/common.dir/mod_wallData.f90.o.provides.build: phSolve
 phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.o: ../phSolver/common/setSuction_Duct3.f90
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building Fortran object phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/setSuction_Duct3.f90 -o CMakeFiles/common.dir/setSuction_Duct3.f90.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/setSuction_Duct3.f90 -o CMakeFiles/common.dir/setSuction_Duct3.f90.o
 
 phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/setSuction_Duct3.f90.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setSuction_Duct3.f90 > CMakeFiles/common.dir/setSuction_Duct3.f90.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/setSuction_Duct3.f90 > CMakeFiles/common.dir/setSuction_Duct3.f90.i
 
 phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/setSuction_Duct3.f90.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setSuction_Duct3.f90 -o CMakeFiles/common.dir/setSuction_Duct3.f90.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/setSuction_Duct3.f90 -o CMakeFiles/common.dir/setSuction_Duct3.f90.s
 
 phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.o.requires:
 
@@ -2748,15 +2748,15 @@ phSolver/common/CMakeFiles/common.dir/setSuction_Duct3.f90.o.provides.build: phS
 phSolver/common/CMakeFiles/common.dir/blowerControl.f90.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/blowerControl.f90.o: ../phSolver/common/blowerControl.f90
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building Fortran object phSolver/common/CMakeFiles/common.dir/blowerControl.f90.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/blowerControl.f90 -o CMakeFiles/common.dir/blowerControl.f90.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/common/blowerControl.f90 -o CMakeFiles/common.dir/blowerControl.f90.o
 
 phSolver/common/CMakeFiles/common.dir/blowerControl.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/common.dir/blowerControl.f90.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/blowerControl.f90 > CMakeFiles/common.dir/blowerControl.f90.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/blowerControl.f90 > CMakeFiles/common.dir/blowerControl.f90.i
 
 phSolver/common/CMakeFiles/common.dir/blowerControl.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/common.dir/blowerControl.f90.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/blowerControl.f90 -o CMakeFiles/common.dir/blowerControl.f90.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/blowerControl.f90 -o CMakeFiles/common.dir/blowerControl.f90.s
 
 phSolver/common/CMakeFiles/common.dir/blowerControl.f90.o.requires:
 
@@ -2772,15 +2772,15 @@ phSolver/common/CMakeFiles/common.dir/blowerControl.f90.o.provides.build: phSolv
 phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.o: ../phSolver/common/gen_ncorp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/gen_ncorp.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/gen_ncorp.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c
 
 phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/gen_ncorp.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c > CMakeFiles/common.dir/gen_ncorp.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c > CMakeFiles/common.dir/gen_ncorp.c.i
 
 phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/gen_ncorp.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c -o CMakeFiles/common.dir/gen_ncorp.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c -o CMakeFiles/common.dir/gen_ncorp.c.s
 
 phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.o.requires:
 
@@ -2796,15 +2796,15 @@ phSolver/common/CMakeFiles/common.dir/gen_ncorp.c.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/symtri.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symtri.c.o: ../phSolver/common/symtri.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object phSolver/common/CMakeFiles/common.dir/symtri.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symtri.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symtri.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c
 
 phSolver/common/CMakeFiles/common.dir/symtri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symtri.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c > CMakeFiles/common.dir/symtri.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c > CMakeFiles/common.dir/symtri.c.i
 
 phSolver/common/CMakeFiles/common.dir/symtri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symtri.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c -o CMakeFiles/common.dir/symtri.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c -o CMakeFiles/common.dir/symtri.c.s
 
 phSolver/common/CMakeFiles/common.dir/symtri.c.o.requires:
 
@@ -2820,15 +2820,15 @@ phSolver/common/CMakeFiles/common.dir/symtri.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.o: ../phSolver/common/GaussLegendre1D.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/GaussLegendre1D.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/GaussLegendre1D.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c
 
 phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/GaussLegendre1D.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c > CMakeFiles/common.dir/GaussLegendre1D.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c > CMakeFiles/common.dir/GaussLegendre1D.c.i
 
 phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/GaussLegendre1D.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c -o CMakeFiles/common.dir/GaussLegendre1D.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c -o CMakeFiles/common.dir/GaussLegendre1D.c.s
 
 phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.o.requires:
 
@@ -2844,15 +2844,15 @@ phSolver/common/CMakeFiles/common.dir/GaussLegendre1D.c.o.provides.build: phSolv
 phSolver/common/CMakeFiles/common.dir/sympyr.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/sympyr.c.o: ../phSolver/common/sympyr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object phSolver/common/CMakeFiles/common.dir/sympyr.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/sympyr.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/sympyr.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c
 
 phSolver/common/CMakeFiles/common.dir/sympyr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/sympyr.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c > CMakeFiles/common.dir/sympyr.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c > CMakeFiles/common.dir/sympyr.c.i
 
 phSolver/common/CMakeFiles/common.dir/sympyr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/sympyr.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c -o CMakeFiles/common.dir/sympyr.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c -o CMakeFiles/common.dir/sympyr.c.s
 
 phSolver/common/CMakeFiles/common.dir/sympyr.c.o.requires:
 
@@ -2868,15 +2868,15 @@ phSolver/common/CMakeFiles/common.dir/sympyr.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/tmrc.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/tmrc.c.o: ../phSolver/common/tmrc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object phSolver/common/CMakeFiles/common.dir/tmrc.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/tmrc.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/tmrc.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c
 
 phSolver/common/CMakeFiles/common.dir/tmrc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/tmrc.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c > CMakeFiles/common.dir/tmrc.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c > CMakeFiles/common.dir/tmrc.c.i
 
 phSolver/common/CMakeFiles/common.dir/tmrc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/tmrc.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c -o CMakeFiles/common.dir/tmrc.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c -o CMakeFiles/common.dir/tmrc.c.s
 
 phSolver/common/CMakeFiles/common.dir/tmrc.c.o.requires:
 
@@ -2892,15 +2892,15 @@ phSolver/common/CMakeFiles/common.dir/tmrc.c.o.provides.build: phSolver/common/C
 phSolver/common/CMakeFiles/common.dir/symhex.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symhex.c.o: ../phSolver/common/symhex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object phSolver/common/CMakeFiles/common.dir/symhex.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symhex.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symhex.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c
 
 phSolver/common/CMakeFiles/common.dir/symhex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symhex.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c > CMakeFiles/common.dir/symhex.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c > CMakeFiles/common.dir/symhex.c.i
 
 phSolver/common/CMakeFiles/common.dir/symhex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symhex.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c -o CMakeFiles/common.dir/symhex.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c -o CMakeFiles/common.dir/symhex.c.s
 
 phSolver/common/CMakeFiles/common.dir/symhex.c.o.requires:
 
@@ -2916,15 +2916,15 @@ phSolver/common/CMakeFiles/common.dir/symhex.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/get_time.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/get_time.c.o: ../phSolver/common/get_time.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object phSolver/common/CMakeFiles/common.dir/get_time.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/get_time.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/get_time.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c
 
 phSolver/common/CMakeFiles/common.dir/get_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/get_time.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c > CMakeFiles/common.dir/get_time.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c > CMakeFiles/common.dir/get_time.c.i
 
 phSolver/common/CMakeFiles/common.dir/get_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/get_time.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c -o CMakeFiles/common.dir/get_time.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c -o CMakeFiles/common.dir/get_time.c.s
 
 phSolver/common/CMakeFiles/common.dir/get_time.c.o.requires:
 
@@ -2940,15 +2940,15 @@ phSolver/common/CMakeFiles/common.dir/get_time.c.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.o: ../phSolver/common/GaussLegendreSimplex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/GaussLegendreSimplex.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/GaussLegendreSimplex.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c
 
 phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/GaussLegendreSimplex.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c > CMakeFiles/common.dir/GaussLegendreSimplex.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c > CMakeFiles/common.dir/GaussLegendreSimplex.c.i
 
 phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/GaussLegendreSimplex.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c -o CMakeFiles/common.dir/GaussLegendreSimplex.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c -o CMakeFiles/common.dir/GaussLegendreSimplex.c.s
 
 phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.o.requires:
 
@@ -2964,15 +2964,15 @@ phSolver/common/CMakeFiles/common.dir/GaussLegendreSimplex.c.o.provides.build: p
 phSolver/common/CMakeFiles/common.dir/memoryusage.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/memoryusage.c.o: ../phSolver/common/memoryusage.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object phSolver/common/CMakeFiles/common.dir/memoryusage.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/memoryusage.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/memoryusage.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c
 
 phSolver/common/CMakeFiles/common.dir/memoryusage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/memoryusage.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c > CMakeFiles/common.dir/memoryusage.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c > CMakeFiles/common.dir/memoryusage.c.i
 
 phSolver/common/CMakeFiles/common.dir/memoryusage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/memoryusage.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c -o CMakeFiles/common.dir/memoryusage.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c -o CMakeFiles/common.dir/memoryusage.c.s
 
 phSolver/common/CMakeFiles/common.dir/memoryusage.c.o.requires:
 
@@ -2988,15 +2988,15 @@ phSolver/common/CMakeFiles/common.dir/memoryusage.c.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/symline.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symline.c.o: ../phSolver/common/symline.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object phSolver/common/CMakeFiles/common.dir/symline.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symline.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symline.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symline.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symline.c
 
 phSolver/common/CMakeFiles/common.dir/symline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symline.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symline.c > CMakeFiles/common.dir/symline.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symline.c > CMakeFiles/common.dir/symline.c.i
 
 phSolver/common/CMakeFiles/common.dir/symline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symline.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symline.c -o CMakeFiles/common.dir/symline.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symline.c -o CMakeFiles/common.dir/symline.c.s
 
 phSolver/common/CMakeFiles/common.dir/symline.c.o.requires:
 
@@ -3012,15 +3012,15 @@ phSolver/common/CMakeFiles/common.dir/symline.c.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/symtet.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symtet.c.o: ../phSolver/common/symtet.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object phSolver/common/CMakeFiles/common.dir/symtet.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symtet.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symtet.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c
 
 phSolver/common/CMakeFiles/common.dir/symtet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symtet.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c > CMakeFiles/common.dir/symtet.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c > CMakeFiles/common.dir/symtet.c.i
 
 phSolver/common/CMakeFiles/common.dir/symtet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symtet.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c -o CMakeFiles/common.dir/symtet.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c -o CMakeFiles/common.dir/symtet.c.s
 
 phSolver/common/CMakeFiles/common.dir/symtet.c.o.requires:
 
@@ -3036,15 +3036,15 @@ phSolver/common/CMakeFiles/common.dir/symtet.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/d2wall.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/d2wall.c.o: ../phSolver/common/d2wall.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object phSolver/common/CMakeFiles/common.dir/d2wall.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/d2wall.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/d2wall.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c
 
 phSolver/common/CMakeFiles/common.dir/d2wall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/d2wall.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c > CMakeFiles/common.dir/d2wall.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c > CMakeFiles/common.dir/d2wall.c.i
 
 phSolver/common/CMakeFiles/common.dir/d2wall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/d2wall.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c -o CMakeFiles/common.dir/d2wall.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c -o CMakeFiles/common.dir/d2wall.c.s
 
 phSolver/common/CMakeFiles/common.dir/d2wall.c.o.requires:
 
@@ -3060,15 +3060,15 @@ phSolver/common/CMakeFiles/common.dir/d2wall.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/cycle_count.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/cycle_count.c.o: ../phSolver/common/cycle_count.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object phSolver/common/CMakeFiles/common.dir/cycle_count.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/cycle_count.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/cycle_count.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c
 
 phSolver/common/CMakeFiles/common.dir/cycle_count.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/cycle_count.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c > CMakeFiles/common.dir/cycle_count.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c > CMakeFiles/common.dir/cycle_count.c.i
 
 phSolver/common/CMakeFiles/common.dir/cycle_count.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/cycle_count.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c -o CMakeFiles/common.dir/cycle_count.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c -o CMakeFiles/common.dir/cycle_count.c.s
 
 phSolver/common/CMakeFiles/common.dir/cycle_count.c.o.requires:
 
@@ -3084,15 +3084,15 @@ phSolver/common/CMakeFiles/common.dir/cycle_count.c.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.o: ../phSolver/common/dumbCvariables.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/dumbCvariables.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/dumbCvariables.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c
 
 phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/dumbCvariables.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c > CMakeFiles/common.dir/dumbCvariables.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c > CMakeFiles/common.dir/dumbCvariables.c.i
 
 phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/dumbCvariables.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c -o CMakeFiles/common.dir/dumbCvariables.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c -o CMakeFiles/common.dir/dumbCvariables.c.s
 
 phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.o.requires:
 
@@ -3108,15 +3108,15 @@ phSolver/common/CMakeFiles/common.dir/dumbCvariables.c.o.provides.build: phSolve
 phSolver/common/CMakeFiles/common.dir/symtripyr.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symtripyr.c.o: ../phSolver/common/symtripyr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object phSolver/common/CMakeFiles/common.dir/symtripyr.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symtripyr.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symtripyr.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c
 
 phSolver/common/CMakeFiles/common.dir/symtripyr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symtripyr.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c > CMakeFiles/common.dir/symtripyr.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c > CMakeFiles/common.dir/symtripyr.c.i
 
 phSolver/common/CMakeFiles/common.dir/symtripyr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symtripyr.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c -o CMakeFiles/common.dir/symtripyr.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c -o CMakeFiles/common.dir/symtripyr.c.s
 
 phSolver/common/CMakeFiles/common.dir/symtripyr.c.o.requires:
 
@@ -3132,15 +3132,15 @@ phSolver/common/CMakeFiles/common.dir/symtripyr.c.o.provides.build: phSolver/com
 phSolver/common/CMakeFiles/common.dir/missing_win32.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/missing_win32.c.o: ../phSolver/common/missing_win32.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object phSolver/common/CMakeFiles/common.dir/missing_win32.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/missing_win32.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/missing_win32.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c
 
 phSolver/common/CMakeFiles/common.dir/missing_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/missing_win32.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c > CMakeFiles/common.dir/missing_win32.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c > CMakeFiles/common.dir/missing_win32.c.i
 
 phSolver/common/CMakeFiles/common.dir/missing_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/missing_win32.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c -o CMakeFiles/common.dir/missing_win32.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c -o CMakeFiles/common.dir/missing_win32.c.s
 
 phSolver/common/CMakeFiles/common.dir/missing_win32.c.o.requires:
 
@@ -3156,15 +3156,15 @@ phSolver/common/CMakeFiles/common.dir/missing_win32.c.o.provides.build: phSolver
 phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.o: ../phSolver/common/ph_mkdir.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/ph_mkdir.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/ph_mkdir.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c
 
 phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/ph_mkdir.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c > CMakeFiles/common.dir/ph_mkdir.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c > CMakeFiles/common.dir/ph_mkdir.c.i
 
 phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/ph_mkdir.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c -o CMakeFiles/common.dir/ph_mkdir.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c -o CMakeFiles/common.dir/ph_mkdir.c.s
 
 phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.o.requires:
 
@@ -3180,15 +3180,15 @@ phSolver/common/CMakeFiles/common.dir/ph_mkdir.c.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/symwdg.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symwdg.c.o: ../phSolver/common/symwdg.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object phSolver/common/CMakeFiles/common.dir/symwdg.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symwdg.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symwdg.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c
 
 phSolver/common/CMakeFiles/common.dir/symwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symwdg.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c > CMakeFiles/common.dir/symwdg.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c > CMakeFiles/common.dir/symwdg.c.i
 
 phSolver/common/CMakeFiles/common.dir/symwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symwdg.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c -o CMakeFiles/common.dir/symwdg.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c -o CMakeFiles/common.dir/symwdg.c.s
 
 phSolver/common/CMakeFiles/common.dir/symwdg.c.o.requires:
 
@@ -3204,15 +3204,15 @@ phSolver/common/CMakeFiles/common.dir/symwdg.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.o: ../phSolver/common/ph_mpi_help.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/ph_mpi_help.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/ph_mpi_help.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c
 
 phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/ph_mpi_help.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c > CMakeFiles/common.dir/ph_mpi_help.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c > CMakeFiles/common.dir/ph_mpi_help.c.i
 
 phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/ph_mpi_help.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c -o CMakeFiles/common.dir/ph_mpi_help.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c -o CMakeFiles/common.dir/ph_mpi_help.c.s
 
 phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.o.requires:
 
@@ -3228,15 +3228,15 @@ phSolver/common/CMakeFiles/common.dir/ph_mpi_help.c.o.provides.build: phSolver/c
 phSolver/common/CMakeFiles/common.dir/shppyr.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shppyr.c.o: ../phSolver/common/shppyr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object phSolver/common/CMakeFiles/common.dir/shppyr.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shppyr.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shppyr.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c
 
 phSolver/common/CMakeFiles/common.dir/shppyr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/shppyr.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c > CMakeFiles/common.dir/shppyr.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c > CMakeFiles/common.dir/shppyr.c.i
 
 phSolver/common/CMakeFiles/common.dir/shppyr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/shppyr.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c -o CMakeFiles/common.dir/shppyr.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c -o CMakeFiles/common.dir/shppyr.c.s
 
 phSolver/common/CMakeFiles/common.dir/shppyr.c.o.requires:
 
@@ -3252,15 +3252,15 @@ phSolver/common/CMakeFiles/common.dir/shppyr.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/getIntPnts.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/getIntPnts.c.o: ../phSolver/common/getIntPnts.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object phSolver/common/CMakeFiles/common.dir/getIntPnts.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/getIntPnts.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/getIntPnts.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c
 
 phSolver/common/CMakeFiles/common.dir/getIntPnts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/getIntPnts.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c > CMakeFiles/common.dir/getIntPnts.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c > CMakeFiles/common.dir/getIntPnts.c.i
 
 phSolver/common/CMakeFiles/common.dir/getIntPnts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/getIntPnts.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c -o CMakeFiles/common.dir/getIntPnts.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c -o CMakeFiles/common.dir/getIntPnts.c.s
 
 phSolver/common/CMakeFiles/common.dir/getIntPnts.c.o.requires:
 
@@ -3276,15 +3276,15 @@ phSolver/common/CMakeFiles/common.dir/getIntPnts.c.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/gtnods.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gtnods.c.o: ../phSolver/common/gtnods.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object phSolver/common/CMakeFiles/common.dir/gtnods.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/gtnods.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/gtnods.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c
 
 phSolver/common/CMakeFiles/common.dir/gtnods.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/gtnods.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c > CMakeFiles/common.dir/gtnods.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c > CMakeFiles/common.dir/gtnods.c.i
 
 phSolver/common/CMakeFiles/common.dir/gtnods.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/gtnods.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c -o CMakeFiles/common.dir/gtnods.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c -o CMakeFiles/common.dir/gtnods.c.s
 
 phSolver/common/CMakeFiles/common.dir/gtnods.c.o.requires:
 
@@ -3300,15 +3300,15 @@ phSolver/common/CMakeFiles/common.dir/gtnods.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/fillsparse.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/fillsparse.c.o: ../phSolver/common/fillsparse.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object phSolver/common/CMakeFiles/common.dir/fillsparse.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/fillsparse.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/fillsparse.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c
 
 phSolver/common/CMakeFiles/common.dir/fillsparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/fillsparse.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c > CMakeFiles/common.dir/fillsparse.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c > CMakeFiles/common.dir/fillsparse.c.i
 
 phSolver/common/CMakeFiles/common.dir/fillsparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/fillsparse.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c -o CMakeFiles/common.dir/fillsparse.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c -o CMakeFiles/common.dir/fillsparse.c.s
 
 phSolver/common/CMakeFiles/common.dir/fillsparse.c.o.requires:
 
@@ -3324,15 +3324,15 @@ phSolver/common/CMakeFiles/common.dir/fillsparse.c.o.provides.build: phSolver/co
 phSolver/common/CMakeFiles/common.dir/shptet.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shptet.c.o: ../phSolver/common/shptet.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object phSolver/common/CMakeFiles/common.dir/shptet.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shptet.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shptet.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c
 
 phSolver/common/CMakeFiles/common.dir/shptet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/shptet.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c > CMakeFiles/common.dir/shptet.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c > CMakeFiles/common.dir/shptet.c.i
 
 phSolver/common/CMakeFiles/common.dir/shptet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/shptet.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c -o CMakeFiles/common.dir/shptet.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c -o CMakeFiles/common.dir/shptet.c.s
 
 phSolver/common/CMakeFiles/common.dir/shptet.c.o.requires:
 
@@ -3348,15 +3348,15 @@ phSolver/common/CMakeFiles/common.dir/shptet.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/new_interface.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/new_interface.c.o: ../phSolver/common/new_interface.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object phSolver/common/CMakeFiles/common.dir/new_interface.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/new_interface.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/new_interface.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c
 
 phSolver/common/CMakeFiles/common.dir/new_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/new_interface.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c > CMakeFiles/common.dir/new_interface.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c > CMakeFiles/common.dir/new_interface.c.i
 
 phSolver/common/CMakeFiles/common.dir/new_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/new_interface.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c -o CMakeFiles/common.dir/new_interface.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c -o CMakeFiles/common.dir/new_interface.c.s
 
 phSolver/common/CMakeFiles/common.dir/new_interface.c.o.requires:
 
@@ -3372,15 +3372,15 @@ phSolver/common/CMakeFiles/common.dir/new_interface.c.o.provides.build: phSolver
 phSolver/common/CMakeFiles/common.dir/shp6w.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shp6w.c.o: ../phSolver/common/shp6w.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object phSolver/common/CMakeFiles/common.dir/shp6w.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shp6w.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shp6w.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c
 
 phSolver/common/CMakeFiles/common.dir/shp6w.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/shp6w.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c > CMakeFiles/common.dir/shp6w.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c > CMakeFiles/common.dir/shp6w.c.i
 
 phSolver/common/CMakeFiles/common.dir/shp6w.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/shp6w.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c -o CMakeFiles/common.dir/shp6w.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c -o CMakeFiles/common.dir/shp6w.c.s
 
 phSolver/common/CMakeFiles/common.dir/shp6w.c.o.requires:
 
@@ -3396,15 +3396,15 @@ phSolver/common/CMakeFiles/common.dir/shp6w.c.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/symquadw.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symquadw.c.o: ../phSolver/common/symquadw.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object phSolver/common/CMakeFiles/common.dir/symquadw.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symquadw.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symquadw.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c
 
 phSolver/common/CMakeFiles/common.dir/symquadw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symquadw.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c > CMakeFiles/common.dir/symquadw.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c > CMakeFiles/common.dir/symquadw.c.i
 
 phSolver/common/CMakeFiles/common.dir/symquadw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symquadw.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c -o CMakeFiles/common.dir/symquadw.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c -o CMakeFiles/common.dir/symquadw.c.s
 
 phSolver/common/CMakeFiles/common.dir/symquadw.c.o.requires:
 
@@ -3420,15 +3420,15 @@ phSolver/common/CMakeFiles/common.dir/symquadw.c.o.provides.build: phSolver/comm
 phSolver/common/CMakeFiles/common.dir/symquad.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/symquad.c.o: ../phSolver/common/symquad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object phSolver/common/CMakeFiles/common.dir/symquad.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symquad.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/symquad.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c
 
 phSolver/common/CMakeFiles/common.dir/symquad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/symquad.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c > CMakeFiles/common.dir/symquad.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c > CMakeFiles/common.dir/symquad.c.i
 
 phSolver/common/CMakeFiles/common.dir/symquad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/symquad.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c -o CMakeFiles/common.dir/symquad.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c -o CMakeFiles/common.dir/symquad.c.s
 
 phSolver/common/CMakeFiles/common.dir/symquad.c.o.requires:
 
@@ -3444,15 +3444,15 @@ phSolver/common/CMakeFiles/common.dir/symquad.c.o.provides.build: phSolver/commo
 phSolver/common/CMakeFiles/common.dir/gltri.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/gltri.c.o: ../phSolver/common/gltri.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object phSolver/common/CMakeFiles/common.dir/gltri.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/gltri.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/gltri.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c
 
 phSolver/common/CMakeFiles/common.dir/gltri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/gltri.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c > CMakeFiles/common.dir/gltri.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c > CMakeFiles/common.dir/gltri.c.i
 
 phSolver/common/CMakeFiles/common.dir/gltri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/gltri.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c -o CMakeFiles/common.dir/gltri.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c -o CMakeFiles/common.dir/gltri.c.s
 
 phSolver/common/CMakeFiles/common.dir/gltri.c.o.requires:
 
@@ -3468,15 +3468,15 @@ phSolver/common/CMakeFiles/common.dir/gltri.c.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/shphex.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shphex.c.o: ../phSolver/common/shphex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object phSolver/common/CMakeFiles/common.dir/shphex.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shphex.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shphex.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c
 
 phSolver/common/CMakeFiles/common.dir/shphex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/shphex.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c > CMakeFiles/common.dir/shphex.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c > CMakeFiles/common.dir/shphex.c.i
 
 phSolver/common/CMakeFiles/common.dir/shphex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/shphex.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c -o CMakeFiles/common.dir/shphex.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c -o CMakeFiles/common.dir/shphex.c.s
 
 phSolver/common/CMakeFiles/common.dir/shphex.c.o.requires:
 
@@ -3492,15 +3492,15 @@ phSolver/common/CMakeFiles/common.dir/shphex.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/flush.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/flush.c.o: ../phSolver/common/flush.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object phSolver/common/CMakeFiles/common.dir/flush.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/flush.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/flush.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/flush.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/flush.c
 
 phSolver/common/CMakeFiles/common.dir/flush.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/flush.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/flush.c > CMakeFiles/common.dir/flush.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/flush.c > CMakeFiles/common.dir/flush.c.i
 
 phSolver/common/CMakeFiles/common.dir/flush.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/flush.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/flush.c -o CMakeFiles/common.dir/flush.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/flush.c -o CMakeFiles/common.dir/flush.c.s
 
 phSolver/common/CMakeFiles/common.dir/flush.c.o.requires:
 
@@ -3516,15 +3516,15 @@ phSolver/common/CMakeFiles/common.dir/flush.c.o.provides.build: phSolver/common/
 phSolver/common/CMakeFiles/common.dir/shptri.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/shptri.c.o: ../phSolver/common/shptri.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object phSolver/common/CMakeFiles/common.dir/shptri.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shptri.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/shptri.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c
 
 phSolver/common/CMakeFiles/common.dir/shptri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/shptri.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c > CMakeFiles/common.dir/shptri.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c > CMakeFiles/common.dir/shptri.c.i
 
 phSolver/common/CMakeFiles/common.dir/shptri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/shptri.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c -o CMakeFiles/common.dir/shptri.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c -o CMakeFiles/common.dir/shptri.c.s
 
 phSolver/common/CMakeFiles/common.dir/shptri.c.o.requires:
 
@@ -3540,15 +3540,15 @@ phSolver/common/CMakeFiles/common.dir/shptri.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/phComm.c.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phComm.c.o: ../phSolver/common/phComm.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object phSolver/common/CMakeFiles/common.dir/phComm.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/phComm.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/common.dir/phComm.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c
 
 phSolver/common/CMakeFiles/common.dir/phComm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/phComm.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c > CMakeFiles/common.dir/phComm.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c > CMakeFiles/common.dir/phComm.c.i
 
 phSolver/common/CMakeFiles/common.dir/phComm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/phComm.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c -o CMakeFiles/common.dir/phComm.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c -o CMakeFiles/common.dir/phComm.c.s
 
 phSolver/common/CMakeFiles/common.dir/phComm.c.o.requires:
 
@@ -3564,15 +3564,15 @@ phSolver/common/CMakeFiles/common.dir/phComm.c.o.provides.build: phSolver/common
 phSolver/common/CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.o: phSolver/common/CMakeFiles/common.dir/flags.make
 phSolver/common/CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.o: ../phSolver/common/phstreamEmpty/phstreamEmpty.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object phSolver/common/CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc
 
 phSolver/common/CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc > CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc > CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.i
 
 phSolver/common/CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc -o CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/common/phstreamEmpty/phstreamEmpty.cc -o CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.s
 
 phSolver/common/CMakeFiles/common.dir/phstreamEmpty/phstreamEmpty.cc.o.requires:
 

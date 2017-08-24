@@ -60,15 +60,15 @@ include converterIO/CMakeFiles/converterN2O.dir/flags.make
 converterIO/CMakeFiles/converterN2O.dir/converterN2O.cc.o: converterIO/CMakeFiles/converterN2O.dir/flags.make
 converterIO/CMakeFiles/converterN2O.dir/converterN2O.cc.o: ../converterIO/converterN2O.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object converterIO/CMakeFiles/converterN2O.dir/converterN2O.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/converterIO && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/converterN2O.dir/converterN2O.cc.o -c /home/erpe8051/PHASTA_Forked/converterIO/converterN2O.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/converterIO && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/converterN2O.dir/converterN2O.cc.o -c /home/erpe8051/PHASTA_Forked/converterIO/converterN2O.cc
 
 converterIO/CMakeFiles/converterN2O.dir/converterN2O.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/converterN2O.dir/converterN2O.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/converterIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/converterIO/converterN2O.cc > CMakeFiles/converterN2O.dir/converterN2O.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/converterIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/converterIO/converterN2O.cc > CMakeFiles/converterN2O.dir/converterN2O.cc.i
 
 converterIO/CMakeFiles/converterN2O.dir/converterN2O.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/converterN2O.dir/converterN2O.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/converterIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/converterIO/converterN2O.cc -o CMakeFiles/converterN2O.dir/converterN2O.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/converterIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/converterIO/converterN2O.cc -o CMakeFiles/converterN2O.dir/converterN2O.cc.s
 
 converterIO/CMakeFiles/converterN2O.dir/converterN2O.cc.o.requires:
 

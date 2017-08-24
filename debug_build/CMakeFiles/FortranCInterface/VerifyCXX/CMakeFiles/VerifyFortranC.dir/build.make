@@ -63,15 +63,15 @@ include CMakeFiles/VerifyFortranC.dir/flags.make
 CMakeFiles/VerifyFortranC.dir/main.c.o: CMakeFiles/VerifyFortranC.dir/flags.make
 CMakeFiles/VerifyFortranC.dir/main.c.o: /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/VerifyFortranC.dir/main.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c
 
 CMakeFiles/VerifyFortranC.dir/main.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/VerifyFortranC.dir/main.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c > CMakeFiles/VerifyFortranC.dir/main.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c > CMakeFiles/VerifyFortranC.dir/main.c.i
 
 CMakeFiles/VerifyFortranC.dir/main.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/VerifyFortranC.dir/main.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c -o CMakeFiles/VerifyFortranC.dir/main.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/main.c -o CMakeFiles/VerifyFortranC.dir/main.c.s
 
 CMakeFiles/VerifyFortranC.dir/main.c.o.requires:
 
@@ -87,15 +87,15 @@ CMakeFiles/VerifyFortranC.dir/main.c.o.provides.build: CMakeFiles/VerifyFortranC
 CMakeFiles/VerifyFortranC.dir/VerifyC.c.o: CMakeFiles/VerifyFortranC.dir/flags.make
 CMakeFiles/VerifyFortranC.dir/VerifyC.c.o: /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c
 
 CMakeFiles/VerifyFortranC.dir/VerifyC.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/VerifyFortranC.dir/VerifyC.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c > CMakeFiles/VerifyFortranC.dir/VerifyC.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c > CMakeFiles/VerifyFortranC.dir/VerifyC.c.i
 
 CMakeFiles/VerifyFortranC.dir/VerifyC.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/VerifyFortranC.dir/VerifyC.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyC.c -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.s
 
 CMakeFiles/VerifyFortranC.dir/VerifyC.c.o.requires:
 
@@ -111,15 +111,15 @@ CMakeFiles/VerifyFortranC.dir/VerifyC.c.o.provides.build: CMakeFiles/VerifyFortr
 CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o: CMakeFiles/VerifyFortranC.dir/flags.make
 CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o: /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o"
-	/usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx
 
 CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.i: cmake_force
 	@echo "Preprocessing CXX source to CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.i"
-	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx > CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx > CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.i
 
 CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.s"
-	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyCXX.cxx -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.s
 
 CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o.requires:
 

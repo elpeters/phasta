@@ -60,15 +60,15 @@ include phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.o: ../phSolver/incompressible/main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incompressible.dir/main.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incompressible.dir/main.cc.o -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incompressible.dir/main.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc > CMakeFiles/incompressible.dir/main.cc.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc > CMakeFiles/incompressible.dir/main.cc.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incompressible.dir/main.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc -o CMakeFiles/incompressible.dir/main.cc.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc -o CMakeFiles/incompressible.dir/main.cc.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.o.requires:
 
@@ -84,15 +84,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/main.cc.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o: ../phSolver/incompressible/soldir.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/soldir.f -o CMakeFiles/incompressible.dir/soldir.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/soldir.f -o CMakeFiles/incompressible.dir/soldir.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/soldir.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/soldir.f > CMakeFiles/incompressible.dir/soldir.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/soldir.f > CMakeFiles/incompressible.dir/soldir.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/soldir.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/soldir.f -o CMakeFiles/incompressible.dir/soldir.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/soldir.f -o CMakeFiles/incompressible.dir/soldir.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o.requires:
 
@@ -108,15 +108,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/soldir.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.o: ../phSolver/incompressible/bc3global.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3global.f -o CMakeFiles/incompressible.dir/bc3global.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3global.f -o CMakeFiles/incompressible.dir/bc3global.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/bc3global.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3global.f > CMakeFiles/incompressible.dir/bc3global.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3global.f > CMakeFiles/incompressible.dir/bc3global.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/bc3global.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3global.f -o CMakeFiles/incompressible.dir/bc3global.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3global.f -o CMakeFiles/incompressible.dir/bc3global.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.o.requires:
 
@@ -132,15 +132,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/bc3global.f.o.provides.bui
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.o: ../phSolver/incompressible/e3q.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3q.f -o CMakeFiles/incompressible.dir/e3q.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3q.f -o CMakeFiles/incompressible.dir/e3q.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3q.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3q.f > CMakeFiles/incompressible.dir/e3q.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3q.f > CMakeFiles/incompressible.dir/e3q.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3q.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3q.f -o CMakeFiles/incompressible.dir/e3q.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3q.f -o CMakeFiles/incompressible.dir/e3q.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.o.requires:
 
@@ -156,15 +156,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3q.f.o.provides.build: ph
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.o: ../phSolver/incompressible/e3lhs.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3lhs.f -o CMakeFiles/incompressible.dir/e3lhs.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3lhs.f -o CMakeFiles/incompressible.dir/e3lhs.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3lhs.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3lhs.f > CMakeFiles/incompressible.dir/e3lhs.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3lhs.f > CMakeFiles/incompressible.dir/e3lhs.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3lhs.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3lhs.f -o CMakeFiles/incompressible.dir/e3lhs.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3lhs.f -o CMakeFiles/incompressible.dir/e3lhs.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.o.requires:
 
@@ -180,15 +180,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3lhs.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.o: ../phSolver/incompressible/BCprofile.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/BCprofile.f -o CMakeFiles/incompressible.dir/BCprofile.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/BCprofile.f -o CMakeFiles/incompressible.dir/BCprofile.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/BCprofile.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/BCprofile.f > CMakeFiles/incompressible.dir/BCprofile.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/BCprofile.f > CMakeFiles/incompressible.dir/BCprofile.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/BCprofile.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/BCprofile.f -o CMakeFiles/incompressible.dir/BCprofile.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/BCprofile.f -o CMakeFiles/incompressible.dir/BCprofile.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.o.requires:
 
@@ -204,15 +204,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/BCprofile.f.o.provides.bui
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.o: ../phSolver/incompressible/elmgmr.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmgmr.f -o CMakeFiles/incompressible.dir/elmgmr.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmgmr.f -o CMakeFiles/incompressible.dir/elmgmr.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/elmgmr.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmgmr.f > CMakeFiles/incompressible.dir/elmgmr.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmgmr.f > CMakeFiles/incompressible.dir/elmgmr.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/elmgmr.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmgmr.f -o CMakeFiles/incompressible.dir/elmgmr.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmgmr.f -o CMakeFiles/incompressible.dir/elmgmr.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.o.requires:
 
@@ -228,15 +228,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/elmgmr.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o: ../phSolver/incompressible/solveGradV.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solveGradV.f -o CMakeFiles/incompressible.dir/solveGradV.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solveGradV.f -o CMakeFiles/incompressible.dir/solveGradV.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/solveGradV.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solveGradV.f > CMakeFiles/incompressible.dir/solveGradV.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solveGradV.f > CMakeFiles/incompressible.dir/solveGradV.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/solveGradV.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solveGradV.f -o CMakeFiles/incompressible.dir/solveGradV.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solveGradV.f -o CMakeFiles/incompressible.dir/solveGradV.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o.requires:
 
@@ -252,15 +252,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/solveGradV.f.o.provides.bu
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o: ../phSolver/incompressible/solfar.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solfar.f -o CMakeFiles/incompressible.dir/solfar.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solfar.f -o CMakeFiles/incompressible.dir/solfar.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/solfar.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solfar.f > CMakeFiles/incompressible.dir/solfar.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solfar.f > CMakeFiles/incompressible.dir/solfar.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/solfar.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solfar.f -o CMakeFiles/incompressible.dir/solfar.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solfar.f -o CMakeFiles/incompressible.dir/solfar.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o.requires:
 
@@ -276,15 +276,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/solfar.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.o: ../phSolver/incompressible/bc3per.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3per.f -o CMakeFiles/incompressible.dir/bc3per.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3per.f -o CMakeFiles/incompressible.dir/bc3per.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/bc3per.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3per.f > CMakeFiles/incompressible.dir/bc3per.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3per.f > CMakeFiles/incompressible.dir/bc3per.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/bc3per.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3per.f -o CMakeFiles/incompressible.dir/bc3per.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3per.f -o CMakeFiles/incompressible.dir/bc3per.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.o.requires:
 
@@ -300,15 +300,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/bc3per.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o: ../phSolver/incompressible/errsmooth.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/errsmooth.f -o CMakeFiles/incompressible.dir/errsmooth.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/errsmooth.f -o CMakeFiles/incompressible.dir/errsmooth.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/errsmooth.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/errsmooth.f > CMakeFiles/incompressible.dir/errsmooth.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/errsmooth.f > CMakeFiles/incompressible.dir/errsmooth.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/errsmooth.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/errsmooth.f -o CMakeFiles/incompressible.dir/errsmooth.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/errsmooth.f -o CMakeFiles/incompressible.dir/errsmooth.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o.requires:
 
@@ -324,15 +324,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/errsmooth.f.o.provides.bui
 phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o: ../phSolver/incompressible/filters.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/filters.f -o CMakeFiles/incompressible.dir/filters.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/filters.f -o CMakeFiles/incompressible.dir/filters.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/filters.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/filters.f > CMakeFiles/incompressible.dir/filters.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/filters.f > CMakeFiles/incompressible.dir/filters.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/filters.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/filters.f -o CMakeFiles/incompressible.dir/filters.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/filters.f -o CMakeFiles/incompressible.dir/filters.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o.requires:
 
@@ -348,15 +348,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/filters.f.o.provides.build
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.o: ../phSolver/incompressible/e3ivar.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ivar.f -o CMakeFiles/incompressible.dir/e3ivar.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ivar.f -o CMakeFiles/incompressible.dir/e3ivar.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3ivar.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ivar.f > CMakeFiles/incompressible.dir/e3ivar.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ivar.f > CMakeFiles/incompressible.dir/e3ivar.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3ivar.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ivar.f -o CMakeFiles/incompressible.dir/e3ivar.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ivar.f -o CMakeFiles/incompressible.dir/e3ivar.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.o.requires:
 
@@ -372,15 +372,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3ivar.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.o: ../phSolver/incompressible/e3qvar.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qvar.f -o CMakeFiles/incompressible.dir/e3qvar.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qvar.f -o CMakeFiles/incompressible.dir/e3qvar.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3qvar.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qvar.f > CMakeFiles/incompressible.dir/e3qvar.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qvar.f > CMakeFiles/incompressible.dir/e3qvar.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3qvar.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qvar.f -o CMakeFiles/incompressible.dir/e3qvar.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qvar.f -o CMakeFiles/incompressible.dir/e3qvar.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.o.requires:
 
@@ -396,15 +396,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3qvar.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.o: ../phSolver/incompressible/e3sts.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3sts.f -o CMakeFiles/incompressible.dir/e3sts.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3sts.f -o CMakeFiles/incompressible.dir/e3sts.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3sts.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3sts.f > CMakeFiles/incompressible.dir/e3sts.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3sts.f > CMakeFiles/incompressible.dir/e3sts.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3sts.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3sts.f -o CMakeFiles/incompressible.dir/e3sts.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3sts.f -o CMakeFiles/incompressible.dir/e3sts.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.o.requires:
 
@@ -420,15 +420,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3sts.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.o: ../phSolver/incompressible/asigmr.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asigmr.f -o CMakeFiles/incompressible.dir/asigmr.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asigmr.f -o CMakeFiles/incompressible.dir/asigmr.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/asigmr.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asigmr.f > CMakeFiles/incompressible.dir/asigmr.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asigmr.f > CMakeFiles/incompressible.dir/asigmr.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/asigmr.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asigmr.f -o CMakeFiles/incompressible.dir/asigmr.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asigmr.f -o CMakeFiles/incompressible.dir/asigmr.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.o.requires:
 
@@ -444,15 +444,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/asigmr.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o: ../phSolver/incompressible/itrPC.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrPC.f -o CMakeFiles/incompressible.dir/itrPC.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrPC.f -o CMakeFiles/incompressible.dir/itrPC.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/itrPC.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrPC.f > CMakeFiles/incompressible.dir/itrPC.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrPC.f > CMakeFiles/incompressible.dir/itrPC.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/itrPC.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrPC.f -o CMakeFiles/incompressible.dir/itrPC.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrPC.f -o CMakeFiles/incompressible.dir/itrPC.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o.requires:
 
@@ -468,15 +468,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/itrPC.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.o: ../phSolver/incompressible/bc3diag.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3diag.f -o CMakeFiles/incompressible.dir/bc3diag.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3diag.f -o CMakeFiles/incompressible.dir/bc3diag.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/bc3diag.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3diag.f > CMakeFiles/incompressible.dir/bc3diag.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3diag.f > CMakeFiles/incompressible.dir/bc3diag.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/bc3diag.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3diag.f -o CMakeFiles/incompressible.dir/bc3diag.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3diag.f -o CMakeFiles/incompressible.dir/bc3diag.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.o.requires:
 
@@ -492,15 +492,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/bc3diag.f.o.provides.build
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.o: ../phSolver/incompressible/e3res.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3res.f -o CMakeFiles/incompressible.dir/e3res.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3res.f -o CMakeFiles/incompressible.dir/e3res.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3res.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3res.f > CMakeFiles/incompressible.dir/e3res.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3res.f > CMakeFiles/incompressible.dir/e3res.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3res.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3res.f -o CMakeFiles/incompressible.dir/e3res.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3res.f -o CMakeFiles/incompressible.dir/e3res.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.o.requires:
 
@@ -516,15 +516,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3res.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o: ../phSolver/incompressible/itrdrv.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrdrv.f -o CMakeFiles/incompressible.dir/itrdrv.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrdrv.f -o CMakeFiles/incompressible.dir/itrdrv.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/itrdrv.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrdrv.f > CMakeFiles/incompressible.dir/itrdrv.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrdrv.f > CMakeFiles/incompressible.dir/itrdrv.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/itrdrv.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrdrv.f -o CMakeFiles/incompressible.dir/itrdrv.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrdrv.f -o CMakeFiles/incompressible.dir/itrdrv.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o.requires:
 
@@ -540,15 +540,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/itrdrv.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.o: ../phSolver/incompressible/elmStats.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmStats.f -o CMakeFiles/incompressible.dir/elmStats.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmStats.f -o CMakeFiles/incompressible.dir/elmStats.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/elmStats.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmStats.f > CMakeFiles/incompressible.dir/elmStats.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmStats.f > CMakeFiles/incompressible.dir/elmStats.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/elmStats.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmStats.f -o CMakeFiles/incompressible.dir/elmStats.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/elmStats.f -o CMakeFiles/incompressible.dir/elmStats.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.o.requires:
 
@@ -564,15 +564,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/elmStats.f.o.provides.buil
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.o: ../phSolver/incompressible/e3stab.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3stab.f -o CMakeFiles/incompressible.dir/e3stab.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3stab.f -o CMakeFiles/incompressible.dir/e3stab.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3stab.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3stab.f > CMakeFiles/incompressible.dir/e3stab.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3stab.f > CMakeFiles/incompressible.dir/e3stab.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3stab.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3stab.f -o CMakeFiles/incompressible.dir/e3stab.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3stab.f -o CMakeFiles/incompressible.dir/e3stab.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.o.requires:
 
@@ -588,15 +588,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3stab.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o: ../phSolver/incompressible/timedata.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timedata.f -o CMakeFiles/incompressible.dir/timedata.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timedata.f -o CMakeFiles/incompressible.dir/timedata.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/timedata.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timedata.f > CMakeFiles/incompressible.dir/timedata.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timedata.f > CMakeFiles/incompressible.dir/timedata.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/timedata.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timedata.f -o CMakeFiles/incompressible.dir/timedata.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timedata.f -o CMakeFiles/incompressible.dir/timedata.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o.requires:
 
@@ -612,15 +612,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/timedata.f.o.provides.buil
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o: ../phSolver/incompressible/genlmass.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/genlmass.f -o CMakeFiles/incompressible.dir/genlmass.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/genlmass.f -o CMakeFiles/incompressible.dir/genlmass.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/genlmass.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/genlmass.f > CMakeFiles/incompressible.dir/genlmass.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/genlmass.f > CMakeFiles/incompressible.dir/genlmass.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/genlmass.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/genlmass.f -o CMakeFiles/incompressible.dir/genlmass.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/genlmass.f -o CMakeFiles/incompressible.dir/genlmass.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o.requires:
 
@@ -636,15 +636,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/genlmass.f.o.provides.buil
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o: ../phSolver/incompressible/solvedata.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solvedata.f -o CMakeFiles/incompressible.dir/solvedata.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solvedata.f -o CMakeFiles/incompressible.dir/solvedata.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/solvedata.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solvedata.f > CMakeFiles/incompressible.dir/solvedata.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solvedata.f > CMakeFiles/incompressible.dir/solvedata.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/solvedata.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solvedata.f -o CMakeFiles/incompressible.dir/solvedata.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/solvedata.f -o CMakeFiles/incompressible.dir/solvedata.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o.requires:
 
@@ -660,15 +660,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/solvedata.f.o.provides.bui
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o: ../phSolver/incompressible/getfld.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getfld.f -o CMakeFiles/incompressible.dir/getfld.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getfld.f -o CMakeFiles/incompressible.dir/getfld.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/getfld.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getfld.f > CMakeFiles/incompressible.dir/getfld.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getfld.f > CMakeFiles/incompressible.dir/getfld.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/getfld.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getfld.f -o CMakeFiles/incompressible.dir/getfld.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getfld.f -o CMakeFiles/incompressible.dir/getfld.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o.requires:
 
@@ -684,15 +684,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/getfld.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.o: ../phSolver/incompressible/e3b.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3b.f -o CMakeFiles/incompressible.dir/e3b.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3b.f -o CMakeFiles/incompressible.dir/e3b.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3b.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3b.f > CMakeFiles/incompressible.dir/e3b.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3b.f > CMakeFiles/incompressible.dir/e3b.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3b.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3b.f -o CMakeFiles/incompressible.dir/e3b.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3b.f -o CMakeFiles/incompressible.dir/e3b.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.o.requires:
 
@@ -708,15 +708,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3b.f.o.provides.build: ph
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.o: ../phSolver/incompressible/e3source.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3source.f -o CMakeFiles/incompressible.dir/e3source.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3source.f -o CMakeFiles/incompressible.dir/e3source.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3source.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3source.f > CMakeFiles/incompressible.dir/e3source.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3source.f > CMakeFiles/incompressible.dir/e3source.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3source.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3source.f -o CMakeFiles/incompressible.dir/e3source.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3source.f -o CMakeFiles/incompressible.dir/e3source.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.o.requires:
 
@@ -732,15 +732,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3source.f.o.provides.buil
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o: ../phSolver/incompressible/hessian.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/hessian.f -o CMakeFiles/incompressible.dir/hessian.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/hessian.f -o CMakeFiles/incompressible.dir/hessian.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/hessian.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/hessian.f > CMakeFiles/incompressible.dir/hessian.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/hessian.f > CMakeFiles/incompressible.dir/hessian.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/hessian.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/hessian.f -o CMakeFiles/incompressible.dir/hessian.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/hessian.f -o CMakeFiles/incompressible.dir/hessian.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o.requires:
 
@@ -756,15 +756,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/hessian.f.o.provides.build
 phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.o: ../phSolver/incompressible/bflux.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bflux.f -o CMakeFiles/incompressible.dir/bflux.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bflux.f -o CMakeFiles/incompressible.dir/bflux.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/bflux.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bflux.f > CMakeFiles/incompressible.dir/bflux.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bflux.f > CMakeFiles/incompressible.dir/bflux.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/bflux.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bflux.f -o CMakeFiles/incompressible.dir/bflux.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bflux.f -o CMakeFiles/incompressible.dir/bflux.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.o.requires:
 
@@ -780,15 +780,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/bflux.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.o: ../phSolver/incompressible/bc3lhs.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3lhs.f -o CMakeFiles/incompressible.dir/bc3lhs.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3lhs.f -o CMakeFiles/incompressible.dir/bc3lhs.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/bc3lhs.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3lhs.f > CMakeFiles/incompressible.dir/bc3lhs.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3lhs.f > CMakeFiles/incompressible.dir/bc3lhs.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/bc3lhs.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3lhs.f -o CMakeFiles/incompressible.dir/bc3lhs.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3lhs.f -o CMakeFiles/incompressible.dir/bc3lhs.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.o.requires:
 
@@ -804,15 +804,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/bc3lhs.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o: ../phSolver/incompressible/itrbc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrbc.f -o CMakeFiles/incompressible.dir/itrbc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrbc.f -o CMakeFiles/incompressible.dir/itrbc.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/itrbc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrbc.f > CMakeFiles/incompressible.dir/itrbc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrbc.f > CMakeFiles/incompressible.dir/itrbc.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/itrbc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrbc.f -o CMakeFiles/incompressible.dir/itrbc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/itrbc.f -o CMakeFiles/incompressible.dir/itrbc.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o.requires:
 
@@ -828,15 +828,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/itrbc.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o: ../phSolver/incompressible/rstatic.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/rstatic.f -o CMakeFiles/incompressible.dir/rstatic.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/rstatic.f -o CMakeFiles/incompressible.dir/rstatic.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/rstatic.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/rstatic.f > CMakeFiles/incompressible.dir/rstatic.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/rstatic.f > CMakeFiles/incompressible.dir/rstatic.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/rstatic.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/rstatic.f -o CMakeFiles/incompressible.dir/rstatic.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/rstatic.f -o CMakeFiles/incompressible.dir/rstatic.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o.requires:
 
@@ -852,15 +852,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/rstatic.f.o.provides.build
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.o: ../phSolver/incompressible/asiqGradV.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiqGradV.f -o CMakeFiles/incompressible.dir/asiqGradV.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiqGradV.f -o CMakeFiles/incompressible.dir/asiqGradV.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/asiqGradV.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiqGradV.f > CMakeFiles/incompressible.dir/asiqGradV.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiqGradV.f > CMakeFiles/incompressible.dir/asiqGradV.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/asiqGradV.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiqGradV.f -o CMakeFiles/incompressible.dir/asiqGradV.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiqGradV.f -o CMakeFiles/incompressible.dir/asiqGradV.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.o.requires:
 
@@ -876,15 +876,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/asiqGradV.f.o.provides.bui
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o: ../phSolver/incompressible/timeseries.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timeseries.f -o CMakeFiles/incompressible.dir/timeseries.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timeseries.f -o CMakeFiles/incompressible.dir/timeseries.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/timeseries.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timeseries.f > CMakeFiles/incompressible.dir/timeseries.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timeseries.f > CMakeFiles/incompressible.dir/timeseries.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/timeseries.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timeseries.f -o CMakeFiles/incompressible.dir/timeseries.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/timeseries.f -o CMakeFiles/incompressible.dir/timeseries.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o.requires:
 
@@ -900,15 +900,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/timeseries.f.o.provides.bu
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o: ../phSolver/incompressible/getdiff.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getdiff.f -o CMakeFiles/incompressible.dir/getdiff.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getdiff.f -o CMakeFiles/incompressible.dir/getdiff.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/getdiff.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getdiff.f > CMakeFiles/incompressible.dir/getdiff.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getdiff.f > CMakeFiles/incompressible.dir/getdiff.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/getdiff.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getdiff.f -o CMakeFiles/incompressible.dir/getdiff.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/getdiff.f -o CMakeFiles/incompressible.dir/getdiff.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o.requires:
 
@@ -924,15 +924,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/getdiff.f.o.provides.build
 phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.o: ../phSolver/incompressible/advLES.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/advLES.f -o CMakeFiles/incompressible.dir/advLES.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/advLES.f -o CMakeFiles/incompressible.dir/advLES.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/advLES.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/advLES.f > CMakeFiles/incompressible.dir/advLES.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/advLES.f > CMakeFiles/incompressible.dir/advLES.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/advLES.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/advLES.f -o CMakeFiles/incompressible.dir/advLES.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/advLES.f -o CMakeFiles/incompressible.dir/advLES.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.o.requires:
 
@@ -948,15 +948,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/advLES.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.o: ../phSolver/incompressible/asbflx.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbflx.f -o CMakeFiles/incompressible.dir/asbflx.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbflx.f -o CMakeFiles/incompressible.dir/asbflx.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/asbflx.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbflx.f > CMakeFiles/incompressible.dir/asbflx.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbflx.f > CMakeFiles/incompressible.dir/asbflx.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/asbflx.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbflx.f -o CMakeFiles/incompressible.dir/asbflx.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbflx.f -o CMakeFiles/incompressible.dir/asbflx.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.o.requires:
 
@@ -972,15 +972,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/asbflx.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.o: ../phSolver/incompressible/e3.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3.f -o CMakeFiles/incompressible.dir/e3.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3.f -o CMakeFiles/incompressible.dir/e3.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3.f > CMakeFiles/incompressible.dir/e3.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3.f > CMakeFiles/incompressible.dir/e3.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3.f -o CMakeFiles/incompressible.dir/e3.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3.f -o CMakeFiles/incompressible.dir/e3.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.o.requires:
 
@@ -996,15 +996,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3.f.o.provides.build: phS
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o: ../phSolver/incompressible/stats.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/stats.f -o CMakeFiles/incompressible.dir/stats.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/stats.f -o CMakeFiles/incompressible.dir/stats.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/stats.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/stats.f > CMakeFiles/incompressible.dir/stats.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/stats.f > CMakeFiles/incompressible.dir/stats.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/stats.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/stats.f -o CMakeFiles/incompressible.dir/stats.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/stats.f -o CMakeFiles/incompressible.dir/stats.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o.requires:
 
@@ -1020,15 +1020,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/stats.f.o.provides.build: 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.o: ../phSolver/incompressible/asiq.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiq.f -o CMakeFiles/incompressible.dir/asiq.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiq.f -o CMakeFiles/incompressible.dir/asiq.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/asiq.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiq.f > CMakeFiles/incompressible.dir/asiq.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiq.f > CMakeFiles/incompressible.dir/asiq.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/asiq.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiq.f -o CMakeFiles/incompressible.dir/asiq.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asiq.f -o CMakeFiles/incompressible.dir/asiq.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.o.requires:
 
@@ -1044,15 +1044,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/asiq.f.o.provides.build: p
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.o: ../phSolver/incompressible/e3dc.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3dc.f -o CMakeFiles/incompressible.dir/e3dc.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3dc.f -o CMakeFiles/incompressible.dir/e3dc.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3dc.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3dc.f > CMakeFiles/incompressible.dir/e3dc.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3dc.f > CMakeFiles/incompressible.dir/e3dc.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3dc.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3dc.f -o CMakeFiles/incompressible.dir/e3dc.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3dc.f -o CMakeFiles/incompressible.dir/e3dc.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.o.requires:
 
@@ -1068,15 +1068,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3dc.f.o.provides.build: p
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.o: ../phSolver/incompressible/e3bvar.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3bvar.f -o CMakeFiles/incompressible.dir/e3bvar.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3bvar.f -o CMakeFiles/incompressible.dir/e3bvar.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3bvar.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3bvar.f > CMakeFiles/incompressible.dir/e3bvar.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3bvar.f > CMakeFiles/incompressible.dir/e3bvar.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3bvar.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3bvar.f -o CMakeFiles/incompressible.dir/e3bvar.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3bvar.f -o CMakeFiles/incompressible.dir/e3bvar.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.o.requires:
 
@@ -1092,15 +1092,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3bvar.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.o: ../phSolver/incompressible/e3ql.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ql.f -o CMakeFiles/incompressible.dir/e3ql.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ql.f -o CMakeFiles/incompressible.dir/e3ql.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3ql.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ql.f > CMakeFiles/incompressible.dir/e3ql.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ql.f > CMakeFiles/incompressible.dir/e3ql.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3ql.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ql.f -o CMakeFiles/incompressible.dir/e3ql.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3ql.f -o CMakeFiles/incompressible.dir/e3ql.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.o.requires:
 
@@ -1116,15 +1116,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3ql.f.o.provides.build: p
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.o: ../phSolver/incompressible/asbmfg.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbmfg.f -o CMakeFiles/incompressible.dir/asbmfg.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbmfg.f -o CMakeFiles/incompressible.dir/asbmfg.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/asbmfg.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbmfg.f > CMakeFiles/incompressible.dir/asbmfg.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbmfg.f > CMakeFiles/incompressible.dir/asbmfg.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/asbmfg.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbmfg.f -o CMakeFiles/incompressible.dir/asbmfg.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/asbmfg.f -o CMakeFiles/incompressible.dir/asbmfg.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.o.requires:
 
@@ -1140,15 +1140,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/asbmfg.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.o: ../phSolver/incompressible/bc3res.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3res.f -o CMakeFiles/incompressible.dir/bc3res.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3res.f -o CMakeFiles/incompressible.dir/bc3res.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/bc3res.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3res.f > CMakeFiles/incompressible.dir/bc3res.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3res.f > CMakeFiles/incompressible.dir/bc3res.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/bc3res.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3res.f -o CMakeFiles/incompressible.dir/bc3res.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/bc3res.f -o CMakeFiles/incompressible.dir/bc3res.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.o.requires:
 
@@ -1164,15 +1164,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/bc3res.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.o: ../phSolver/incompressible/e3qGradV.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qGradV.f -o CMakeFiles/incompressible.dir/e3qGradV.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qGradV.f -o CMakeFiles/incompressible.dir/e3qGradV.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/e3qGradV.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qGradV.f > CMakeFiles/incompressible.dir/e3qGradV.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qGradV.f > CMakeFiles/incompressible.dir/e3qGradV.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/e3qGradV.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qGradV.f -o CMakeFiles/incompressible.dir/e3qGradV.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/e3qGradV.f -o CMakeFiles/incompressible.dir/e3qGradV.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.o.requires:
 
@@ -1188,15 +1188,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/e3qGradV.f.o.provides.buil
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o: ../phSolver/incompressible/iclear.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/iclear.f -o CMakeFiles/incompressible.dir/iclear.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/iclear.f -o CMakeFiles/incompressible.dir/iclear.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/iclear.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/iclear.f > CMakeFiles/incompressible.dir/iclear.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/iclear.f > CMakeFiles/incompressible.dir/iclear.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/iclear.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/iclear.f -o CMakeFiles/incompressible.dir/iclear.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/iclear.f -o CMakeFiles/incompressible.dir/iclear.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o.requires:
 
@@ -1212,15 +1212,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/iclear.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o: ../phSolver/incompressible/forces.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building Fortran object phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/forces.f -o CMakeFiles/incompressible.dir/forces.f.o
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/forces.f -o CMakeFiles/incompressible.dir/forces.f.o
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/incompressible.dir/forces.f.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/forces.f > CMakeFiles/incompressible.dir/forces.f.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/forces.f > CMakeFiles/incompressible.dir/forces.f.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/incompressible.dir/forces.f.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/forces.f -o CMakeFiles/incompressible.dir/forces.f.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/forces.f -o CMakeFiles/incompressible.dir/forces.f.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o.requires:
 
@@ -1236,15 +1236,15 @@ phSolver/incompressible/CMakeFiles/incompressible.dir/forces.f.o.provides.build:
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o: phSolver/incompressible/CMakeFiles/incompressible.dir/flags.make
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o: ../phSolver/incompressible/write_hessian.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/incompressible.dir/write_hessian.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/incompressible.dir/write_hessian.c.o   -c /home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/incompressible.dir/write_hessian.c.i"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c > CMakeFiles/incompressible.dir/write_hessian.c.i
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c > CMakeFiles/incompressible.dir/write_hessian.c.i
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/incompressible.dir/write_hessian.c.s"
-	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c -o CMakeFiles/incompressible.dir/write_hessian.c.s
+	cd /home/erpe8051/PHASTA_Forked/debug_build/phSolver/incompressible && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c -o CMakeFiles/incompressible.dir/write_hessian.c.s
 
 phSolver/incompressible/CMakeFiles/incompressible.dir/write_hessian.c.o.requires:
 

@@ -7,12 +7,12 @@
 #                                     list of integers, list of doubles )
 #
 #
-#SOLUTION CONTROL 
-#{                
+#SOLUTION CONTROL
+#{
      Equation of State: Incompressible
      Number of Timesteps: 50
      Time Step Size:  0.001 # 3.26797385620915e-6  #  4.901960784e-6 # 9.803921569e-6=1/1700/60 Delt(1)
-     Turbulence Model: RANS  #No-Model  # No-Model iturb=0, RANS =-1  LES=1 #}
+     Turbulence Model: No-Model #RANS  #No-Model  # No-Model iturb=0, RANS =-1  LES=1 #}
 
 
 #}
@@ -51,7 +51,7 @@ OUTPUT CONTROL
      Number of Krylov Vectors per GMRES Sweep: 200           # replaces Kspace
      Scalar 1 Solver Tolerance : 1.0e-4
      Tolerance on Momentum Equations: 0.05                   # epstol(1)
-     Tolerance on ACUSIM Pressure Projection: 0.05           # prestol 
+     Tolerance on ACUSIM Pressure Projection: 0.05           # prestol
      Number of Solves per Left-hand-side Formation: 1  #nupdat/LHSupd(1)
      ACUSIM Verbosity Level               : 0   #iverbose
      Minimum Number of ACUSIM Iterations per Nonlinear Iteration: 10  # minIters
@@ -69,19 +69,19 @@ OUTPUT CONTROL
      Tau Matrix: Diagonal-Shakib               #itau=1
      Tau Time Constant: 1.                      #dtsfct
      Include Viscous Correction in Stabilization: True    # if p=1 idiff=1
-                                                           # if p=2 idiff=2  
+                                                           # if p=2 idiff=2
      Lumped Mass Fraction on Left-hand-side: 0.0           # flmpl
      Lumped Mass Fraction on Right-hand-side: 0.0          # flmpr
      Tau C Scale Factor: 1.0                    # taucfct  best value depends
      Number of Elements Per Block: 64       #ibksiz
 #}
 
-TURBULENCE MODELING PARAMETERS  
-{ 
+TURBULENCE MODELING PARAMETERS
+{
 	Turbulence Wall Model Type: None  #itwmod=0 RANSorLES
 }
 
-#STEP SEQUENCE 
+#STEP SEQUENCE
 #{
        Step Construction  :  0 1 0 1 10 11 10 11 0 1 0 1 10 11 10 11
 #}

@@ -63,15 +63,15 @@ include CMakeFiles/VerifyFortran.dir/flags.make
 CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o: CMakeFiles/VerifyFortran.dir/flags.make
 CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o: /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
 
 CMakeFiles/VerifyFortran.dir/VerifyFortran.f.i: cmake_force
 	@echo "Preprocessing Fortran source to CMakeFiles/VerifyFortran.dir/VerifyFortran.f.i"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f > CMakeFiles/VerifyFortran.dir/VerifyFortran.f.i
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f > CMakeFiles/VerifyFortran.dir/VerifyFortran.f.i
 
 CMakeFiles/VerifyFortran.dir/VerifyFortran.f.s: cmake_force
 	@echo "Compiling Fortran source to assembly CMakeFiles/VerifyFortran.dir/VerifyFortran.f.s"
-	/usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.s
+	/usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.s
 
 CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o.requires:
 

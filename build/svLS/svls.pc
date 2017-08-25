@@ -1,10 +1,10 @@
 prefix=/usr/local
 libdir=/usr/local/lib
 includedir=/usr/local/include
-fcompiler=/usr/bin/mpif90
+fcompiler=/usr/bin/gfortran
 
 Name: svLS
 Description: svLS Linear Solver Suite
 Version 0.0.1
-Libs: -L/usr/local/lib  -lmpichfort -lmpich -lgfortran -lm -lquadmath -lm -lc -lsvLS
+Libs: -L/usr/local/lib  -lgfortran -lm -lquadmath -lm -lc -lsvLS
 Cflags: -I/usr/local/include

@@ -60,15 +60,15 @@ include CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/mymodule_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/mymodule_.c.o: /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/symbols.dir/mymodule_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/mymodule_.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/mymodule_.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c
 
 CMakeFiles/symbols.dir/mymodule_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/mymodule_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c > CMakeFiles/symbols.dir/mymodule_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c > CMakeFiles/symbols.dir/mymodule_.c.i
 
 CMakeFiles/symbols.dir/mymodule_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/mymodule_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c -o CMakeFiles/symbols.dir/mymodule_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/mymodule_.c -o CMakeFiles/symbols.dir/mymodule_.c.s
 
 CMakeFiles/symbols.dir/mymodule_.c.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/symbols.dir/mymodule_.c.o.provides.build: CMakeFiles/symbols.dir/mymo
 CMakeFiles/symbols.dir/my_module_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/my_module_.c.o: /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/symbols.dir/my_module_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/my_module_.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/my_module_.c.o   -c /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c
 
 CMakeFiles/symbols.dir/my_module_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/my_module_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c > CMakeFiles/symbols.dir/my_module_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c > CMakeFiles/symbols.dir/my_module_.c.i
 
 CMakeFiles/symbols.dir/my_module_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/my_module_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c -o CMakeFiles/symbols.dir/my_module_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/cmake-3.5/Modules/FortranCInterface/my_module_.c -o CMakeFiles/symbols.dir/my_module_.c.s
 
 CMakeFiles/symbols.dir/my_module_.c.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/symbols.dir/my_module_.c.o.provides.build: CMakeFiles/symbols.dir/my_
 CMakeFiles/symbols.dir/symbols/my_sub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_sub.c.o: symbols/my_sub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/symbols.dir/symbols/my_sub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub.c
 
 CMakeFiles/symbols.dir/symbols/my_sub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_sub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub.c > CMakeFiles/symbols.dir/symbols/my_sub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub.c > CMakeFiles/symbols.dir/symbols/my_sub.c.i
 
 CMakeFiles/symbols.dir/symbols/my_sub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_sub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub.c -o CMakeFiles/symbols.dir/symbols/my_sub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub.c -o CMakeFiles/symbols.dir/symbols/my_sub.c.s
 
 CMakeFiles/symbols.dir/symbols/my_sub.c.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/symbols.dir/symbols/my_sub.c.o.provides.build: CMakeFiles/symbols.dir
 CMakeFiles/symbols.dir/symbols/my_sub_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_sub_.c.o: symbols/my_sub_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/symbols.dir/symbols/my_sub_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_sub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_sub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c
 
 CMakeFiles/symbols.dir/symbols/my_sub_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_sub_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c > CMakeFiles/symbols.dir/symbols/my_sub_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c > CMakeFiles/symbols.dir/symbols/my_sub_.c.i
 
 CMakeFiles/symbols.dir/symbols/my_sub_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_sub_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c -o CMakeFiles/symbols.dir/symbols/my_sub_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c -o CMakeFiles/symbols.dir/symbols/my_sub_.c.s
 
 CMakeFiles/symbols.dir/symbols/my_sub_.c.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/symbols.dir/symbols/my_sub_.c.o.provides.build: CMakeFiles/symbols.di
 CMakeFiles/symbols.dir/symbols/my_sub__.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_sub__.c.o: symbols/my_sub__.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/symbols.dir/symbols/my_sub__.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_sub__.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_sub__.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c
 
 CMakeFiles/symbols.dir/symbols/my_sub__.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_sub__.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c > CMakeFiles/symbols.dir/symbols/my_sub__.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c > CMakeFiles/symbols.dir/symbols/my_sub__.c.i
 
 CMakeFiles/symbols.dir/symbols/my_sub__.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_sub__.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c -o CMakeFiles/symbols.dir/symbols/my_sub__.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c -o CMakeFiles/symbols.dir/symbols/my_sub__.c.s
 
 CMakeFiles/symbols.dir/symbols/my_sub__.c.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/symbols.dir/symbols/my_sub__.c.o.provides.build: CMakeFiles/symbols.d
 CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o: symbols/MY_SUB-UPPER.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c
 
 CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.i
 
 CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.s
 
 CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.o.provides.build: CMakeFiles/symbo
 CMakeFiles/symbols.dir/symbols/mysub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/mysub.c.o: symbols/mysub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/symbols.dir/symbols/mysub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub.c
 
 CMakeFiles/symbols.dir/symbols/mysub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/mysub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub.c > CMakeFiles/symbols.dir/symbols/mysub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub.c > CMakeFiles/symbols.dir/symbols/mysub.c.i
 
 CMakeFiles/symbols.dir/symbols/mysub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/mysub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub.c -o CMakeFiles/symbols.dir/symbols/mysub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub.c -o CMakeFiles/symbols.dir/symbols/mysub.c.s
 
 CMakeFiles/symbols.dir/symbols/mysub.c.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/symbols.dir/symbols/mysub.c.o.provides.build: CMakeFiles/symbols.dir/
 CMakeFiles/symbols.dir/symbols/mysub_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/mysub_.c.o: symbols/mysub_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/symbols.dir/symbols/mysub_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mysub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mysub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub_.c
 
 CMakeFiles/symbols.dir/symbols/mysub_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/mysub_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub_.c > CMakeFiles/symbols.dir/symbols/mysub_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub_.c > CMakeFiles/symbols.dir/symbols/mysub_.c.i
 
 CMakeFiles/symbols.dir/symbols/mysub_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/mysub_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub_.c -o CMakeFiles/symbols.dir/symbols/mysub_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mysub_.c -o CMakeFiles/symbols.dir/symbols/mysub_.c.s
 
 CMakeFiles/symbols.dir/symbols/mysub_.c.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/symbols.dir/symbols/mysub_.c.o.provides.build: CMakeFiles/symbols.dir
 CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o: symbols/MYSUB-UPPER.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c
 
 CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.i
 
 CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.s
 
 CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.o.provides.build: CMakeFiles/symbol
 CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o: symbols/__my_module_MOD_my_sub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c
 
 CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c > CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c > CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.i
 
 CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c -o CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c -o CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.s
 
 CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.o.provides.build: CMakeF
 CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o: symbols/__my_module_NMOD_my_sub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c
 
 CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c > CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c > CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.i
 
 CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c -o CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c -o CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.s
 
 CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.o.provides.build: CMake
 CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o: symbols/__my_module__my_sub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c
 
 CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c > CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c > CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.i
 
 CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c -o CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c -o CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.s
 
 CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.o.provides.build: CMakeFile
 CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o: symbols/__mymodule_MOD_mysub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c
 
 CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c > CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c > CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.i
 
 CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c -o CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c -o CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.s
 
 CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.o.provides.build: CMakeFil
 CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o: symbols/__mymodule_NMOD_mysub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c
 
 CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c > CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c > CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.i
 
 CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c -o CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c -o CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.s
 
 CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.o.provides.build: CMakeFi
 CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o: symbols/__mymodule__mysub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c
 
 CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c > CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c > CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.i
 
 CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c -o CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c -o CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.s
 
 CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.o.provides.build: CMakeFiles/
 CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o: symbols/my_moduleSmy_sub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c
 
 CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c > CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c > CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.i
 
 CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c -o CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c -o CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.s
 
 CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.o.provides.build: CMakeFiles/s
 CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o: symbols/my_module_mp_my_sub_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c
 
 CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c > CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c > CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.i
 
 CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c -o CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c -o CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.s
 
 CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o.requires:
 
@@ -468,15 +468,15 @@ CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.o.provides.build: CMakeFil
 CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o: symbols/MY_MODULE_mp_MY_SUB-UPPER.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c
 
 CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.i
 
 CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.s
 
 CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o.requires:
 
@@ -492,15 +492,15 @@ CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.o.provides.build: CMa
 CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o: symbols/my_module_my_sub_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c
 
 CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c > CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c > CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.i
 
 CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c -o CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c -o CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.s
 
 CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o.requires:
 
@@ -516,15 +516,15 @@ CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.o.provides.build: CMakeFiles/
 CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o: symbols/my_module_MP_my_sub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c
 
 CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c > CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c > CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.i
 
 CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c -o CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c -o CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.s
 
 CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o.requires:
 
@@ -540,15 +540,15 @@ CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.o.provides.build: CMakeFile
 CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o: symbols/mymoduleSmysub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c
 
 CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c > CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c > CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.i
 
 CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c -o CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c -o CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.s
 
 CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o.requires:
 
@@ -564,15 +564,15 @@ CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.o.provides.build: CMakeFiles/sym
 CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o: symbols/mymodule_mp_mysub_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c
 
 CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c > CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c > CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.i
 
 CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c -o CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c -o CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.s
 
 CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o.requires:
 
@@ -588,15 +588,15 @@ CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.o.provides.build: CMakeFiles
 CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o: symbols/MYMODULE_mp_MYSUB-UPPER.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c
 
 CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c > CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.i
 
 CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c -o CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.s
 
 CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o.requires:
 
@@ -612,15 +612,15 @@ CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.o.provides.build: CMake
 CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o: symbols/mymodule_mysub_.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c
 
 CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c > CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c > CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.i
 
 CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c -o CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c -o CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.s
 
 CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o.requires:
 
@@ -636,15 +636,15 @@ CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.o.provides.build: CMakeFiles/sy
 CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o: CMakeFiles/symbols.dir/flags.make
 CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o: symbols/mymodule_MP_mysub.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c
 
 CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.i"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c > CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c > CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.i
 
 CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.s"
-	/usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c -o CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c -o CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.s
 
 CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.o.requires:
 

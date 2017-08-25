@@ -60,15 +60,15 @@ include phastaIO/CMakeFiles/phastaIO.dir/flags.make
 phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.o: phastaIO/CMakeFiles/phastaIO.dir/flags.make
 phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.o: ../phastaIO/phiotmrc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIO.dir/phiotmrc.cc.o -c /home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIO.dir/phiotmrc.cc.o -c /home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phastaIO.dir/phiotmrc.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc > CMakeFiles/phastaIO.dir/phiotmrc.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc > CMakeFiles/phastaIO.dir/phiotmrc.cc.i
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phastaIO.dir/phiotmrc.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc -o CMakeFiles/phastaIO.dir/phiotmrc.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiotmrc.cc -o CMakeFiles/phastaIO.dir/phiotmrc.cc.s
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.o.requires:
 
@@ -84,15 +84,15 @@ phastaIO/CMakeFiles/phastaIO.dir/phiotmrc.cc.o.provides.build: phastaIO/CMakeFil
 phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.o: phastaIO/CMakeFiles/phastaIO.dir/flags.make
 phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.o: ../phastaIO/phastaIO.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIO.dir/phastaIO.cc.o -c /home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIO.dir/phastaIO.cc.o -c /home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc
 
 phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phastaIO.dir/phastaIO.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc > CMakeFiles/phastaIO.dir/phastaIO.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc > CMakeFiles/phastaIO.dir/phastaIO.cc.i
 
 phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phastaIO.dir/phastaIO.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc -o CMakeFiles/phastaIO.dir/phastaIO.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phastaIO.cc -o CMakeFiles/phastaIO.dir/phastaIO.cc.s
 
 phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.o.requires:
 
@@ -108,15 +108,15 @@ phastaIO/CMakeFiles/phastaIO.dir/phastaIO.cc.o.provides.build: phastaIO/CMakeFil
 phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.o: phastaIO/CMakeFiles/phastaIO.dir/flags.make
 phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.o: ../phastaIO/phiompi.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/phastaIO.dir/phiompi.c.o   -c /home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/phastaIO.dir/phiompi.c.o   -c /home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c
 
 phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/phastaIO.dir/phiompi.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c > CMakeFiles/phastaIO.dir/phiompi.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c > CMakeFiles/phastaIO.dir/phiompi.c.i
 
 phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/phastaIO.dir/phiompi.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c -o CMakeFiles/phastaIO.dir/phiompi.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiompi.c -o CMakeFiles/phastaIO.dir/phiompi.c.s
 
 phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.o.requires:
 
@@ -132,15 +132,15 @@ phastaIO/CMakeFiles/phastaIO.dir/phiompi.c.o.provides.build: phastaIO/CMakeFiles
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o: phastaIO/CMakeFiles/phastaIO.dir/flags.make
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o: ../phastaIO/phiotimer_empty/phiotimer_empty.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o -c /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o -c /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc > CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc > CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.i
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.cc -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.s
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o.requires:
 
@@ -156,15 +156,15 @@ phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.cc.o.provides.b
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o: phastaIO/CMakeFiles/phastaIO.dir/flags.make
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o: ../phastaIO/phiotimer_empty/phiotimer_empty.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.f -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.f -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.f > CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.f > CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.i
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.f -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/phastaIO && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/phastaIO/phiotimer_empty/phiotimer_empty.f -o CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.s
 
 phastaIO/CMakeFiles/phastaIO.dir/phiotimer_empty/phiotimer_empty.f.o.requires:
 

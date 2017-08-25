@@ -1,4 +1,4 @@
-# Install script for directory: /users/elpeters/PHASTA_Forked/phSolver/incompressible
+# Install script for directory: /home/erpe8051/PHASTA_Forked/phSolver/incompressible
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

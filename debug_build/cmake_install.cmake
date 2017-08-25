@@ -1,4 +1,4 @@
-# Install script for directory: /users/elpeters/PHASTA_Forked
+# Install script for directory: /home/erpe8051/PHASTA_Forked
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/users/elpeters/PHASTA_Forked/debug_build/phastaIO/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/shapeFunction/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/svLS/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/phSolver/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/checkphasta/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/converterIO/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/AcuStat/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/M2N/cmake_install.cmake")
-  include("/users/elpeters/PHASTA_Forked/debug_build/M2NFixBnd/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/phastaIO/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/shapeFunction/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/svLS/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/phSolver/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/checkphasta/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/converterIO/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/AcuStat/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/M2N/cmake_install.cmake")
+  include("/home/erpe8051/PHASTA_Forked/debug_build/M2NFixBnd/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/users/elpeters/PHASTA_Forked/debug_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/erpe8051/PHASTA_Forked/debug_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

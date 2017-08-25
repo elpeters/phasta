@@ -88,15 +88,6 @@
 /home/erpe8051/PHASTA_Forked/build/phSolver/incompressible/CMakeFiles/phastaIC.exe.dir
 /home/erpe8051/PHASTA_Forked/build/phSolver/incompressible/CMakeFiles/install/local.dir
 /home/erpe8051/PHASTA_Forked/build/phSolver/incompressible/CMakeFiles/install/strip.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/list_install_components.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/install.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/rebuild_cache.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/edit_cache.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/test.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/compressible.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/phastaC.exe.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/install/strip.dir
-/home/erpe8051/PHASTA_Forked/build/phSolver/compressible/CMakeFiles/install/local.dir
 /home/erpe8051/PHASTA_Forked/build/checkphasta/CMakeFiles/list_install_components.dir
 /home/erpe8051/PHASTA_Forked/build/checkphasta/CMakeFiles/install.dir
 /home/erpe8051/PHASTA_Forked/build/checkphasta/CMakeFiles/rebuild_cache.dir

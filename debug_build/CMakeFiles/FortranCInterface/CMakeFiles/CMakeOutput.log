@@ -1,15 +1,15 @@
 Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
-Change Dir: /users/elpeters/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+Change Dir: /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83d22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83d22.dir/build.make CMakeFiles/cmTC_83d22.dir/build
-make[1]: Entering directory '/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83d22.dir/src.c.o
-/usr/bin/gcc   -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_83d22.dir/src.c.o   -c /users/elpeters/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_83d22
-/usr/local/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d22.dir/link.txt --verbose=1
-/usr/bin/gcc  -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTC_83d22.dir/src.c.o  -o cmTC_83d22 
-make[1]: Leaving directory '/users/elpeters/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_88609/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88609.dir/build.make CMakeFiles/cmTC_88609.dir/build
+make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88609.dir/src.c.o
+/usr/bin/gcc    -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_88609.dir/src.c.o   -c /home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_88609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88609.dir/link.txt --verbose=1
+/usr/bin/gcc   -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTC_88609.dir/src.c.o  -o cmTC_88609 
+make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/debug_build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
 
 Source file was:
 

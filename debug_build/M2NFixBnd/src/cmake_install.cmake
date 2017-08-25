@@ -1,4 +1,4 @@
-# Install script for directory: /users/elpeters/PHASTA_Forked/M2NFixBnd/src
+# Install script for directory: /home/erpe8051/PHASTA_Forked/M2NFixBnd/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

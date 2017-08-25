@@ -14,7 +14,7 @@ CostDataFile:
 Site: erpe8051-MacBookPro
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-mpicxx
+BuildName: Linux-c++
 
 # Submission information
 IsCDash: 
@@ -68,7 +68,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/mpicxx
+Compiler: /usr/bin/c++
 CompilerVersion: 5.4.0
 
 # Dynamic analysis (MemCheck)

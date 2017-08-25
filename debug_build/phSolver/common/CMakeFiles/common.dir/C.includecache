@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -30,19 +30,19 @@ stdlib.h
 
 ../phastaIO/rdtsc.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/GaussLegendre1D.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendre1D.c
 stdlib.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/GaussLegendreSimplex.c
 math.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/cycle_count.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/cycle_count.c
 stdio.h
 -
 stdlib.h
@@ -54,9 +54,9 @@ mpi.h
 hwi/include/bqc/A2_inlines.h
 -
 FCMangle.h
-/users/elpeters/PHASTA_Forked/phSolver/common/FCMangle.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/FCMangle.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/d2wall.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/d2wall.c
 stdlib.h
 -
 FCMangle.h
@@ -70,29 +70,29 @@ string.h
 assert.h
 -
 common_c.h
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 phastaIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phastaIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phastaIO.h
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 phString.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phString.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phString.h
 syncio.h
-/users/elpeters/PHASTA_Forked/phSolver/common/syncio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/syncio.h
 posixio.h
-/users/elpeters/PHASTA_Forked/phSolver/common/posixio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/posixio.h
 streamio.h
-/users/elpeters/PHASTA_Forked/phSolver/common/streamio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.h
 setsyncioparam.h
-/users/elpeters/PHASTA_Forked/phSolver/common/setsyncioparam.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.h
 tmrc.h
-/users/elpeters/PHASTA_Forked/phSolver/common/tmrc.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/dumbCvariables.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/dumbCvariables.c
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/fillsparse.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/fillsparse.c
 stdio.h
 -
 stdlib.h
@@ -106,15 +106,15 @@ mpi.h
 petsc.h
 -
 common_c.h
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 FCMangle.h
-/users/elpeters/PHASTA_Forked/phSolver/common/FCMangle.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/FCMangle.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/flush.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/flush.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/gen_ncorp.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/gen_ncorp.c
 stdio.h
 -
 stdlib.h
@@ -126,11 +126,11 @@ assert.h
 mpi.h
 -
 common_c.h
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 FCMangle.h
-/users/elpeters/PHASTA_Forked/phSolver/common/FCMangle.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/FCMangle.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/getIntPnts.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/getIntPnts.c
 stdio.h
 -
 stdlib.h
@@ -138,7 +138,7 @@ stdlib.h
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/get_time.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/get_time.c
 stdio.h
 -
 sys/types.h
@@ -152,7 +152,7 @@ assert.h
 hwi/include/bqc/A2_inlines.h
 -
 FCMangle.h
-/users/elpeters/PHASTA_Forked/phSolver/common/FCMangle.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/FCMangle.h
 mach/time.h
 -
 sys/time.h
@@ -160,43 +160,43 @@ sys/time.h
 time.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/gltri.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/gltri.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/gtnods.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/gtnods.c
 stdio.h
 -
 mpi.h
 -
 common_c.h
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/memoryusage.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.c
 FCMangle.h
 -
 memoryusage.h
-/users/elpeters/PHASTA_Forked/phSolver/common/memoryusage.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.h
 common_c.h
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 mpi.h
-/users/elpeters/PHASTA_Forked/phSolver/common/mpi.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/mpi.h
 spi/kernel_interface.h
 -
 spi/include/kernel/memory.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/memoryusage.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/memoryusage.h
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/missing_win32.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/missing_win32.c
 stdlib.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/new_interface.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.c
 stdlib.h
 -
 stdio.h
@@ -214,31 +214,31 @@ math.h
 assert.h
 -
 mpi.h
-/users/elpeters/PHASTA_Forked/phSolver/common/mpi.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/mpi.h
 phastaIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phastaIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phastaIO.h
 rdtsc.h
-/users/elpeters/PHASTA_Forked/phSolver/common/rdtsc.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/rdtsc.h
 FCMangle.h
 -
 new_interface.h
-/users/elpeters/PHASTA_Forked/phSolver/common/new_interface.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.h
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 phiotimer.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phiotimer.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phiotimer.h
 syncio.h
-/users/elpeters/PHASTA_Forked/phSolver/common/syncio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/syncio.h
 posixio.h
-/users/elpeters/PHASTA_Forked/phSolver/common/posixio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/posixio.h
 streamio.h
-/users/elpeters/PHASTA_Forked/phSolver/common/streamio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.h
 common_c.h
-/users/elpeters/PHASTA_Forked/phSolver/common/common_c.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/common_c.h
 tmrc.h
-/users/elpeters/PHASTA_Forked/phSolver/common/tmrc.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.h
 phString.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phString.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phString.h
 winsock2.h
 -
 unistd.h
@@ -246,77 +246,77 @@ unistd.h
 strings.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/new_interface.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/new_interface.h
 FCMangle.h
 -
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/phComm.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.c
 phComm.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phComm.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.h
 mpi.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/phComm.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phComm.h
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/phString.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phString.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/ph_mkdir.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/ph_mkdir.c
 sys/stat.h
 -
 sys/types.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/ph_mpi_help.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.c
 mpi.h
 -
 assert.h
 -
 ph_mpi_help.h
-/users/elpeters/PHASTA_Forked/phSolver/common/ph_mpi_help.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/ph_mpi_help.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/ph_mpi_help.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/posixio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/posixio.h
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/setsyncioparam.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/setsyncioparam.h
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/shp6w.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/shp6w.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/shphex.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/shphex.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/shppyr.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/shppyr.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/shptet.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/shptet.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/shptri.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/shptri.c
 FCMangle.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/streamio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/streamio.h
 phstream.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phstream.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phstream.h
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symhex.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symhex.c
 stdlib.h
 -
 FCMangle.h
@@ -324,13 +324,13 @@ FCMangle.h
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symline.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symline.c
 FCMangle.h
 -
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/sympyr.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/sympyr.c
 stdlib.h
 -
 FCMangle.h
@@ -338,7 +338,7 @@ FCMangle.h
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symquad.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symquad.c
 stdlib.h
 -
 FCMangle.h
@@ -346,43 +346,43 @@ FCMangle.h
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symquadw.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symquadw.c
 FCMangle.h
 -
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symtet.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symtet.c
 FCMangle.h
 -
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symtri.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symtri.c
 FCMangle.h
 -
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symtripyr.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symtripyr.c
 FCMangle.h
 -
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/symwdg.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/symwdg.c
 FCMangle.h
 -
 stdio.h
 -
 
-/users/elpeters/PHASTA_Forked/phSolver/common/syncio.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/syncio.h
 phIO.h
-/users/elpeters/PHASTA_Forked/phSolver/common/phIO.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/phIO.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/tmrc.c
+/home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.c
 tmrc.h
-/users/elpeters/PHASTA_Forked/phSolver/common/tmrc.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.h
 stdio.h
 -
 sys/types.h
@@ -396,25 +396,31 @@ sys/resource.h
 unistd.h
 -
 hwi/include/bqc/A2_inlines.h
-/users/elpeters/PHASTA_Forked/phSolver/common/hwi/include/bqc/A2_inlines.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/hwi/include/bqc/A2_inlines.h
 
-/users/elpeters/PHASTA_Forked/phSolver/common/tmrc.h
+/home/erpe8051/PHASTA_Forked/phSolver/common/tmrc.h
 FCMangle.h
 -
 
-/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
-mpi_portable_platform.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
-openmpi/ompi/mpi/cxx/mpicxx.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/include/mpich/mpio.h
+mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
-omp.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
-omp.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+/usr/include/mpich/mpicxx.h
+stdio.h
+-
+
+/usr/include/mpich/mpio.h
+mpi.h
+/usr/include/mpich/mpi.h
 
 FCMangle.h
 

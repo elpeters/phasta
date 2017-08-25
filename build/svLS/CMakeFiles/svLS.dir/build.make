@@ -60,15 +60,15 @@ include svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.o: ../svLS/ADDBCMUL.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/ADDBCMUL.f -o CMakeFiles/svLS.dir/ADDBCMUL.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/ADDBCMUL.f -o CMakeFiles/svLS.dir/ADDBCMUL.f.o
 
 svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/ADDBCMUL.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/ADDBCMUL.f > CMakeFiles/svLS.dir/ADDBCMUL.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/ADDBCMUL.f > CMakeFiles/svLS.dir/ADDBCMUL.f.i
 
 svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/ADDBCMUL.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/ADDBCMUL.f -o CMakeFiles/svLS.dir/ADDBCMUL.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/ADDBCMUL.f -o CMakeFiles/svLS.dir/ADDBCMUL.f.s
 
 svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.o.requires:
 
@@ -84,15 +84,15 @@ svLS/CMakeFiles/svLS.dir/ADDBCMUL.f.o.provides.build: svLS/CMakeFiles/svLS.dir/A
 svLS/CMakeFiles/svLS.dir/BC.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/BC.f.o: ../svLS/BC.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object svLS/CMakeFiles/svLS.dir/BC.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/BC.f -o CMakeFiles/svLS.dir/BC.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/BC.f -o CMakeFiles/svLS.dir/BC.f.o
 
 svLS/CMakeFiles/svLS.dir/BC.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/BC.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/BC.f > CMakeFiles/svLS.dir/BC.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/BC.f > CMakeFiles/svLS.dir/BC.f.i
 
 svLS/CMakeFiles/svLS.dir/BC.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/BC.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/BC.f -o CMakeFiles/svLS.dir/BC.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/BC.f -o CMakeFiles/svLS.dir/BC.f.s
 
 svLS/CMakeFiles/svLS.dir/BC.f.o.requires:
 
@@ -108,15 +108,15 @@ svLS/CMakeFiles/svLS.dir/BC.f.o.provides.build: svLS/CMakeFiles/svLS.dir/BC.f.o
 svLS/CMakeFiles/svLS.dir/CGRAD.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/CGRAD.f.o: ../svLS/CGRAD.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object svLS/CMakeFiles/svLS.dir/CGRAD.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/CGRAD.f -o CMakeFiles/svLS.dir/CGRAD.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/CGRAD.f -o CMakeFiles/svLS.dir/CGRAD.f.o
 
 svLS/CMakeFiles/svLS.dir/CGRAD.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/CGRAD.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/CGRAD.f > CMakeFiles/svLS.dir/CGRAD.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/CGRAD.f > CMakeFiles/svLS.dir/CGRAD.f.i
 
 svLS/CMakeFiles/svLS.dir/CGRAD.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/CGRAD.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/CGRAD.f -o CMakeFiles/svLS.dir/CGRAD.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/CGRAD.f -o CMakeFiles/svLS.dir/CGRAD.f.s
 
 svLS/CMakeFiles/svLS.dir/CGRAD.f.o.requires:
 
@@ -132,15 +132,15 @@ svLS/CMakeFiles/svLS.dir/CGRAD.f.o.provides.build: svLS/CMakeFiles/svLS.dir/CGRA
 svLS/CMakeFiles/svLS.dir/COMMU.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/COMMU.f.o: ../svLS/COMMU.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object svLS/CMakeFiles/svLS.dir/COMMU.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/COMMU.f -o CMakeFiles/svLS.dir/COMMU.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/COMMU.f -o CMakeFiles/svLS.dir/COMMU.f.o
 
 svLS/CMakeFiles/svLS.dir/COMMU.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/COMMU.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/COMMU.f > CMakeFiles/svLS.dir/COMMU.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/COMMU.f > CMakeFiles/svLS.dir/COMMU.f.i
 
 svLS/CMakeFiles/svLS.dir/COMMU.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/COMMU.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/COMMU.f -o CMakeFiles/svLS.dir/COMMU.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/COMMU.f -o CMakeFiles/svLS.dir/COMMU.f.s
 
 svLS/CMakeFiles/svLS.dir/COMMU.f.o.requires:
 
@@ -156,15 +156,15 @@ svLS/CMakeFiles/svLS.dir/COMMU.f.o.provides.build: svLS/CMakeFiles/svLS.dir/COMM
 svLS/CMakeFiles/svLS.dir/CPUT.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/CPUT.f.o: ../svLS/CPUT.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object svLS/CMakeFiles/svLS.dir/CPUT.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/CPUT.f -o CMakeFiles/svLS.dir/CPUT.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/CPUT.f -o CMakeFiles/svLS.dir/CPUT.f.o
 
 svLS/CMakeFiles/svLS.dir/CPUT.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/CPUT.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/CPUT.f > CMakeFiles/svLS.dir/CPUT.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/CPUT.f > CMakeFiles/svLS.dir/CPUT.f.i
 
 svLS/CMakeFiles/svLS.dir/CPUT.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/CPUT.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/CPUT.f -o CMakeFiles/svLS.dir/CPUT.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/CPUT.f -o CMakeFiles/svLS.dir/CPUT.f.s
 
 svLS/CMakeFiles/svLS.dir/CPUT.f.o.requires:
 
@@ -180,15 +180,15 @@ svLS/CMakeFiles/svLS.dir/CPUT.f.o.provides.build: svLS/CMakeFiles/svLS.dir/CPUT.
 svLS/CMakeFiles/svLS.dir/DOT.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/DOT.f.o: ../svLS/DOT.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object svLS/CMakeFiles/svLS.dir/DOT.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/DOT.f -o CMakeFiles/svLS.dir/DOT.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/DOT.f -o CMakeFiles/svLS.dir/DOT.f.o
 
 svLS/CMakeFiles/svLS.dir/DOT.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/DOT.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/DOT.f > CMakeFiles/svLS.dir/DOT.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/DOT.f > CMakeFiles/svLS.dir/DOT.f.i
 
 svLS/CMakeFiles/svLS.dir/DOT.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/DOT.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/DOT.f -o CMakeFiles/svLS.dir/DOT.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/DOT.f -o CMakeFiles/svLS.dir/DOT.f.s
 
 svLS/CMakeFiles/svLS.dir/DOT.f.o.requires:
 
@@ -204,15 +204,15 @@ svLS/CMakeFiles/svLS.dir/DOT.f.o.provides.build: svLS/CMakeFiles/svLS.dir/DOT.f.
 svLS/CMakeFiles/svLS.dir/GE.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/GE.f.o: ../svLS/GE.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object svLS/CMakeFiles/svLS.dir/GE.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/GE.f -o CMakeFiles/svLS.dir/GE.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/GE.f -o CMakeFiles/svLS.dir/GE.f.o
 
 svLS/CMakeFiles/svLS.dir/GE.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/GE.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/GE.f > CMakeFiles/svLS.dir/GE.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/GE.f > CMakeFiles/svLS.dir/GE.f.i
 
 svLS/CMakeFiles/svLS.dir/GE.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/GE.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/GE.f -o CMakeFiles/svLS.dir/GE.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/GE.f -o CMakeFiles/svLS.dir/GE.f.s
 
 svLS/CMakeFiles/svLS.dir/GE.f.o.requires:
 
@@ -228,15 +228,15 @@ svLS/CMakeFiles/svLS.dir/GE.f.o.provides.build: svLS/CMakeFiles/svLS.dir/GE.f.o
 svLS/CMakeFiles/svLS.dir/GMRES.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/GMRES.f.o: ../svLS/GMRES.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object svLS/CMakeFiles/svLS.dir/GMRES.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/GMRES.f -o CMakeFiles/svLS.dir/GMRES.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/GMRES.f -o CMakeFiles/svLS.dir/GMRES.f.o
 
 svLS/CMakeFiles/svLS.dir/GMRES.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/GMRES.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/GMRES.f > CMakeFiles/svLS.dir/GMRES.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/GMRES.f > CMakeFiles/svLS.dir/GMRES.f.i
 
 svLS/CMakeFiles/svLS.dir/GMRES.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/GMRES.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/GMRES.f -o CMakeFiles/svLS.dir/GMRES.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/GMRES.f -o CMakeFiles/svLS.dir/GMRES.f.s
 
 svLS/CMakeFiles/svLS.dir/GMRES.f.o.requires:
 
@@ -252,15 +252,15 @@ svLS/CMakeFiles/svLS.dir/GMRES.f.o.provides.build: svLS/CMakeFiles/svLS.dir/GMRE
 svLS/CMakeFiles/svLS.dir/INCOMMU.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/INCOMMU.f.o: ../svLS/INCOMMU.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object svLS/CMakeFiles/svLS.dir/INCOMMU.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/INCOMMU.f -o CMakeFiles/svLS.dir/INCOMMU.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/INCOMMU.f -o CMakeFiles/svLS.dir/INCOMMU.f.o
 
 svLS/CMakeFiles/svLS.dir/INCOMMU.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/INCOMMU.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/INCOMMU.f > CMakeFiles/svLS.dir/INCOMMU.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/INCOMMU.f > CMakeFiles/svLS.dir/INCOMMU.f.i
 
 svLS/CMakeFiles/svLS.dir/INCOMMU.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/INCOMMU.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/INCOMMU.f -o CMakeFiles/svLS.dir/INCOMMU.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/INCOMMU.f -o CMakeFiles/svLS.dir/INCOMMU.f.s
 
 svLS/CMakeFiles/svLS.dir/INCOMMU.f.o.requires:
 
@@ -276,15 +276,15 @@ svLS/CMakeFiles/svLS.dir/INCOMMU.f.o.provides.build: svLS/CMakeFiles/svLS.dir/IN
 svLS/CMakeFiles/svLS.dir/LHS.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/LHS.f.o: ../svLS/LHS.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building Fortran object svLS/CMakeFiles/svLS.dir/LHS.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/LHS.f -o CMakeFiles/svLS.dir/LHS.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/LHS.f -o CMakeFiles/svLS.dir/LHS.f.o
 
 svLS/CMakeFiles/svLS.dir/LHS.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/LHS.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/LHS.f > CMakeFiles/svLS.dir/LHS.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/LHS.f > CMakeFiles/svLS.dir/LHS.f.i
 
 svLS/CMakeFiles/svLS.dir/LHS.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/LHS.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/LHS.f -o CMakeFiles/svLS.dir/LHS.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/LHS.f -o CMakeFiles/svLS.dir/LHS.f.s
 
 svLS/CMakeFiles/svLS.dir/LHS.f.o.requires:
 
@@ -300,15 +300,15 @@ svLS/CMakeFiles/svLS.dir/LHS.f.o.provides.build: svLS/CMakeFiles/svLS.dir/LHS.f.
 svLS/CMakeFiles/svLS.dir/LS.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/LS.f.o: ../svLS/LS.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object svLS/CMakeFiles/svLS.dir/LS.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/LS.f -o CMakeFiles/svLS.dir/LS.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/LS.f -o CMakeFiles/svLS.dir/LS.f.o
 
 svLS/CMakeFiles/svLS.dir/LS.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/LS.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/LS.f > CMakeFiles/svLS.dir/LS.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/LS.f > CMakeFiles/svLS.dir/LS.f.i
 
 svLS/CMakeFiles/svLS.dir/LS.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/LS.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/LS.f -o CMakeFiles/svLS.dir/LS.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/LS.f -o CMakeFiles/svLS.dir/LS.f.s
 
 svLS/CMakeFiles/svLS.dir/LS.f.o.requires:
 
@@ -324,15 +324,15 @@ svLS/CMakeFiles/svLS.dir/LS.f.o.provides.build: svLS/CMakeFiles/svLS.dir/LS.f.o
 svLS/CMakeFiles/svLS.dir/NORM.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/NORM.f.o: ../svLS/NORM.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object svLS/CMakeFiles/svLS.dir/NORM.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/NORM.f -o CMakeFiles/svLS.dir/NORM.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/NORM.f -o CMakeFiles/svLS.dir/NORM.f.o
 
 svLS/CMakeFiles/svLS.dir/NORM.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/NORM.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/NORM.f > CMakeFiles/svLS.dir/NORM.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/NORM.f > CMakeFiles/svLS.dir/NORM.f.i
 
 svLS/CMakeFiles/svLS.dir/NORM.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/NORM.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/NORM.f -o CMakeFiles/svLS.dir/NORM.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/NORM.f -o CMakeFiles/svLS.dir/NORM.f.s
 
 svLS/CMakeFiles/svLS.dir/NORM.f.o.requires:
 
@@ -348,15 +348,15 @@ svLS/CMakeFiles/svLS.dir/NORM.f.o.provides.build: svLS/CMakeFiles/svLS.dir/NORM.
 svLS/CMakeFiles/svLS.dir/NSSOLVER.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/NSSOLVER.f.o: ../svLS/NSSOLVER.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building Fortran object svLS/CMakeFiles/svLS.dir/NSSOLVER.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/NSSOLVER.f -o CMakeFiles/svLS.dir/NSSOLVER.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/NSSOLVER.f -o CMakeFiles/svLS.dir/NSSOLVER.f.o
 
 svLS/CMakeFiles/svLS.dir/NSSOLVER.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/NSSOLVER.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/NSSOLVER.f > CMakeFiles/svLS.dir/NSSOLVER.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/NSSOLVER.f > CMakeFiles/svLS.dir/NSSOLVER.f.i
 
 svLS/CMakeFiles/svLS.dir/NSSOLVER.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/NSSOLVER.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/NSSOLVER.f -o CMakeFiles/svLS.dir/NSSOLVER.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/NSSOLVER.f -o CMakeFiles/svLS.dir/NSSOLVER.f.s
 
 svLS/CMakeFiles/svLS.dir/NSSOLVER.f.o.requires:
 
@@ -372,15 +372,15 @@ svLS/CMakeFiles/svLS.dir/NSSOLVER.f.o.provides.build: svLS/CMakeFiles/svLS.dir/N
 svLS/CMakeFiles/svLS.dir/PRECOND.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/PRECOND.f.o: ../svLS/PRECOND.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building Fortran object svLS/CMakeFiles/svLS.dir/PRECOND.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/PRECOND.f -o CMakeFiles/svLS.dir/PRECOND.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/PRECOND.f -o CMakeFiles/svLS.dir/PRECOND.f.o
 
 svLS/CMakeFiles/svLS.dir/PRECOND.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/PRECOND.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/PRECOND.f > CMakeFiles/svLS.dir/PRECOND.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/PRECOND.f > CMakeFiles/svLS.dir/PRECOND.f.i
 
 svLS/CMakeFiles/svLS.dir/PRECOND.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/PRECOND.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/PRECOND.f -o CMakeFiles/svLS.dir/PRECOND.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/PRECOND.f -o CMakeFiles/svLS.dir/PRECOND.f.s
 
 svLS/CMakeFiles/svLS.dir/PRECOND.f.o.requires:
 
@@ -396,15 +396,15 @@ svLS/CMakeFiles/svLS.dir/PRECOND.f.o.provides.build: svLS/CMakeFiles/svLS.dir/PR
 svLS/CMakeFiles/svLS.dir/SOLVE.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/SOLVE.f.o: ../svLS/SOLVE.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building Fortran object svLS/CMakeFiles/svLS.dir/SOLVE.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/SOLVE.f -o CMakeFiles/svLS.dir/SOLVE.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/SOLVE.f -o CMakeFiles/svLS.dir/SOLVE.f.o
 
 svLS/CMakeFiles/svLS.dir/SOLVE.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/SOLVE.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/SOLVE.f > CMakeFiles/svLS.dir/SOLVE.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/SOLVE.f > CMakeFiles/svLS.dir/SOLVE.f.i
 
 svLS/CMakeFiles/svLS.dir/SOLVE.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/SOLVE.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/SOLVE.f -o CMakeFiles/svLS.dir/SOLVE.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/SOLVE.f -o CMakeFiles/svLS.dir/SOLVE.f.s
 
 svLS/CMakeFiles/svLS.dir/SOLVE.f.o.requires:
 
@@ -420,15 +420,15 @@ svLS/CMakeFiles/svLS.dir/SOLVE.f.o.provides.build: svLS/CMakeFiles/svLS.dir/SOLV
 svLS/CMakeFiles/svLS.dir/SPARMUL.f.o: svLS/CMakeFiles/svLS.dir/flags.make
 svLS/CMakeFiles/svLS.dir/SPARMUL.f.o: ../svLS/SPARMUL.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building Fortran object svLS/CMakeFiles/svLS.dir/SPARMUL.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/SPARMUL.f -o CMakeFiles/svLS.dir/SPARMUL.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/svLS/SPARMUL.f -o CMakeFiles/svLS.dir/SPARMUL.f.o
 
 svLS/CMakeFiles/svLS.dir/SPARMUL.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/svLS.dir/SPARMUL.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/SPARMUL.f > CMakeFiles/svLS.dir/SPARMUL.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/svLS/SPARMUL.f > CMakeFiles/svLS.dir/SPARMUL.f.i
 
 svLS/CMakeFiles/svLS.dir/SPARMUL.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/svLS.dir/SPARMUL.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/SPARMUL.f -o CMakeFiles/svLS.dir/SPARMUL.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/svLS && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/svLS/SPARMUL.f -o CMakeFiles/svLS.dir/SPARMUL.f.s
 
 svLS/CMakeFiles/svLS.dir/SPARMUL.f.o.requires:
 

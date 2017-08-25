@@ -1,7 +1,0 @@
-# The fortran modules provided by this target.
-provides
- machcontrol
- pp_data
- rampbc
- stats
- timedatac

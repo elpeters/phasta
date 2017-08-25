@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/users/elpeters/PHASTA_Forked/phSolver/incompressible/write_hessian.c
+/home/erpe8051/PHASTA_Forked/phSolver/incompressible/write_hessian.c
 stdio.h
 -
 stdlib.h

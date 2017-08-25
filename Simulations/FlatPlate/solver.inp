@@ -1,16 +1,9 @@
-# ibksiz flmpl flmpr itwmod wmodts dmodts fwr taucfct
 # PHASTA Version 1.5 Input File
-#
-#  Basic format is
-#
-#    Key Phrase  :  Acceptable Value (integer, double, logical, or phrase
-#                                     list of integers, list of doubles )
-#
-#
+
 #SOLUTION CONTROL
 #{
      Equation of State: Incompressible
-     Number of Timesteps: 10
+     Number of Timesteps: 2
      Time Step Size:  0.001
      Turbulence Model: RANS
 #}
@@ -23,10 +16,10 @@
 
 OUTPUT CONTROL
 #{
-     Number of Timesteps between Restarts: 500   #replaces nout/ntout
+     Number of Timesteps between Restarts: 500
      Number of SyncIO Files: 8
      Print Error Indicators: True
-     Number of Error Smoothing Iterations: 0 # ierrsmooth
+     Number of Error Smoothing Iterations: 0
      Print ybar: True
      Print vorticity: True
      Print Wall Fluxes: True
@@ -36,39 +29,29 @@ OUTPUT CONTROL
 
 #LINEAR SOLVER
 #{
-     Solver Type: svLS #ACUSIM with P Projection
-     #Number of GMRES Sweeps per Solve: 1      # replaces nGMRES
-     #Number of Krylov Vectors per GMRES Sweep: 200           # replaces Kspace
-     #Scalar 1 Solver Tolerance : 1.0e-4
-     Tolerance on Momentum Equations: 0.05                   # epstol(1)
-     #Tolerance on ACUSIM Pressure Projection: 0.05           # prestol
-     Number of Solves per Left-hand-side Formation: 1  #nupdat/LHSupd(1)
-     #ACUSIM Verbosity Level               : 0   #iverbose
-     #Minimum Number of ACUSIM Iterations per Nonlinear Iteration: 10  # minIters
-     #Maximum Number of ACUSIM Iterations per Nonlinear Iteration: 200 # maxIter
+     Solver Type: svLS
+     Number of GMRES Sweeps per Solve: 1
+     Number of Krylov Vectors per GMRES Sweep: 50
+     Scalar 1 Solver Tolerance : 1e0
+     Tolerance on Momentum Equations: 1.0e-1
+     Number of Solves per Left-hand-side Formation: 1
 #}
 
 #DISCRETIZATION CONTROL
 #{
-     Time Integration Rule: First Order      # 1st Order sets rinf(1) -1
-#     Time Integration Rule: Second Order    # Second Order sets rinf next
-#     Time Integration Rho Infinity: 0.0     # rinf(1) Only used for 2nd order
-
-#    Tau Matrix: Matrix-Mallet               #itau=1
-     Tau Matrix: Diagonal-Shakib               #itau=1
-     Tau Time Constant: 1.                      #dtsfct
-     Include Viscous Correction in Stabilization: True    # if p=1 idiff=1
-                                                           # if p=2 idiff=2
-     #Lumped Mass Fraction on Left-hand-side: 0.0           # flmpl
-     #Lumped Mass Fraction on Right-hand-side: 0.0          # flmpr
-     Tau C Scale Factor: 1.0                    # taucfct  best value depends
-     Number of Elements Per Block: 64       #ibksiz
+     Time Integration Rule: Second Order
+     Time Integration Rho Infinity: 0.5
+     Tau Matrix: Diagonal-Mallet
+     Tau Time Constant: 1.
+     Include Viscous Correction in Stabilization: True
+     Tau C Scale Factor: 1.0
+     Number of Elements Per Block: 64
 #}
 
 TURBULENCE MODELING PARAMETERS
-{
-	Turbulence Wall Model Type: None  #itwmod=0 RANSorLES
-}
+#{
+	Turbulence Wall Model Type: None
+#}
 
 #STEP SEQUENCE
 #{

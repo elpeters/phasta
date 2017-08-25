@@ -60,15 +60,15 @@ include shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o: ../shapeFunction/src/TriShapeAndDrv.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/TriShapeAndDrv.cc
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/TriShapeAndDrv.cc
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/TriShapeAndDrv.cc > CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/TriShapeAndDrv.cc > CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/TriShapeAndDrv.cc -o CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/TriShapeAndDrv.cc -o CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o.requires:
 
@@ -84,15 +84,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/TriShapeAndDrv.cc.o.provides.buil
 shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.o: ../shapeFunction/src/parDrv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/parDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/parDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/parDrv.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c > CMakeFiles/shapeFunction.dir/parDrv.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c > CMakeFiles/shapeFunction.dir/parDrv.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/parDrv.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c -o CMakeFiles/shapeFunction.dir/parDrv.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/parDrv.c -o CMakeFiles/shapeFunction.dir/parDrv.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.o.requires:
 
@@ -108,15 +108,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/parDrv.c.o.provides.build: shapeF
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.o: ../shapeFunction/src/Bn.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/Bn.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/Bn.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/Bn.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c > CMakeFiles/shapeFunction.dir/Bn.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c > CMakeFiles/shapeFunction.dir/Bn.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/Bn.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c -o CMakeFiles/shapeFunction.dir/Bn.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/Bn.c -o CMakeFiles/shapeFunction.dir/Bn.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.o.requires:
 
@@ -132,15 +132,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/Bn.c.o.provides.build: shapeFunct
 shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.o: ../shapeFunction/src/BnDrv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/BnDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/BnDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/BnDrv.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c > CMakeFiles/shapeFunction.dir/BnDrv.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c > CMakeFiles/shapeFunction.dir/BnDrv.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/BnDrv.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c -o CMakeFiles/shapeFunction.dir/BnDrv.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/BnDrv.c -o CMakeFiles/shapeFunction.dir/BnDrv.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.o.requires:
 
@@ -156,15 +156,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/BnDrv.c.o.provides.build: shapeFu
 shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.o: ../shapeFunction/src/uniformP.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/uniformP.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/uniformP.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/uniformP.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c > CMakeFiles/shapeFunction.dir/uniformP.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c > CMakeFiles/shapeFunction.dir/uniformP.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/uniformP.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c -o CMakeFiles/shapeFunction.dir/uniformP.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/uniformP.c -o CMakeFiles/shapeFunction.dir/uniformP.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.o.requires:
 
@@ -180,15 +180,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/uniformP.c.o.provides.build: shap
 shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.o: ../shapeFunction/src/FnDrv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/FnDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/FnDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/FnDrv.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c > CMakeFiles/shapeFunction.dir/FnDrv.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c > CMakeFiles/shapeFunction.dir/FnDrv.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/FnDrv.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c -o CMakeFiles/shapeFunction.dir/FnDrv.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/FnDrv.c -o CMakeFiles/shapeFunction.dir/FnDrv.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.o.requires:
 
@@ -204,15 +204,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/FnDrv.c.o.provides.build: shapeFu
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.o: ../shapeFunction/src/modeShape.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/modeShape.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/modeShape.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/modeShape.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c > CMakeFiles/shapeFunction.dir/modeShape.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c > CMakeFiles/shapeFunction.dir/modeShape.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/modeShape.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c -o CMakeFiles/shapeFunction.dir/modeShape.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShape.c -o CMakeFiles/shapeFunction.dir/modeShape.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.o.requires:
 
@@ -228,15 +228,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShape.c.o.provides.build: sha
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.o: ../shapeFunction/src/Fn.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/Fn.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/Fn.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/Fn.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c > CMakeFiles/shapeFunction.dir/Fn.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c > CMakeFiles/shapeFunction.dir/Fn.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/Fn.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c -o CMakeFiles/shapeFunction.dir/Fn.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/Fn.c -o CMakeFiles/shapeFunction.dir/Fn.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.o.requires:
 
@@ -252,15 +252,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/Fn.c.o.provides.build: shapeFunct
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o: ../shapeFunction/src/modeShapeDrv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/modeShapeDrv.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c > CMakeFiles/shapeFunction.dir/modeShapeDrv.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c > CMakeFiles/shapeFunction.dir/modeShapeDrv.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/modeShapeDrv.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c -o CMakeFiles/shapeFunction.dir/modeShapeDrv.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/modeShapeDrv.c -o CMakeFiles/shapeFunction.dir/modeShapeDrv.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o.requires:
 
@@ -276,15 +276,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/modeShapeDrv.c.o.provides.build: 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.o: ../shapeFunction/src/Lagrange.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/Lagrange.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/Lagrange.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/Lagrange.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c > CMakeFiles/shapeFunction.dir/Lagrange.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c > CMakeFiles/shapeFunction.dir/Lagrange.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/Lagrange.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c -o CMakeFiles/shapeFunction.dir/Lagrange.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/Lagrange.c -o CMakeFiles/shapeFunction.dir/Lagrange.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.o.requires:
 
@@ -300,15 +300,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/Lagrange.c.o.provides.build: shap
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.o: ../shapeFunction/src/blend.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/blend.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/blend.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/blend.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c > CMakeFiles/shapeFunction.dir/blend.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c > CMakeFiles/shapeFunction.dir/blend.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/blend.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c -o CMakeFiles/shapeFunction.dir/blend.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/blend.c -o CMakeFiles/shapeFunction.dir/blend.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.o.requires:
 
@@ -324,15 +324,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/blend.c.o.provides.build: shapeFu
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.o: ../shapeFunction/src/blendDrv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/blendDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/blendDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/blendDrv.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c > CMakeFiles/shapeFunction.dir/blendDrv.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c > CMakeFiles/shapeFunction.dir/blendDrv.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/blendDrv.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c -o CMakeFiles/shapeFunction.dir/blendDrv.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/blendDrv.c -o CMakeFiles/shapeFunction.dir/blendDrv.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.o.requires:
 
@@ -348,15 +348,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/blendDrv.c.o.provides.build: shap
 shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.o: ../shapeFunction/src/En.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/En.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/En.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/En.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c > CMakeFiles/shapeFunction.dir/En.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c > CMakeFiles/shapeFunction.dir/En.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/En.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c -o CMakeFiles/shapeFunction.dir/En.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/En.c -o CMakeFiles/shapeFunction.dir/En.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.o.requires:
 
@@ -372,15 +372,15 @@ shapeFunction/src/CMakeFiles/shapeFunction.dir/En.c.o.provides.build: shapeFunct
 shapeFunction/src/CMakeFiles/shapeFunction.dir/EnDrv.c.o: shapeFunction/src/CMakeFiles/shapeFunction.dir/flags.make
 shapeFunction/src/CMakeFiles/shapeFunction.dir/EnDrv.c.o: ../shapeFunction/src/EnDrv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object shapeFunction/src/CMakeFiles/shapeFunction.dir/EnDrv.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/EnDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shapeFunction.dir/EnDrv.c.o   -c /home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/EnDrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shapeFunction.dir/EnDrv.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c > CMakeFiles/shapeFunction.dir/EnDrv.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c > CMakeFiles/shapeFunction.dir/EnDrv.c.i
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/EnDrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shapeFunction.dir/EnDrv.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c -o CMakeFiles/shapeFunction.dir/EnDrv.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/shapeFunction/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/shapeFunction/src/EnDrv.c -o CMakeFiles/shapeFunction.dir/EnDrv.c.s
 
 shapeFunction/src/CMakeFiles/shapeFunction.dir/EnDrv.c.o.requires:
 

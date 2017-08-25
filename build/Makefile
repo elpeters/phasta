@@ -608,32 +608,6 @@ phastaIC.exe/fast:
 .PHONY : phastaIC.exe/fast
 
 #=============================================================================
-# Target rules for targets named compressible
-
-# Build rule for target.
-compressible: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compressible
-.PHONY : compressible
-
-# fast build rule for target.
-compressible/fast:
-	$(MAKE) -f phSolver/compressible/CMakeFiles/compressible.dir/build.make phSolver/compressible/CMakeFiles/compressible.dir/build
-.PHONY : compressible/fast
-
-#=============================================================================
-# Target rules for targets named phastaC.exe
-
-# Build rule for target.
-phastaC.exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 phastaC.exe
-.PHONY : phastaC.exe
-
-# fast build rule for target.
-phastaC.exe/fast:
-	$(MAKE) -f phSolver/compressible/CMakeFiles/phastaC.exe.dir/build.make phSolver/compressible/CMakeFiles/phastaC.exe.dir/build
-.PHONY : phastaC.exe/fast
-
-#=============================================================================
 # Target rules for targets named checkphasta
 
 # Build rule for target.
@@ -758,8 +732,6 @@ help:
 	@echo "... common"
 	@echo "... incompressible"
 	@echo "... phastaIC.exe"
-	@echo "... compressible"
-	@echo "... phastaC.exe"
 	@echo "... checkphasta"
 	@echo "... converterO2N"
 	@echo "... converterN2O"

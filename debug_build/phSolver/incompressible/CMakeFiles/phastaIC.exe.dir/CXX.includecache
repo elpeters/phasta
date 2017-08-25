@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -26,23 +26,29 @@ string
 Input.h
 ../phSolver/common/Input.h
 
-/users/elpeters/PHASTA_Forked/phSolver/incompressible/main.cc
+/home/erpe8051/PHASTA_Forked/phSolver/incompressible/main.cc
 phasta.h
 -
 mpi.h
 -
 
-/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi.h
+/usr/include/mpich/mpi.h
 stddef.h
 -
-mpi_portable_platform.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
-openmpi/ompi/mpi/cxx/mpicxx.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/openmpi/ompi/mpi/cxx/mpicxx.h
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/include/mpich/mpio.h
+mpicxx.h
+/usr/include/mpich/mpicxx.h
 
-/usr/local/openmpi/2.1.0-gnu49-thread/include/mpi_portable_platform.h
-omp.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
-omp.h
-/usr/local/openmpi/2.1.0-gnu49-thread/include/omp.h
+/usr/include/mpich/mpicxx.h
+stdio.h
+-
+
+/usr/include/mpich/mpio.h
+mpi.h
+/usr/include/mpich/mpi.h
 

@@ -60,15 +60,15 @@ include AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/main.c.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/main.c.o: ../AcuStat/src/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object AcuStat/src/CMakeFiles/AcuStat.dir/main.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/main.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/main.c
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/main.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/main.c
 
 AcuStat/src/CMakeFiles/AcuStat.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AcuStat.dir/main.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/main.c > CMakeFiles/AcuStat.dir/main.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/main.c > CMakeFiles/AcuStat.dir/main.c.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AcuStat.dir/main.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/main.c -o CMakeFiles/AcuStat.dir/main.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/main.c -o CMakeFiles/AcuStat.dir/main.c.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/main.c.o.requires:
 
@@ -84,15 +84,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/main.c.o.provides.build: AcuStat/src/CMakeFil
 AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.o: ../AcuStat/src/phasta.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcuStat.dir/phasta.cc.o -c /home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcuStat.dir/phasta.cc.o -c /home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc
 
 AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcuStat.dir/phasta.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc > CMakeFiles/AcuStat.dir/phasta.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc > CMakeFiles/AcuStat.dir/phasta.cc.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcuStat.dir/phasta.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc -o CMakeFiles/AcuStat.dir/phasta.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/phasta.cc -o CMakeFiles/AcuStat.dir/phasta.cc.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.o.requires:
 
@@ -108,15 +108,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/phasta.cc.o.provides.build: AcuStat/src/CMake
 AcuStat/src/CMakeFiles/AcuStat.dir/input.f.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/input.f.o: ../AcuStat/src/input.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object AcuStat/src/CMakeFiles/AcuStat.dir/input.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/input.f -o CMakeFiles/AcuStat.dir/input.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/input.f -o CMakeFiles/AcuStat.dir/input.f.o
 
 AcuStat/src/CMakeFiles/AcuStat.dir/input.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/AcuStat.dir/input.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/input.f > CMakeFiles/AcuStat.dir/input.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/input.f > CMakeFiles/AcuStat.dir/input.f.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/input.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/AcuStat.dir/input.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/input.f -o CMakeFiles/AcuStat.dir/input.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/input.f -o CMakeFiles/AcuStat.dir/input.f.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/input.f.o.requires:
 
@@ -132,15 +132,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/input.f.o.provides.build: AcuStat/src/CMakeFi
 AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.o: ../AcuStat/src/readnblk.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/readnblk.f -o CMakeFiles/AcuStat.dir/readnblk.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/readnblk.f -o CMakeFiles/AcuStat.dir/readnblk.f.o
 
 AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/AcuStat.dir/readnblk.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/readnblk.f > CMakeFiles/AcuStat.dir/readnblk.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/readnblk.f > CMakeFiles/AcuStat.dir/readnblk.f.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/AcuStat.dir/readnblk.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/readnblk.f -o CMakeFiles/AcuStat.dir/readnblk.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/readnblk.f -o CMakeFiles/AcuStat.dir/readnblk.f.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.o.requires:
 
@@ -156,15 +156,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/readnblk.f.o.provides.build: AcuStat/src/CMak
 AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.o: ../AcuStat/src/cname.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/cname.f -o CMakeFiles/AcuStat.dir/cname.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/cname.f -o CMakeFiles/AcuStat.dir/cname.f.o
 
 AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/AcuStat.dir/cname.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/cname.f > CMakeFiles/AcuStat.dir/cname.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/cname.f > CMakeFiles/AcuStat.dir/cname.f.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/AcuStat.dir/cname.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/cname.f -o CMakeFiles/AcuStat.dir/cname.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/cname.f -o CMakeFiles/AcuStat.dir/cname.f.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.o.requires:
 
@@ -180,15 +180,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/cname.f.o.provides.build: AcuStat/src/CMakeFi
 AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.o: ../AcuStat/src/setsyncioparam.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcuStat.dir/setsyncioparam.cc.o -c /home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcuStat.dir/setsyncioparam.cc.o -c /home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc
 
 AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcuStat.dir/setsyncioparam.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc > CMakeFiles/AcuStat.dir/setsyncioparam.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc > CMakeFiles/AcuStat.dir/setsyncioparam.cc.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcuStat.dir/setsyncioparam.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc -o CMakeFiles/AcuStat.dir/setsyncioparam.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/setsyncioparam.cc -o CMakeFiles/AcuStat.dir/setsyncioparam.cc.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.o.requires:
 
@@ -204,15 +204,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/setsyncioparam.cc.o.provides.build: AcuStat/s
 AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.o: ../AcuStat/src/new_interface.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/new_interface.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/new_interface.c
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/new_interface.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/new_interface.c
 
 AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AcuStat.dir/new_interface.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/new_interface.c > CMakeFiles/AcuStat.dir/new_interface.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/new_interface.c > CMakeFiles/AcuStat.dir/new_interface.c.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AcuStat.dir/new_interface.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/new_interface.c -o CMakeFiles/AcuStat.dir/new_interface.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/new_interface.c -o CMakeFiles/AcuStat.dir/new_interface.c.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.o.requires:
 
@@ -228,15 +228,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/new_interface.c.o.provides.build: AcuStat/src
 AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.o: ../AcuStat/src/dumbCvariables.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/dumbCvariables.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/dumbCvariables.c
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/dumbCvariables.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/dumbCvariables.c
 
 AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AcuStat.dir/dumbCvariables.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/dumbCvariables.c > CMakeFiles/AcuStat.dir/dumbCvariables.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/dumbCvariables.c > CMakeFiles/AcuStat.dir/dumbCvariables.c.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AcuStat.dir/dumbCvariables.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/dumbCvariables.c -o CMakeFiles/AcuStat.dir/dumbCvariables.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/dumbCvariables.c -o CMakeFiles/AcuStat.dir/dumbCvariables.c.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.o.requires:
 
@@ -252,15 +252,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/dumbCvariables.c.o.provides.build: AcuStat/sr
 AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.o: ../AcuStat/src/ctypes.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/ctypes.f -o CMakeFiles/AcuStat.dir/ctypes.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/ctypes.f -o CMakeFiles/AcuStat.dir/ctypes.f.o
 
 AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/AcuStat.dir/ctypes.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/ctypes.f > CMakeFiles/AcuStat.dir/ctypes.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/ctypes.f > CMakeFiles/AcuStat.dir/ctypes.f.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/AcuStat.dir/ctypes.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/ctypes.f -o CMakeFiles/AcuStat.dir/ctypes.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/ctypes.f -o CMakeFiles/AcuStat.dir/ctypes.f.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.o.requires:
 
@@ -276,15 +276,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/ctypes.f.o.provides.build: AcuStat/src/CMakeF
 AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.o: ../AcuStat/src/tmrc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/tmrc.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/tmrc.c
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AcuStat.dir/tmrc.c.o   -c /home/erpe8051/PHASTA_Forked/AcuStat/src/tmrc.c
 
 AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AcuStat.dir/tmrc.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/tmrc.c > CMakeFiles/AcuStat.dir/tmrc.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/tmrc.c > CMakeFiles/AcuStat.dir/tmrc.c.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AcuStat.dir/tmrc.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/tmrc.c -o CMakeFiles/AcuStat.dir/tmrc.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/tmrc.c -o CMakeFiles/AcuStat.dir/tmrc.c.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.o.requires:
 
@@ -300,15 +300,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/tmrc.c.o.provides.build: AcuStat/src/CMakeFil
 AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.o: ../AcuStat/src/commuMax.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/commuMax.f -o CMakeFiles/AcuStat.dir/commuMax.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/commuMax.f -o CMakeFiles/AcuStat.dir/commuMax.f.o
 
 AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/AcuStat.dir/commuMax.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/commuMax.f > CMakeFiles/AcuStat.dir/commuMax.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/commuMax.f > CMakeFiles/AcuStat.dir/commuMax.f.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/AcuStat.dir/commuMax.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/commuMax.f -o CMakeFiles/AcuStat.dir/commuMax.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/commuMax.f -o CMakeFiles/AcuStat.dir/commuMax.f.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.o.requires:
 
@@ -324,15 +324,15 @@ AcuStat/src/CMakeFiles/AcuStat.dir/commuMax.f.o.provides.build: AcuStat/src/CMak
 AcuStat/src/CMakeFiles/AcuStat.dir/error.f.o: AcuStat/src/CMakeFiles/AcuStat.dir/flags.make
 AcuStat/src/CMakeFiles/AcuStat.dir/error.f.o: ../AcuStat/src/error.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object AcuStat/src/CMakeFiles/AcuStat.dir/error.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/error.f -o CMakeFiles/AcuStat.dir/error.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/AcuStat/src/error.f -o CMakeFiles/AcuStat.dir/error.f.o
 
 AcuStat/src/CMakeFiles/AcuStat.dir/error.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/AcuStat.dir/error.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/error.f > CMakeFiles/AcuStat.dir/error.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/AcuStat/src/error.f > CMakeFiles/AcuStat.dir/error.f.i
 
 AcuStat/src/CMakeFiles/AcuStat.dir/error.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/AcuStat.dir/error.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/error.f -o CMakeFiles/AcuStat.dir/error.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/AcuStat/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/AcuStat/src/error.f -o CMakeFiles/AcuStat.dir/error.f.s
 
 AcuStat/src/CMakeFiles/AcuStat.dir/error.f.o.requires:
 

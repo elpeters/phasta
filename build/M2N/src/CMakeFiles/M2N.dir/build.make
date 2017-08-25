@@ -60,15 +60,15 @@ include M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/main.c.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/main.c.o: ../M2N/src/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object M2N/src/CMakeFiles/M2N.dir/main.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/M2N.dir/main.c.o   -c /home/erpe8051/PHASTA_Forked/M2N/src/main.c
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/M2N.dir/main.c.o   -c /home/erpe8051/PHASTA_Forked/M2N/src/main.c
 
 M2N/src/CMakeFiles/M2N.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/M2N.dir/main.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/main.c > CMakeFiles/M2N.dir/main.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/main.c > CMakeFiles/M2N.dir/main.c.i
 
 M2N/src/CMakeFiles/M2N.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/M2N.dir/main.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/main.c -o CMakeFiles/M2N.dir/main.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/main.c -o CMakeFiles/M2N.dir/main.c.s
 
 M2N/src/CMakeFiles/M2N.dir/main.c.o.requires:
 
@@ -84,15 +84,15 @@ M2N/src/CMakeFiles/M2N.dir/main.c.o.provides.build: M2N/src/CMakeFiles/M2N.dir/m
 M2N/src/CMakeFiles/M2N.dir/phasta.cc.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/phasta.cc.o: ../M2N/src/phasta.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object M2N/src/CMakeFiles/M2N.dir/phasta.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/M2N.dir/phasta.cc.o -c /home/erpe8051/PHASTA_Forked/M2N/src/phasta.cc
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/M2N.dir/phasta.cc.o -c /home/erpe8051/PHASTA_Forked/M2N/src/phasta.cc
 
 M2N/src/CMakeFiles/M2N.dir/phasta.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/M2N.dir/phasta.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/phasta.cc > CMakeFiles/M2N.dir/phasta.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/phasta.cc > CMakeFiles/M2N.dir/phasta.cc.i
 
 M2N/src/CMakeFiles/M2N.dir/phasta.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/M2N.dir/phasta.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/phasta.cc -o CMakeFiles/M2N.dir/phasta.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/phasta.cc -o CMakeFiles/M2N.dir/phasta.cc.s
 
 M2N/src/CMakeFiles/M2N.dir/phasta.cc.o.requires:
 
@@ -108,15 +108,15 @@ M2N/src/CMakeFiles/M2N.dir/phasta.cc.o.provides.build: M2N/src/CMakeFiles/M2N.di
 M2N/src/CMakeFiles/M2N.dir/input.f.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/input.f.o: ../M2N/src/input.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object M2N/src/CMakeFiles/M2N.dir/input.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/M2N/src/input.f -o CMakeFiles/M2N.dir/input.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/M2N/src/input.f -o CMakeFiles/M2N.dir/input.f.o
 
 M2N/src/CMakeFiles/M2N.dir/input.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/M2N.dir/input.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/input.f > CMakeFiles/M2N.dir/input.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/input.f > CMakeFiles/M2N.dir/input.f.i
 
 M2N/src/CMakeFiles/M2N.dir/input.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/M2N.dir/input.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/input.f -o CMakeFiles/M2N.dir/input.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/input.f -o CMakeFiles/M2N.dir/input.f.s
 
 M2N/src/CMakeFiles/M2N.dir/input.f.o.requires:
 
@@ -132,15 +132,15 @@ M2N/src/CMakeFiles/M2N.dir/input.f.o.provides.build: M2N/src/CMakeFiles/M2N.dir/
 M2N/src/CMakeFiles/M2N.dir/readnblk.f.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/readnblk.f.o: ../M2N/src/readnblk.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object M2N/src/CMakeFiles/M2N.dir/readnblk.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/M2N/src/readnblk.f -o CMakeFiles/M2N.dir/readnblk.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/M2N/src/readnblk.f -o CMakeFiles/M2N.dir/readnblk.f.o
 
 M2N/src/CMakeFiles/M2N.dir/readnblk.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/M2N.dir/readnblk.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/readnblk.f > CMakeFiles/M2N.dir/readnblk.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/readnblk.f > CMakeFiles/M2N.dir/readnblk.f.i
 
 M2N/src/CMakeFiles/M2N.dir/readnblk.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/M2N.dir/readnblk.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/readnblk.f -o CMakeFiles/M2N.dir/readnblk.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/readnblk.f -o CMakeFiles/M2N.dir/readnblk.f.s
 
 M2N/src/CMakeFiles/M2N.dir/readnblk.f.o.requires:
 
@@ -156,15 +156,15 @@ M2N/src/CMakeFiles/M2N.dir/readnblk.f.o.provides.build: M2N/src/CMakeFiles/M2N.d
 M2N/src/CMakeFiles/M2N.dir/cname.f.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/cname.f.o: ../M2N/src/cname.f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object M2N/src/CMakeFiles/M2N.dir/cname.f.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/M2N/src/cname.f -o CMakeFiles/M2N.dir/cname.f.o
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/erpe8051/PHASTA_Forked/M2N/src/cname.f -o CMakeFiles/M2N.dir/cname.f.o
 
 M2N/src/CMakeFiles/M2N.dir/cname.f.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/M2N.dir/cname.f.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/cname.f > CMakeFiles/M2N.dir/cname.f.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/cname.f > CMakeFiles/M2N.dir/cname.f.i
 
 M2N/src/CMakeFiles/M2N.dir/cname.f.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/M2N.dir/cname.f.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpif90  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/cname.f -o CMakeFiles/M2N.dir/cname.f.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/cname.f -o CMakeFiles/M2N.dir/cname.f.s
 
 M2N/src/CMakeFiles/M2N.dir/cname.f.o.requires:
 
@@ -180,15 +180,15 @@ M2N/src/CMakeFiles/M2N.dir/cname.f.o.provides.build: M2N/src/CMakeFiles/M2N.dir/
 M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.o: ../M2N/src/setsyncioparam.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/M2N.dir/setsyncioparam.cc.o -c /home/erpe8051/PHASTA_Forked/M2N/src/setsyncioparam.cc
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/M2N.dir/setsyncioparam.cc.o -c /home/erpe8051/PHASTA_Forked/M2N/src/setsyncioparam.cc
 
 M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/M2N.dir/setsyncioparam.cc.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/setsyncioparam.cc > CMakeFiles/M2N.dir/setsyncioparam.cc.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/setsyncioparam.cc > CMakeFiles/M2N.dir/setsyncioparam.cc.i
 
 M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/M2N.dir/setsyncioparam.cc.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/setsyncioparam.cc -o CMakeFiles/M2N.dir/setsyncioparam.cc.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/setsyncioparam.cc -o CMakeFiles/M2N.dir/setsyncioparam.cc.s
 
 M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.o.requires:
 
@@ -204,15 +204,15 @@ M2N/src/CMakeFiles/M2N.dir/setsyncioparam.cc.o.provides.build: M2N/src/CMakeFile
 M2N/src/CMakeFiles/M2N.dir/new_interface.c.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/new_interface.c.o: ../M2N/src/new_interface.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object M2N/src/CMakeFiles/M2N.dir/new_interface.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/M2N.dir/new_interface.c.o   -c /home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/M2N.dir/new_interface.c.o   -c /home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c
 
 M2N/src/CMakeFiles/M2N.dir/new_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/M2N.dir/new_interface.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c > CMakeFiles/M2N.dir/new_interface.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c > CMakeFiles/M2N.dir/new_interface.c.i
 
 M2N/src/CMakeFiles/M2N.dir/new_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/M2N.dir/new_interface.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c -o CMakeFiles/M2N.dir/new_interface.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/new_interface.c -o CMakeFiles/M2N.dir/new_interface.c.s
 
 M2N/src/CMakeFiles/M2N.dir/new_interface.c.o.requires:
 
@@ -228,15 +228,15 @@ M2N/src/CMakeFiles/M2N.dir/new_interface.c.o.provides.build: M2N/src/CMakeFiles/
 M2N/src/CMakeFiles/M2N.dir/dumbCvariables.c.o: M2N/src/CMakeFiles/M2N.dir/flags.make
 M2N/src/CMakeFiles/M2N.dir/dumbCvariables.c.o: ../M2N/src/dumbCvariables.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object M2N/src/CMakeFiles/M2N.dir/dumbCvariables.c.o"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/M2N.dir/dumbCvariables.c.o   -c /home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/M2N.dir/dumbCvariables.c.o   -c /home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c
 
 M2N/src/CMakeFiles/M2N.dir/dumbCvariables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/M2N.dir/dumbCvariables.c.i"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c > CMakeFiles/M2N.dir/dumbCvariables.c.i
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c > CMakeFiles/M2N.dir/dumbCvariables.c.i
 
 M2N/src/CMakeFiles/M2N.dir/dumbCvariables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/M2N.dir/dumbCvariables.c.s"
-	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/mpicc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c -o CMakeFiles/M2N.dir/dumbCvariables.c.s
+	cd /home/erpe8051/PHASTA_Forked/build/M2N/src && /usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erpe8051/PHASTA_Forked/M2N/src/dumbCvariables.c -o CMakeFiles/M2N.dir/dumbCvariables.c.s
 
 M2N/src/CMakeFiles/M2N.dir/dumbCvariables.c.o.requires:
 

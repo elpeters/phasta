@@ -60,15 +60,15 @@ include checkphasta/CMakeFiles/checkphasta.dir/flags.make
 checkphasta/CMakeFiles/checkphasta.dir/checkphasta.cpp.o: checkphasta/CMakeFiles/checkphasta.dir/flags.make
 checkphasta/CMakeFiles/checkphasta.dir/checkphasta.cpp.o: ../checkphasta/checkphasta.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erpe8051/PHASTA_Forked/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object checkphasta/CMakeFiles/checkphasta.dir/checkphasta.cpp.o"
-	cd /home/erpe8051/PHASTA_Forked/build/checkphasta && /usr/bin/mpicxx   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkphasta.dir/checkphasta.cpp.o -c /home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp
+	cd /home/erpe8051/PHASTA_Forked/build/checkphasta && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkphasta.dir/checkphasta.cpp.o -c /home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp
 
 checkphasta/CMakeFiles/checkphasta.dir/checkphasta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/checkphasta.dir/checkphasta.cpp.i"
-	cd /home/erpe8051/PHASTA_Forked/build/checkphasta && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp > CMakeFiles/checkphasta.dir/checkphasta.cpp.i
+	cd /home/erpe8051/PHASTA_Forked/build/checkphasta && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp > CMakeFiles/checkphasta.dir/checkphasta.cpp.i
 
 checkphasta/CMakeFiles/checkphasta.dir/checkphasta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/checkphasta.dir/checkphasta.cpp.s"
-	cd /home/erpe8051/PHASTA_Forked/build/checkphasta && /usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp -o CMakeFiles/checkphasta.dir/checkphasta.cpp.s
+	cd /home/erpe8051/PHASTA_Forked/build/checkphasta && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erpe8051/PHASTA_Forked/checkphasta/checkphasta.cpp -o CMakeFiles/checkphasta.dir/checkphasta.cpp.s
 
 checkphasta/CMakeFiles/checkphasta.dir/checkphasta.cpp.o.requires:
 

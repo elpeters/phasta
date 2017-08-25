@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/converterO2N.dir/converterO2N.cc.o  -o ../bin/converterO2N -Wl,-rpath,/usr/local/openmpi/2.1.0-gnu49-thread/lib ../lib/libphastaIO.a /usr/local/openmpi/2.1.0-gnu49-thread/lib/libmpi.so -lgfortran -lquadmath 
+/usr/bin/c++   -g   CMakeFiles/converterO2N.dir/converterO2N.cc.o  -o ../bin/converterO2N -rdynamic ../lib/libphastaIO.a -lmpich -lgfortran -lquadmath 

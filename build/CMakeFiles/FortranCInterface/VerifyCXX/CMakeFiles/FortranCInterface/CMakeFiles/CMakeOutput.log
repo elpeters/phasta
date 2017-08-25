@@ -1,14 +1,14 @@
 Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
 Change Dir: /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd689/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cd689.dir/build.make CMakeFiles/cmTC_cd689.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_86e4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86e4d.dir/build.make CMakeFiles/cmTC_86e4d.dir/build
 make[1]: Entering directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd689.dir/src.c.o
-/usr/bin/mpicc    -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_cd689.dir/src.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_cd689
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd689.dir/link.txt --verbose=1
-/usr/bin/mpicc   -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTC_cd689.dir/src.c.o  -o cmTC_cd689 
+Building C object CMakeFiles/cmTC_86e4d.dir/src.c.o
+/usr/bin/gcc    -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_86e4d.dir/src.c.o   -c /home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_86e4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86e4d.dir/link.txt --verbose=1
+/usr/bin/gcc   -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTC_86e4d.dir/src.c.o  -o cmTC_86e4d 
 make[1]: Leaving directory '/home/erpe8051/PHASTA_Forked/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
 
 Source file was:
